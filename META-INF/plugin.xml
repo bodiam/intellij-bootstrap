@@ -1,13 +1,13 @@
 <idea-plugin version="2">
-  <id>com.yourcompany.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>nl.jworks.intellij.bootstrap3</id>
+  <name>Bootstrap 3</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
   <description><![CDATA[
       <h2>Bootstrap 3 live templates / snippets</h2>
       <p><a href="https://github.com/bodiam/bootstrap3-intellij-plugin">IntelliJ Plugin</a></p>
-      <p>Based on <a href="https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin">GitHub Homepage</a></p>
+      <p>Based on <a href="https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin">Jason Morton's plugin</a></p>
       <br />
       <p>Follow me on Twitter: <a href="https://twitter.com/epragt"><b>@epragt</b></a></p>
     ]]></description>
@@ -28,7 +28,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-      <defaultLiveTemplatesProvider implementation="intellij.plugin.bootstrap3.BootstrapTemplatesProvider"/>
+      <defaultLiveTemplatesProvider implementation="com.intellij.plugin.bootstrap3.Bootstrap3TemplatesProvider"/>
   </extensions>
 
   <application-components>
