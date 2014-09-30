@@ -1,0 +1,46 @@
+<idea-plugin version="2">
+  <id>com.yourcompany.unique.plugin.id</id>
+  <name>Plugin display name here</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+  <description><![CDATA[
+      <h2>Bootstrap 3 live templates / snippets</h2>
+      <p><a href="https://github.com/bodiam/bootstrap3-intellij-plugin">IntelliJ Plugin</a></p>
+      <p>Based on <a href="https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin">GitHub Homepage</a></p>
+      <br />
+      <p>Follow me on Twitter: <a href="https://twitter.com/epragt"><b>@epragt</b></a></p>
+    ]]></description>
+
+  <change-notes><![CDATA[
+          Initial release
+    ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="131"/>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+      <defaultLiveTemplatesProvider implementation="intellij.plugin.bootstrap3.BootstrapTemplatesProvider"/>
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>

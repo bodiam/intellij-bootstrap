@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="bootstrap3">
+    <template name="bs3-label:default" value="&lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+        </context>
+    </template>
+</templateSet>
