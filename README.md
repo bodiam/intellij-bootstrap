@@ -24,7 +24,7 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ## What's new 
 
-Since 1.1:
+Since 1.1 (1 Oct 2014):
 
 Form Fields. These are part form, part fields, and can be used to generate a form very easily.
 
@@ -32,6 +32,8 @@ Form Fields. These are part form, part fields, and can be used to generate a for
 - bs3-form-field:checkbox
 - bs3-form-field:text
 - bs3-form-field:time
+
+Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 
 ## What's included - contents
 - [CDN](#cdn)
@@ -56,10 +58,6 @@ Form Fields. These are part form, part fields, and can be used to generate a for
 - [Icons](#icons)
 - [Clearfix](#clearfix)
 
-Extra: 
-
-- [Examples](#examples)
-
 ### CDN
 
 | Component                      | Snippet code                   |
@@ -73,6 +71,7 @@ Extra:
 | Component                      | Snippet code                   |
 |------------------------------- | :-----------------------------:|
 | HTML5 Template Layout          | bs3-template:html5             |
+| Starter Layout                 | bs3-template:starter           |
 
 ### Forms
 
@@ -288,12 +287,6 @@ Extra:
 | Component                      | Snippet code                   |
 |------------------------------- | :----------------------------: |
 | Clearfix                       | bs3-clearfix                   |
-
-### Examples
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Starter template               | bs3-init:starter-template      |
 
 ### License
 
