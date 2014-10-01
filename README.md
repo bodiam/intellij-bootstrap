@@ -10,7 +10,7 @@ Feel free to let me know what else you want added via:
 
 - Twitter [@epragt](https://twitter.com/epragt)
 - [Issues](https://github.com/bodiam/intellij-bootstrap3/issues)
-- 
+
 ### Intallation (In 1,2,3 easy steps)
 
 To install the plugin open your editor (IntelliJ) and hit:
