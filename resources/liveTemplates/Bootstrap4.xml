@@ -2078,4 +2078,102 @@
             <option name="OTHER" value="true" />
         </context>
     </template>
+    <template name="bs3-form-field:button"
+              value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;        &lt;button type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;$var1$&lt;/button&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;$END$&#10;"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="SQL" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="PHP" value="true" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="bs3-form-field:checkbox"
+              value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;div class=&quot;col-sm-offset-2 col-sm-10&quot;&gt;&#10;        &lt;div class=&quot;checkbox&quot;&gt;&#10;            &lt;label&gt;&#10;                &lt;input type=&quot;checkbox&quot;&gt; $var1$&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;$END$&#10;"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="SQL" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="PHP" value="true" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="bs3-form-field:text"
+              value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$var1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$var2$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;$var1$&quot; placeholder=&quot;$var2$&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;$END$&#10;"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="capitalize(var1)" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="SQL" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="PHP" value="true" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
+    <template name="bs3-form-field:time"
+              value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$var1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$var2$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        &lt;input type=&quot;time&quot; class=&quot;form-control&quot; id=&quot;$var1$&quot; placeholder=&quot;$var2$&quot;&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;$END$&#10;"
+              toReformat="true" toShortenFQNames="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="capitalize(var1)" defaultValue="" alwaysStopAt="false"/>
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+            <option name="XSL_TEXT" value="false" />
+            <option name="XML" value="false" />
+            <option name="JSP" value="false" />
+            <option name="CSS_PROPERTY_VALUE" value="false" />
+            <option name="CSS_DECLARATION_BLOCK" value="false" />
+            <option name="CSS_RULESET_LIST" value="false" />
+            <option name="CSS" value="false" />
+            <option name="JAVA_SCRIPT" value="false" />
+            <option name="TypeScript" value="false" />
+            <option name="SQL" value="false" />
+            <option name="CUCUMBER_FEATURE_FILE" value="false" />
+            <option name="CoffeeScript" value="false" />
+            <option name="PHP" value="true" />
+            <option name="HAML" value="false" />
+            <option name="OTHER" value="true" />
+        </context>
+    </template>
 </templateSet>
