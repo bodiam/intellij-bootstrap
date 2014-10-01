@@ -11,13 +11,13 @@ Feel free to let me know what else you want added via:
 - Twitter [@epragt](https://twitter.com/epragt)
 - [Issues](https://github.com/bodiam/intellij-bootstrap3/issues)
 
-### Intallation (In 1,2,3 easy steps)
+### Intallation (In 3 easy steps)
 
 To install the plugin open your editor (IntelliJ) and hit:
 
 1) ` File > Settings > Plugins` and click on the `Browse repositories` button.
 
-2) Look for `Bootstrap` the right click and select `Download plugin`.
+2) Look for `Bootstrap 3` the right click and select `Download plugin`.
 
 3) Finally hit the `Apply` button, agree to restart your IDE and your all done!
 
