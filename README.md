@@ -4,7 +4,7 @@ Bootstrap 3 IntelliJ Plugin
 An IntelliJ plugin containing Bootstrap 3 live templates - lot's of live template!
 
 This plugin is based on [this plugin](https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin) by [@JasonMortonNZ](https://twitter.com/jasonmortonnz),
-who did all of the hard work of creating the templates, I only made it work in IntelliJ.
+who did all of the hard work of creating the templates, I only made it work in IntelliJ 13.
 
 Feel free to let me know what else you want added via:
 
