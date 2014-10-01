@@ -22,10 +22,22 @@ To install the plugin open your editor (IntelliJ) and hit:
 3) Finally hit the `Apply` button, agree to restart your IDE and your all done!
 
 
+## What's new 
+
+Since 1.1:
+
+Form Fields. These are part form, part fields, and can be used to generate a form very easily.
+
+- bs3-form-field:button
+- bs3-form-field:checkbox
+- bs3-form-field:text
+- bs3-form-field:time
+
 ## What's included - contents
 - [CDN](#cdn)
 - [Templates](#templates)
 - [Forms](#forms)
+- [Form Fields](#form-fields)
 - [Tables](#tables)
 - [Input](#input-fields-form-fields)
 - [Alerts](#alerts)
@@ -70,6 +82,20 @@ Extra:
 | Inline Form                    | bs3-form:inline                |
 | Horizontal Form                | bs3-form:horizontal            |
 
+### Form Fields
+
+- bs3-form-field:button
+- bs3-form-field:checkbox
+- bs3-form-field:text
+- bs3-form-field:time
+
+| Component                      | Snippet code                   |
+|------------------------------- | :-----------------------------:|
+| Form Button                    | bs3-form-field:button          |
+| Form Checkbox                  | bs3-form-field:checkbox        |
+| Form Text Input                | bs3-form-field:text            |
+| Form Time Input                | bs3-form-field:time            |
+
 ### Tables
 
 | Component                      | Snippet code                   |
@@ -80,7 +106,7 @@ Extra:
 | Hover Table                    | bs3-table:hover                |
 | Striped Table                  | bs3-table:striped              |
 
-### Input Fields (Form fields)
+### Input Fields
 
 #### Currently Working
 

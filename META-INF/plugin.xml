@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>nl.jworks.intellij.bootstrap3</id>
   <name>Bootstrap 3</name>
-  <version>1.0</version>
+  <version>1.1</version>
   <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
   <description><![CDATA[
