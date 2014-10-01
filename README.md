@@ -84,11 +84,6 @@ Extra:
 
 ### Form Fields
 
-- bs3-form-field:button
-- bs3-form-field:checkbox
-- bs3-form-field:text
-- bs3-form-field:time
-
 | Component                      | Snippet code                   |
 |------------------------------- | :-----------------------------:|
 | Form Button                    | bs3-form-field:button          |
