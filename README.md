@@ -24,7 +24,7 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ## What's new 
 
-Since 1.2 (x Oct 2014):
+Since 1.2 (4 Oct 2014):
 
 Added more templates: bs3-feature:carousel-rows, bs3-feature:image-card-with-description 
 Thanks to [Alexander Mahrt](https://twitter.com/AlexMahrt)
