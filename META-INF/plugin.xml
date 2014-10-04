@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>nl.jworks.intellij.bootstrap3</id>
   <name>Bootstrap 3</name>
-  <version>1.1.1</version>
+  <version>1.2</version>
   <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
   <description><![CDATA[
@@ -13,6 +13,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
+          1.2 Added more templates
           1.1.1 Made plugin available for all platforms<br />
           1.1 Added form-field templates, bugfixes, rename of templates<br />
           1.0 Initial release<br />

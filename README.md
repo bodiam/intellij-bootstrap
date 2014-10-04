@@ -24,6 +24,10 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ## What's new 
 
+Since 1.2 (x Oct 2014):
+
+Added more templates (bs3-feature:carousel-rows), thanks to [Alexander Mahrt](https://twitter.com/AlexMahrt)
+
 Since 1.1 (1 Oct 2014):
 
 Form Fields. These are part form, part fields, and can be used to generate a form very easily.
@@ -57,6 +61,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 - [Media Objects](#media-objects)
 - [Icons](#icons)
 - [Clearfix](#clearfix)
+- [Features](#features)
 
 ### CDN
 
@@ -287,6 +292,14 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Component                      | Snippet code                   |
 |------------------------------- | :----------------------------: |
 | Clearfix                       | bs3-clearfix                   |
+
+### Features
+
+| Component                      | Snippet code                   |
+|------------------------------- | :----------------------------: |
+| Carousel Rows                  | feature:carousel-rows{-css}    |
+
+**Note:** Some features consist of two templates: HTML and CSS. Access them by postfixing the snippet code with -css. 
 
 ### License
 
