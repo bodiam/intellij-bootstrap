@@ -298,8 +298,10 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 
 | Component                      | Snippet code                   |
 |------------------------------- | :----------------------------: |
-| Carousel Rows                  | feature:carousel-rows{-css}    |
-| Image card with description    | feature:image-card-with-description{-css}    |
+| Carousel Rows                  | bs3-feature:carousel-rows{-css}    |
+| Image card with description    | bs3-feature:image-card-with-description{-css}    |
+| Image gallery                  | bs3-feature:thumbnail-gallery |
+| Image gallery thumbnail        | bs3-feature:thumbnail         |
 
 **Note:** Some features consist of two templates: HTML and CSS. Access them by postfixing the snippet code with -css. 
 
