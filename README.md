@@ -26,7 +26,8 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 Since 1.2 (x Oct 2014):
 
-Added more templates (bs3-feature:carousel-rows), thanks to [Alexander Mahrt](https://twitter.com/AlexMahrt)
+Added more templates: bs3-feature:carousel-rows, bs3-feature:image-card-with-description 
+Thanks to [Alexander Mahrt](https://twitter.com/AlexMahrt)
 
 Since 1.1 (1 Oct 2014):
 
@@ -298,6 +299,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Component                      | Snippet code                   |
 |------------------------------- | :----------------------------: |
 | Carousel Rows                  | feature:carousel-rows{-css}    |
+| Image card with description    | feature:image-card-with-description{-css}    |
 
 **Note:** Some features consist of two templates: HTML and CSS. Access them by postfixing the snippet code with -css. 
 
