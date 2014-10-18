@@ -98,7 +98,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Alert
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Alert                          | bs3-alert                      | HTML    |
 | Alert (Danger)                 | bs3-alert:danger               | HTML    |
 | Alert (Info)                   | bs3-alert:info                 | HTML    |
@@ -108,38 +108,38 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Badge
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Badge                          | bs3-badge                      | HTML    |
 
 ### Breadcrumbs
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Breadcrumbs                    | bs3-breadcrumbs                | HTML    |
 
 ### Button-group
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Button group                   | bs3-button-group               | HTML    |
 | Button group (Vertical orientation) | bs3-button-group:vertical      | HTML    |
 
 ### Button-toolbar
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Button toolbar                 | bs3-button-toolbar             | HTML    |
 
 ### Button
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Full dropdown example          | bs3-button:dropdown            | HTML    |
 
 ### Cdn
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Bootstrap 3 CSS & JS CDN       | bs3-cdn                        | HTML    |
 | Bootstrap 3 CSS CDN            | bs3-cdn:css                    | HTML    |
 | Bootstrap 3 JavaScript CDN     | bs3-cdn:js                     | HTML    |
@@ -147,20 +147,23 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Checkbox
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Checkbox Input Field           | bs3-checkbox                   | HTML    |
 
 ### Clearfix
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Clearfix                       | bs3-clearfix                   | HTML    |
 
 ### Col
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Column 1                       | bs3-col:1                      | HTML    |
+| Column 10                      | bs3-col:10                     | HTML    |
+| Column 11                      | bs3-col:11                     | HTML    |
+| Column 12                      | bs3-col:12                     | HTML    |
 | Column 2                       | bs3-col:2                      | HTML    |
 | Column 3                       | bs3-col:3                      | HTML    |
 | Column 4                       | bs3-col:4                      | HTML    |
@@ -169,20 +172,17 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Column 7                       | bs3-col:7                      | HTML    |
 | Column 8                       | bs3-col:8                      | HTML    |
 | Column 9                       | bs3-col:9                      | HTML    |
-| Column 10                      | bs3-col:10                     | HTML    |
-| Column 11                      | bs3-col:11                     | HTML    |
-| Column 12                      | bs3-col:12                     | HTML    |
 
 ### Container
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Container                      | bs3-container                  | HTML    |
 
 ### Feature
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Carousel Rows                  | bs3-feature:carousel-rows      | HTML    |
 | Carousel Rows                  | bs3-feature:carousel-rows-css  | CSS     |
 | Beautiful image card with description | bs3-feature:image-card-with-description | HTML    |
@@ -193,22 +193,22 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Form
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Form                           | bs3-form                       | HTML    |
 
 ### Form-field
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
-| null                           | bs3-form-field:button          | HTML    |
-| null                           | bs3-form-field:checkbox        | HTML    |
-| null                           | bs3-form-field:text            | HTML    |
-| null                           | bs3-form-field:time            | HTML    |
+|------------------------------- | -------------------------------| ------- |
+| No description                 | bs3-form-field:button          | HTML    |
+| No description                 | bs3-form-field:checkbox        | HTML    |
+| No description                 | bs3-form-field:text            | HTML    |
+| No description                 | bs3-form-field:time            | HTML    |
 
 ### Form
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Form (Horizontal)              | bs3-form:horizontal            | HTML    |
 | Form (Inline)                  | bs3-form:inline                | HTML    |
 | Form (Label)                   | bs3-form:label                 | HTML    |
@@ -216,33 +216,33 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Icon
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Font Awesome Icon              | bs3-icon                       | HTML    |
 | Glyphicon                      | bs3-icon:glyphicon             | HTML    |
 
 ### Image
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Image                          | bs3-image                      | HTML    |
 
 ### Input
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Input (Form Input)             | bs3-input                      | HTML    |
 | Horizontal Form Input Field    | bs3-input:h                    | HTML    |
 
 ### Jumbotron
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Jumbotron                      | bs3-jumbotron                  | HTML    |
 
 ### Label
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Label                          | bs3-label                      | HTML    |
 | Label (Danger)                 | bs3-label:danger               | HTML    |
 | Label (Default)                | bs3-label:default              | HTML    |
@@ -253,7 +253,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### List-group
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | List group                     | bs3-list-group                 | HTML    |
 | List group with Badges         | bs3-list-group:badges          | HTML    |
 | List Group with Content        | bs3-list-group:content         | HTML    |
@@ -262,19 +262,19 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Media-object
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Media Object                   | bs3-media-object               | HTML    |
 
 ### Modal
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Modal Dialog Box               | bs3-modal                      | HTML    |
 
 ### Navbar
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Navbar                         | bs3-navbar                     | HTML    |
 | Navbar (Basic)                 | bs3-navbar:basic               | HTML    |
 | Navbar (Brand)                 | bs3-navbar:brand               | HTML    |
@@ -291,20 +291,20 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Page-header
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Page Header                    | bs3-page-header                | HTML    |
 
 ### Pager
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Pager                          | bs3-pager                      | HTML    |
 | Pager (Aligned)                | bs3-pager:aligned              | HTML    |
 
 ### Pagination
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Pagination                     | bs3-pagination                 | HTML    |
 | Pagination (Large)             | bs3-pagination:large           | HTML    |
 | Pagination (Small)             | bs3-pagination:small           | HTML    |
@@ -312,7 +312,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Panel
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Panel                          | bs3-panel                      | HTML    |
 | Panel (Danger)                 | bs3-panel:danger               | HTML    |
 | Panel with footer              | bs3-panel:footer               | HTML    |
@@ -326,7 +326,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Pills
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Pills                          | bs3-pills                      | HTML    |
 | Pills (With dropdown menu)     | bs3-pills:dropdown             | HTML    |
 | Pills (Justified)              | bs3-pills:justified            | HTML    |
@@ -335,33 +335,33 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Radio
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Radio Form Field               | bs3-radio                      | HTML    |
 
 ### Row
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Row                            | bs3-row                        | HTML    |
 
 ### Select
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Select Box Form Field          | bs3-select                     | HTML    |
 | Horizontal Form Select Box Field | bs3-select:h                   | HTML    |
 
 ### Submit
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Submit Button for Form         | bs3-submit                     | HTML    |
 | Submit Button for Horizontal Forms | bs3-submit:h                   | HTML    |
 
 ### Table
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Table                          | bs3-table                      | HTML    |
 | Table (Bordered)               | bs3-table:bordered             | HTML    |
 | Table (Condensed)              | bs3-table:condensed            | HTML    |
@@ -372,7 +372,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Tabs
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Tabs                           | bs3-tabs                       | HTML    |
 | Tabs (With dropdown menu)      | bs3-tabs:dropdown              | HTML    |
 | Tabs (Justified)               | bs3-tabs:justified             | HTML    |
@@ -380,14 +380,14 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 ### Template
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Bootstrap 3 HTML5 Template     | bs3-template:html5             | HTML    |
 | Bootstrap 3 Starter Template   | bs3-template:starter           | HTML    |
 
 ### Thumbnail
 
 | Component                      | Snippet code                   | Context |
-|------------------------------- | :-----------------------------:| -------:|
+|------------------------------- | -------------------------------| ------- |
 | Thumbnail                      | bs3-thumbnail                  | HTML    |
 | Thumbnail with content         | bs3-thumbnail:content          | HTML    |
 

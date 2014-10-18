@@ -30,7 +30,7 @@ void printComponents(groups) {
         println "### ${group.name}"
         println ""
         println "| Component                      | Snippet code                   | Context |"
-        println "|------------------------------- | :-----------------------------:| -------:|"
+        println "|------------------------------- | -------------------------------| ------- |"
 
         group.components.each {
             println "| ${String.format("%-30s", it.text)} | ${String.format("%-30s", it.code)} | ${String.format("%-7s", it.context)} |"
