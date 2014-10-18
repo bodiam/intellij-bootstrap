@@ -57,302 +57,339 @@ Form Fields. These are part form, part fields, and can be used to generate a for
 Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 
 ## What's included - contents
-- [CDN](#cdn)
-- [Templates](#templates)
-- [Forms](#forms)
-- [Form Fields](#form-fields)
-- [Tables](#tables)
-- [Input](#input-fields-form-fields)
-- [Alerts](#alerts)
-- [Badges](#badges)
+- [Alert](#alert)
+- [Badge](#badge)
 - [Breadcrumbs](#breadcrumbs)
-- [Buttons](#buttons)
-- [Button groups](#button-groups)
-- [Grid](#grid)
-- [Images](#images)
-- [Icons](#icons)
-- [Labels](#labels)
-- [Pagination](#pagination)
-- [Navigation](#navigation)
-- [Panels](#panels)
-- [Pills](#pills)
-- [Tabs](#tabs)
-- [List Groups](#list-groups)
-- [Media Objects](#media-objects)
-- [Icons](#icons)
+- [Button-group](#button-group)
+- [Button-toolbar](#button-toolbar)
+- [Button](#button)
+- [Cdn](#cdn)
+- [Checkbox](#checkbox)
 - [Clearfix](#clearfix)
-- [Features](#features)
+- [Col](#col)
+- [Container](#container)
+- [Feature](#feature)
+- [Form](#form)
+- [Form-field](#form-field)
+- [Form](#form)
+- [Icon](#icon)
+- [Image](#image)
+- [Input](#input)
+- [Jumbotron](#jumbotron)
+- [Label](#label)
+- [List-group](#list-group)
+- [Media-object](#media-object)
+- [Modal](#modal)
+- [Navbar](#navbar)
+- [Page-header](#page-header)
+- [Pager](#pager)
+- [Pagination](#pagination)
+- [Panel](#panel)
+- [Pills](#pills)
+- [Radio](#radio)
+- [Row](#row)
+- [Select](#select)
+- [Submit](#submit)
+- [Table](#table)
+- [Tabs](#tabs)
+- [Template](#template)
+- [Thumbnail](#thumbnail)
 
-### CDN
+### Alert
 
-| Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
-| CDN link (both CSS & JS)       | bs3-cdn                        |
-| CDN link (CSS only)            | bs3-cdn:css                    |
-| CDN link (JS only)             | bs3-cdn:js                     |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Alert                          | bs3-alert                      | HTML    |
+| Alert (Danger)                 | bs3-alert:danger               | HTML    |
+| Alert (Info)                   | bs3-alert:info                 | HTML    |
+| Alert (Success)                | bs3-alert:success              | HTML    |
+| Alert (Warning)                | bs3-alert:warning              | HTML    |
 
-### Templates
+### Badge
 
-| Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
-| HTML5 Template Layout          | bs3-template:html5             |
-| Starter Layout                 | bs3-template:starter           |
-
-### Forms
-
-| Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
-| Form                           | bs3-form                       |
-| Inline Form                    | bs3-form:inline                |
-| Horizontal Form                | bs3-form:horizontal            |
-
-### Form Fields
-
-| Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
-| Form Button                    | bs3-form-field:button          |
-| Form Checkbox                  | bs3-form-field:checkbox        |
-| Form Text Input                | bs3-form-field:text            |
-| Form Time Input                | bs3-form-field:time            |
-
-### Tables
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Table                          | bs3-table                      |
-| Bordered Table                 | bs3-table:bordered             |
-| Condensed Table                | bs3-table:condensed            |
-| Hover Table                    | bs3-table:hover                |
-| Striped Table                  | bs3-table:striped              |
-
-### Input Fields
-
-#### Currently Working
-
-| Component                      | Snippet code                   | Options |
-|------------------------------- | :----------------------------: | :-----: |
-| Text Input                     | bs3-input                      | :h      |
-| Select Input                   | bs3-select                     |         |
-| Checkbox                       | bs3-checkbox                   |         |
-| Radio                          | bs3-radio                      | :h      |
-| Submit                         | bs3-submit                     | :h      |
-
-#### Coming Soon
-
-**Note:** you can add " :h " to the end of any input field snippet to make it compatible with Bootstrap 3 horizontal forms. **E.g.**
-- bs3-input:text:h
-- bs3-input:hidden:h
-
-| Component                      | Snippet code                   | Options |
-|------------------------------- | :----------------------------: | :-----: |
-| Label                          | bs3-input:label                |         |
-| Text Input                     | bs3-input:text                 | :h      |
-| Email Input                    | bs3-input:email                | :h      |
-| Password Input                 | bs3-input:password             | :h      |
-| Hidden Input                   | bs3-input:hidden               | :h      |
-| Url Input                      | bs3-input:url                  | :h      |
-| Color Input                    | bs3-input:color                | :h      |
-| Number Input                   | bs3-input:number               | :h      |
-| Range Input                    | bs3-input:range                | :h      |
-| Date Input                     | bs3-input:date                 | :h      |
-| Week Input                     | bs3-input:week                 | :h      |
-| Month Input                    | bs3-input:month                | :h      |
-| Time Input                     | bs3-input:time                 | :h      |
-| Tel Input                      | bs3-input:tel                  | :h      |
-| Search Input                   | bs3-input:search               | :h      |
-| Reset Input                    | bs3-input:reset                | :h      |
-| Submit Input                   | bs3-input:submit               | :h      |
-| Checkbox Input                 | bs3-input:checkbox             | :h      |
-| Radio Box Input                | bs3-input:radio                | :h      |
-| Textarea                       | bs3-textarea                   | :h      |
-
-### Alerts
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Alert Box (Default)            | bs3-alert                      |
-| Danger Alert Box               | bs3-alert:danger               |
-| Info Alert Box                 | bs3-alert:info                 |
-| Success Alert Box              | bs3-alert:success              |
-| Warning Alert Box              | bs3-alert:warning              |
-
-### Badges
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Badge (Default)                | bs3-badge                      |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Badge                          | bs3-badge                      | HTML    |
 
 ### Breadcrumbs
 
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Breadcrumbs                    | bs3-breadcrumbs                |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Breadcrumbs                    | bs3-breadcrumbs                | HTML    |
 
-### Buttons
+### Button-group
 
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Button group                   | bs3-button-group               |
-| Button group (vertical)        | bs3-button-group:vertical      |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Button group                   | bs3-button-group               | HTML    |
+| Button group (Vertical orientation) | bs3-button-group:vertical      | HTML    |
 
-### Button toolbar
+### Button-toolbar
 
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Button toolbar                 | bs3-button-toolbar             |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Button toolbar                 | bs3-button-toolbar             | HTML    |
 
-#### Buttons COMING SOON
+### Button
 
-**Note:** all button snippets below can have any of the following options append to the end of the snippet *.
-- :danger
-- :default
-- :disabled
-- :info
-- :primary
-- :success
-- :warning
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Full dropdown example          | bs3-button:dropdown            | HTML    |
 
-**An example:**
-- bs3-button:success
-- bs3-large-button:disabled
-- bs3-block-button:warning
+### Cdn
 
-| Component                      | Snippet code                   | Options |
-|------------------------------- | :----------------------------: | :-----: |
-| Button                         | bs3-button                     |  *      |
-| Block Button                   | bs3-block-button               |  *      |
-| Mini Button                    | bs3-xs-button                  |  *      |
-| Small Button                   | bs3-sm-button                  |  *      |
-| Large Button                   | bs3-lg-button                  |  *      |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Bootstrap 3 CSS & JS CDN       | bs3-cdn                        | HTML    |
+| Bootstrap 3 CSS CDN            | bs3-cdn:css                    | HTML    |
+| Bootstrap 3 JavaScript CDN     | bs3-cdn:js                     | HTML    |
 
-### Grid
+### Checkbox
 
-**Note:** The bs3-col snippet can be used both on its own or with the addition of a colon followed by the number of columns required: **E.g.**
-
-- bs3-col
-- bs3-col:6
-- bs3-col:12
-
-| Component                      | Snippet code                   | Options |
-|------------------------------- | :----------------------------: | :-----: |
-| Column                         | bs3-col                        | :1-12   |
-| Row                            | bs3-row                        |         |
-| Container                      | bs3-container                  |         |
-
-### Icons
-
-| Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
-| Glyphicon                      | bs3-icon:glyphicon             |
-| Icon (Font Awesome)            | bs3-icon                       |
-
-### Images
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Thumbnail                      | bs3-thumbnail                  |
-| Thumbnail with content         | bs3-thumbnail:content          |
-
-### Labels
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Label                          | bs3-label                      |
-| Danger Label                   | bs3-label:danger               |
-| Info Label                     | bs3-label:info                 |
-| Success Label                  | bs3-label:success              |
-| Warning Label                  | bs3-label:warning              |
-
-### Pagination
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Pager                          | bs3-pager                      |
-| Aligned Pager                  | bs3-pager:aligned              |
-| Pagination                     | bs3-pagination                 |
-| Pagination:small               | bs3-pagination:small           |
-| Pagination:large               | bs3-pagination:large           |
-
-### Navigation
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Navbar (basic navbar)          | bs3-navbar                     |
-| Navbar Brand Element           | bs3-navbar:brand               |
-| Navbar Button                  | bs3-navbar:button              |
-| Navbar Form                    | bs3-navbar:form                |
-| Navbar Link                    | bs3-navbar:link                |
-| Navbar Text                    | bs3-navbar:text                |
-| Navbar Fixed-Botton            | bs3-navbar:fixed-bottom        |
-| Navbar Fixed-Top               | bs3-navbar:fixed-top           |
-| Navbar Inverse                 | bs3-navbar:inverse             |
-| Navbar Responsive              | bs3-navbar:responsive          |
-| Navbar Static-Top              | bs3-navbar:static-top          |
-
-### Jumbotron
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Jumbotron (ex Hero Unit)       | bs3-jumbotron                  |
-
-### Panels
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Panel                          | bs3-panel                      |
-| Panel (contextual)             | bs3-panel:{warning,success,info,danger,primary}                  |
-| Panel (with heading)           | bs3-panel:heading              |
-| Panel (with footer)            | bs3-panel:footer               |
-
-### Pills
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Pills                          | bs3-pills                      |
-| Tabs (dropdown)                | bs3-pills:dropdown             |
-| Tabs (justified)               | bs3-pills:justified            |
-| Tabs (vertical)                | bs3-pills:vertical             |
-
-### Tabs
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Tabs                           | bs3-tabs                       |
-| Tabs (dropdown)                | bs3-tabs:dropdown              |
-| Tabs (justified)               | bs3-tabs:justified             |
-
-
-### List-groups
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| List group                     | bs3-list-group                 |
-| List group (with badges)       | bs3-list-group:badges          |
-| List group (linked list)       | bs3-list-group:linked          |
-| List group (with content)      | bs3-list-group:content         |
-
-### Media Objects
-
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Media Object                   | bs3-media-object               |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Checkbox Input Field           | bs3-checkbox                   | HTML    |
 
 ### Clearfix
 
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Clearfix                       | bs3-clearfix                   |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Clearfix                       | bs3-clearfix                   | HTML    |
 
-### Features
+### Col
 
-| Component                      | Snippet code                   |
-|------------------------------- | :----------------------------: |
-| Carousel Rows                  | bs3-feature:carousel-rows{-css}    |
-| Image card with description    | bs3-feature:image-card-with-description{-css}    |
-| Image gallery                  | bs3-feature:thumbnail-gallery |
-| Image gallery thumbnail        | bs3-feature:thumbnail         |
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Column 1                       | bs3-col:1                      | HTML    |
+| Column 2                       | bs3-col:2                      | HTML    |
+| Column 3                       | bs3-col:3                      | HTML    |
+| Column 4                       | bs3-col:4                      | HTML    |
+| Column 5                       | bs3-col:5                      | HTML    |
+| Column 6                       | bs3-col:6                      | HTML    |
+| Column 7                       | bs3-col:7                      | HTML    |
+| Column 8                       | bs3-col:8                      | HTML    |
+| Column 9                       | bs3-col:9                      | HTML    |
+| Column 10                      | bs3-col:10                     | HTML    |
+| Column 11                      | bs3-col:11                     | HTML    |
+| Column 12                      | bs3-col:12                     | HTML    |
 
-**Note:** Some features consist of two templates: HTML and CSS. Access them by postfixing the snippet code with -css. 
+### Container
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Container                      | bs3-container                  | HTML    |
+
+### Feature
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Carousel Rows                  | bs3-feature:carousel-rows      | HTML    |
+| Carousel Rows                  | bs3-feature:carousel-rows-css  | CSS     |
+| Beautiful image card with description | bs3-feature:image-card-with-description | HTML    |
+| Beautiful image card with description | bs3-feature:image-card-with-description-css | CSS     |
+| Thumbnail in gallery           | bs3-feature:thumbnail          | HTML    |
+| Thumbnail gallery              | bs3-feature:thumbnail-gallery  | HTML    |
+
+### Form
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Form                           | bs3-form                       | HTML    |
+
+### Form-field
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| null                           | bs3-form-field:button          | HTML    |
+| null                           | bs3-form-field:checkbox        | HTML    |
+| null                           | bs3-form-field:text            | HTML    |
+| null                           | bs3-form-field:time            | HTML    |
+
+### Form
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Form (Horizontal)              | bs3-form:horizontal            | HTML    |
+| Form (Inline)                  | bs3-form:inline                | HTML    |
+| Form (Label)                   | bs3-form:label                 | HTML    |
+
+### Icon
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Font Awesome Icon              | bs3-icon                       | HTML    |
+| Glyphicon                      | bs3-icon:glyphicon             | HTML    |
+
+### Image
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Image                          | bs3-image                      | HTML    |
+
+### Input
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Input (Form Input)             | bs3-input                      | HTML    |
+| Horizontal Form Input Field    | bs3-input:h                    | HTML    |
+
+### Jumbotron
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Jumbotron                      | bs3-jumbotron                  | HTML    |
+
+### Label
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Label                          | bs3-label                      | HTML    |
+| Label (Danger)                 | bs3-label:danger               | HTML    |
+| Label (Default)                | bs3-label:default              | HTML    |
+| Label (Info)                   | bs3-label:info                 | HTML    |
+| Label (Success)                | bs3-label:success              | HTML    |
+| Label (Warning)                | bs3-label:warning              | HTML    |
+
+### List-group
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| List group                     | bs3-list-group                 | HTML    |
+| List group with Badges         | bs3-list-group:badges          | HTML    |
+| List Group with Content        | bs3-list-group:content         | HTML    |
+| Linked List Group              | bs3-list-group:linked          | HTML    |
+
+### Media-object
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Media Object                   | bs3-media-object               | HTML    |
+
+### Modal
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Modal Dialog Box               | bs3-modal                      | HTML    |
+
+### Navbar
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Navbar                         | bs3-navbar                     | HTML    |
+| Navbar (Basic)                 | bs3-navbar:basic               | HTML    |
+| Navbar (Brand)                 | bs3-navbar:brand               | HTML    |
+| Navbar (Fixed Bottom)          | bs3-navbar:fixed-bottom        | HTML    |
+| Navbar (Fixed Top)             | bs3-navbar:fixed-top           | HTML    |
+| Navbar (Form)                  | bs3-navbar:form                | HTML    |
+| Navbar (Inverse)               | bs3-navbar:inverse             | HTML    |
+| Navbar (Link)                  | bs3-navbar:link                | HTML    |
+| Navbar (Links)                 | bs3-navbar:links               | HTML    |
+| Navbar (Responsive)            | bs3-navbar:responsive          | HTML    |
+| Navbar (Static Top)            | bs3-navbar:static-top          | HTML    |
+| Navbar (Text)                  | bs3-navbar:text                | HTML    |
+
+### Page-header
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Page Header                    | bs3-page-header                | HTML    |
+
+### Pager
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Pager                          | bs3-pager                      | HTML    |
+| Pager (Aligned)                | bs3-pager:aligned              | HTML    |
+
+### Pagination
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Pagination                     | bs3-pagination                 | HTML    |
+| Pagination (Large)             | bs3-pagination:large           | HTML    |
+| Pagination (Small)             | bs3-pagination:small           | HTML    |
+
+### Panel
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Panel                          | bs3-panel                      | HTML    |
+| Panel (Danger)                 | bs3-panel:danger               | HTML    |
+| Panel with footer              | bs3-panel:footer               | HTML    |
+| Panel with heading             | bs3-panel:heading              | HTML    |
+| Panel (Info)                   | bs3-panel:info                 | HTML    |
+| Panel (Primary)                | bs3-panel:primary              | HTML    |
+| Panel (Success)                | bs3-panel:success              | HTML    |
+| Panel with table               | bs3-panel:table                | HTML    |
+| Panel (Warning)                | bs3-panel:warning              | HTML    |
+
+### Pills
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Pills                          | bs3-pills                      | HTML    |
+| Pills (With dropdown menu)     | bs3-pills:dropdown             | HTML    |
+| Pills (Justified)              | bs3-pills:justified            | HTML    |
+| Pills (Vertical)               | bs3-pills:vertical             | HTML    |
+
+### Radio
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Radio Form Field               | bs3-radio                      | HTML    |
+
+### Row
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Row                            | bs3-row                        | HTML    |
+
+### Select
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Select Box Form Field          | bs3-select                     | HTML    |
+| Horizontal Form Select Box Field | bs3-select:h                   | HTML    |
+
+### Submit
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Submit Button for Form         | bs3-submit                     | HTML    |
+| Submit Button for Horizontal Forms | bs3-submit:h                   | HTML    |
+
+### Table
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Table                          | bs3-table                      | HTML    |
+| Table (Bordered)               | bs3-table:bordered             | HTML    |
+| Table (Condensed)              | bs3-table:condensed            | HTML    |
+| Table (Hover)                  | bs3-table:hover                | HTML    |
+| Table (Responsive)             | bs3-table:responsive           | HTML    |
+| Table (Striped)                | bs3-table:striped              | HTML    |
+
+### Tabs
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Tabs                           | bs3-tabs                       | HTML    |
+| Tabs (With dropdown menu)      | bs3-tabs:dropdown              | HTML    |
+| Tabs (Justified)               | bs3-tabs:justified             | HTML    |
+
+### Template
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Bootstrap 3 HTML5 Template     | bs3-template:html5             | HTML    |
+| Bootstrap 3 Starter Template   | bs3-template:starter           | HTML    |
+
+### Thumbnail
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | :-----------------------------:| -------:|
+| Thumbnail                      | bs3-thumbnail                  | HTML    |
+| Thumbnail with content         | bs3-thumbnail:content          | HTML    |
 
 ### License
 
