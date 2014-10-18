@@ -24,6 +24,22 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ## What's new 
 
+Since 1.3 (18 Oct 2014):
+
+Added more templates:
+
+- bs3-button-group
+- bs3-button-group:vertical
+- bs3-button-toolbar
+- bs3-button:dropdown
+- bs3-pills
+- bs3-pills:dropdown
+- bs3-pills:justified
+- bs3-pills:vertical
+- bs3-tabs
+- bs3-tabs:dropdown
+- bs3-tabs:justified
+
 Since 1.2 (4 Oct 2014):
 
 Added more templates: bs3-feature:carousel-rows, bs3-feature:image-card-with-description 
@@ -51,6 +67,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 - [Badges](#badges)
 - [Breadcrumbs](#breadcrumbs)
 - [Buttons](#buttons)
+- [Button groups](#button-groups)
 - [Grid](#grid)
 - [Images](#images)
 - [Icons](#icons)
@@ -58,6 +75,8 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 - [Pagination](#pagination)
 - [Navigation](#navigation)
 - [Panels](#panels)
+- [Pills](#pills)
+- [Tabs](#tabs)
 - [List Groups](#list-groups)
 - [Media Objects](#media-objects)
 - [Icons](#icons)
@@ -170,6 +189,18 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Breadcrumbs                    | bs3-breadcrumbs                |
 
 ### Buttons
+
+| Component                      | Snippet code                   |
+|------------------------------- | :----------------------------: |
+| Button group                   | bs3-button-group               |
+| Button group (vertical)        | bs3-button-group:vertical      |
+
+### Button toolbar
+
+| Component                      | Snippet code                   |
+|------------------------------- | :----------------------------: |
+| Button toolbar                 | bs3-button-toolbar             |
+
 #### Buttons COMING SOON
 
 **Note:** all button snippets below can have any of the following options append to the end of the snippet *.
@@ -272,6 +303,24 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Panel (contextual)             | bs3-panel:{warning,success,info,danger,primary}                  |
 | Panel (with heading)           | bs3-panel:heading              |
 | Panel (with footer)            | bs3-panel:footer               |
+
+### Pills
+
+| Component                      | Snippet code                   |
+|------------------------------- | :----------------------------: |
+| Pills                          | bs3-pills                      |
+| Tabs (dropdown)                | bs3-pills:dropdown             |
+| Tabs (justified)               | bs3-pills:justified            |
+| Tabs (vertical)                | bs3-pills:vertical             |
+
+### Tabs
+
+| Component                      | Snippet code                   |
+|------------------------------- | :----------------------------: |
+| Tabs                           | bs3-tabs                       |
+| Tabs (dropdown)                | bs3-tabs:dropdown              |
+| Tabs (justified)               | bs3-tabs:justified             |
+
 
 ### List-groups
 
