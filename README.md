@@ -42,7 +42,9 @@ Added more templates:
 
 Since 1.2 (4 Oct 2014):
 
-Added more templates: bs3-feature:carousel-rows, bs3-feature:image-card-with-description 
+Added more templates: 
+- bs3-feature:carousel-rows, 
+- bs3-feature:image-card-with-description 
 Thanks to [Alexander Mahrt](https://twitter.com/AlexMahrt)
 
 Since 1.1 (1 Oct 2014):
