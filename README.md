@@ -1,16 +1,25 @@
 Bootstrap 3 IntelliJ Plugin
 ===========================
 
-An IntelliJ plugin containing Bootstrap 3 live templates - lots of live templates!
+An IntelliJ plugin containing Bootstrap 3 live templates - lots of live templates! This plugin works for the following JetBrains products:
+
+- IntelliJ IDEA
+- PyCharm
+- PhpStorm
+- PyCharm
+- RubyMine
+- WebStorm
 
 ![Plugin in action](https://raw.githubusercontent.com/bodiam/intellij-bootstrap3/master/screencasts/starter-template.gif)
 
 This plugin is based on [bootstrap-3-phpstorm-plugin](https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin) by [@JasonMortonNZ](https://twitter.com/jasonmortonnz),
-who did all of the hard work of creating the templates. [I](https://twitter.com/epragt) only made it work in IntelliJ 13.
+who did all of the hard work of creating most of the templates. 
 
 Feel free to let me know what else you want added via the [issues](https://github.com/bodiam/intellij-bootstrap3/issues).
 
-### Intallation (in 3 easy steps)
+Suggestions, feedback and other comments welcome via [@epragt](https://twitter.com/epragt) on Twitter.
+
+### Installation (in 3 easy steps)
 
 To install the plugin open your editor (IntelliJ) and hit:
 
