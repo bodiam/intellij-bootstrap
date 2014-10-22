@@ -1,25 +1,24 @@
 Bootstrap 3 IntelliJ Plugin
-==========================
+===========================
 
-An IntelliJ plugin containing Bootstrap 3 live templates - lot's of live templates!
+An IntelliJ plugin containing Bootstrap 3 live templates - lots of live templates!
 
-This plugin is based on [this plugin](https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin) by [@JasonMortonNZ](https://twitter.com/jasonmortonnz),
-who did all of the hard work of creating the templates, I only made it work in IntelliJ 13.
+![Plugin in action](https://raw.githubusercontent.com/bodiam/intellij-bootstrap3/master/screencasts/starter-template.gif)
 
-Feel free to let me know what else you want added via:
+This plugin is based on [bootstrap-3-phpstorm-plugin](https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin) by [@JasonMortonNZ](https://twitter.com/jasonmortonnz),
+who did all of the hard work of creating the templates. [I](https://twitter.com/epragt) only made it work in IntelliJ 13.
 
-- Twitter [@epragt](https://twitter.com/epragt)
-- [Issues](https://github.com/bodiam/intellij-bootstrap3/issues)
+Feel free to let me know what else you want added via the [issues](https://github.com/bodiam/intellij-bootstrap3/issues).
 
-### Intallation (In 3 easy steps)
+### Intallation (in 3 easy steps)
 
 To install the plugin open your editor (IntelliJ) and hit:
 
-1) ` File > Settings > Plugins` and click on the `Browse repositories` button.
+1) `File > Settings > Plugins` and click on the `Browse repositories` button.
 
 2) Look for `Bootstrap 3` the right click and select `Download plugin`.
 
-3) Finally hit the `Apply` button, agree to restart your IDE and your all done!
+3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
 
 
 ## What's new 
