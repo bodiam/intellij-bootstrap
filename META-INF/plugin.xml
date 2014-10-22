@@ -6,7 +6,8 @@
 
   <description><![CDATA[
       <h2>Bootstrap 3 live templates / snippets</h2>
-      <p><a href="https://github.com/bodiam/intellij-bootstrap3">IntelliJ Plugin</a></p>
+      <br />
+      <p><a href="https://github.com/bodiam/intellij-bootstrap3">Documentation / list of snippets</a></p>
       <p>Based on <a href="https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin">Jason Morton's plugin</a></p>
       <br />
       <p>Follow me on Twitter: <a href="https://twitter.com/epragt"><b>@epragt</b></a></p>
