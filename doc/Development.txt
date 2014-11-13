@@ -1,0 +1,3 @@
+Templates can be found here:
+
+cd ~/Library/Preferences/IntelliJIdea13/templates/
