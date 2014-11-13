@@ -9,7 +9,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-alert:info"
@@ -21,7 +20,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-alert:success"
@@ -33,7 +31,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-alert:warning"
@@ -45,7 +42,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-alert"
@@ -57,7 +53,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-badge" value="&lt;span class=&quot;badge&quot;&gt;$var1$&lt;/span&gt;$END$" description="Badge"
@@ -67,7 +62,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-breadcrumbs"
@@ -80,7 +74,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-cdn:css"
@@ -90,7 +83,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-cdn:js"
@@ -100,7 +92,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-cdn"
@@ -110,7 +101,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-clearfix" value="&lt;div class=&quot;clearfix&quot;&gt;&#10;    $var1$&#10;&lt;/div&gt;$END$"
@@ -120,7 +110,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-icon:glyphicon"
@@ -131,7 +120,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-icon" value="&lt;i class=&quot;fa fa-$name$$size$&quot;&gt;&lt;/i&gt;$END$"
@@ -142,7 +130,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-image" value="&lt;img src=&quot;$var1$&quot;$var2$ alt=&quot;$var3$&quot;&gt;$END$"
@@ -155,7 +142,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-thumbnail:content"
@@ -174,7 +160,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-thumbnail"
@@ -188,7 +173,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-jumbotron"
@@ -201,7 +185,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-label:danger" value="&lt;span class=&quot;label label-danger&quot;&gt;$var1$&lt;/span&gt;$END$"
@@ -211,7 +194,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-label:default"
@@ -222,7 +204,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-label:info" value="&lt;span class=&quot;label label-info&quot;&gt;$var1$&lt;/span&gt;$END$"
@@ -232,7 +213,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-label:success"
@@ -243,7 +223,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-label:warning"
@@ -254,7 +233,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-label" value="&lt;span class=&quot;label&quot;&gt;$var1$&lt;/span&gt;$END$" description="Label"
@@ -264,7 +242,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-list-group"
@@ -277,7 +254,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-list-group:linked"
@@ -290,7 +266,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-list-group:content"
@@ -302,7 +277,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-list-group:badges"
@@ -318,7 +292,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-media-object"
@@ -333,7 +306,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-modal"
@@ -348,7 +320,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-page-header"
@@ -360,7 +331,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pager:aligned"
@@ -370,7 +340,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pager"
@@ -380,7 +349,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pagination:large"
@@ -390,7 +358,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pagination:small"
@@ -400,7 +367,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pagination"
@@ -410,7 +376,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:danger"
@@ -422,7 +387,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:info"
@@ -434,7 +398,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:success"
@@ -446,7 +409,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:primary"
@@ -458,7 +420,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:warning"
@@ -470,7 +431,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:footer"
@@ -483,7 +443,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:heading"
@@ -496,7 +455,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel"
@@ -508,7 +466,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-panel:table"
@@ -525,7 +482,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-template:html5"
@@ -538,7 +494,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-table:bordered"
@@ -549,7 +504,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-table:condensed"
@@ -560,7 +514,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-table:hover"
@@ -570,7 +523,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-table:responsive"
@@ -581,7 +533,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-table:striped"
@@ -592,7 +543,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-table"
@@ -603,7 +553,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:basic"
@@ -616,7 +565,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:brand"
@@ -628,7 +576,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:fixed-bottom"
@@ -642,7 +589,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:fixed-top"
@@ -656,7 +602,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:form"
@@ -669,7 +614,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:inverse"
@@ -682,7 +626,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:link"
@@ -695,7 +638,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:links"
@@ -709,7 +651,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:responsive"
@@ -721,7 +662,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:static-top"
@@ -735,7 +675,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar:text" value="&lt;p class=&quot;navbar-text&quot;&gt;$var1$&lt;/p&gt;$END$"
@@ -745,7 +684,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-navbar"
@@ -757,7 +695,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-container" value="&lt;div class=&quot;container&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;"
@@ -766,7 +703,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-row" value="&lt;div class=&quot;row&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Row"
@@ -775,7 +711,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:1"
@@ -785,7 +720,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:2"
@@ -795,7 +729,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:3"
@@ -805,7 +738,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:4"
@@ -815,7 +747,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:5"
@@ -825,7 +756,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:6"
@@ -835,7 +765,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:7"
@@ -845,7 +774,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:8"
@@ -855,7 +783,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:9"
@@ -865,7 +792,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:10"
@@ -875,7 +801,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:11"
@@ -885,7 +810,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-col:12"
@@ -895,7 +819,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form:horizontal"
@@ -909,7 +832,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form:inline"
@@ -922,7 +844,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form"
@@ -936,7 +857,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form:label" value="&lt;label for=&quot;$var1$&quot;$var2$&gt;$var3$&lt;/label&gt;$END$"
@@ -949,7 +869,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-checkbox"
@@ -962,7 +881,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-input"
@@ -979,7 +897,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-input:h"
@@ -999,7 +916,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-select"
@@ -1012,7 +928,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-select:h"
@@ -1028,7 +943,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-radio"
@@ -1044,7 +958,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-submit:h"
@@ -1057,7 +970,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-submit"
@@ -1069,7 +981,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-template:starter"
@@ -1079,7 +990,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form-field:button"
@@ -1090,7 +1000,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form-field:checkbox"
@@ -1101,7 +1010,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form-field:text"
@@ -1113,7 +1021,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-form-field:time"
@@ -1125,7 +1032,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-feature:carousel-rows"
@@ -1141,7 +1047,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-feature:carousel-rows-css"
@@ -1165,7 +1070,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-feature:image-card-with-description-css"
@@ -1185,7 +1089,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-feature:thumbnail"
@@ -1195,7 +1098,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-tabs" value="&lt;ul class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Tabs" toReformat="true" toShortenFQNames="true">
@@ -1203,7 +1105,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pills" value="&lt;ul class=&quot;nav nav-pills&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;" description="Pills" toReformat="true" toShortenFQNames="true">
@@ -1211,7 +1112,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pills:vertical" value="&lt;ul class=&quot;nav nav-pills nav-stacked&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Pills (Vertical)" toReformat="true" toShortenFQNames="true">
@@ -1219,7 +1119,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-tabs:justified" value="&lt;ul class=&quot;nav nav-tabs nav-justified&quot; role=&quot;tablist&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Tabs (Justified)" toReformat="true" toShortenFQNames="true">
@@ -1227,7 +1126,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pills:justified" value="&lt;ul class=&quot;nav nav-pills nav-justified&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Pills (Justified)" toReformat="true" toShortenFQNames="true">
@@ -1235,7 +1133,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-tabs:dropdown" value="&lt;ul class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Help&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;dropdown&quot;&gt;&#10;    &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;&#10;      Dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#10;    &lt;/a&gt;&#10;    &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;" description="Tabs (With dropdown menu)" toReformat="true" toShortenFQNames="true">
@@ -1243,7 +1140,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-pills:dropdown" value="&lt;ul class=&quot;nav nav-pills&quot;&gt;&#10;  &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Help&lt;/a&gt;&lt;/li&gt;&#10;  &lt;li class=&quot;dropdown&quot;&gt;&#10;    &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;&#10;      Dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#10;    &lt;/a&gt;&#10;    &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/li&gt;&#10;&lt;/ul&gt;" description="Pills (With dropdown menu)" toReformat="true" toShortenFQNames="true">
@@ -1251,7 +1147,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-button:dropdown" value="&lt;div class=&quot;dropdown&quot;&gt;&#10;  &lt;button class=&quot;btn btn-default dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdownMenu1&quot; data-toggle=&quot;dropdown&quot;&gt;&#10;    Dropdown&#10;    &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#10;  &lt;/button&gt;&#10;  &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot; aria-labelledby=&quot;dropdownMenu1&quot;&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;dropdown-header&quot;&gt;Dropdown header&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;disabled&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot; class=&quot;dropdown-header&quot;&gt;Dropdown header&lt;/li&gt;&#10;    &lt;li role=&quot;presentation&quot;&gt;&lt;a role=&quot;menuitem&quot; tabindex=&quot;-1&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;" description="Full dropdown example" toReformat="false" toShortenFQNames="true">
@@ -1259,7 +1154,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-button-group" value="&lt;div class=&quot;btn-group&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Left&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Middle&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Right&lt;/button&gt;&#10;&lt;/div&gt;" description="Button group" toReformat="true" toShortenFQNames="true">
@@ -1267,7 +1161,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-button-toolbar" value="&lt;div class=&quot;btn-toolbar&quot; role=&quot;toolbar&quot;&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;1&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;2&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;3&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;4&lt;/button&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;5&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;6&lt;/button&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;7&lt;/button&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;8&lt;/button&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Button toolbar" toReformat="true" toShortenFQNames="true">
@@ -1275,7 +1168,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
     <template name="bs3-button-group:vertical" value="&lt;div class=&quot;btn-group-vertical&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;&#10;  &lt;div class=&quot;btn-group&quot;&gt;&#10;    &lt;button id=&quot;btnGroupVerticalDrop1&quot; type=&quot;button&quot; class=&quot;btn btn-default dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;&#10;      Dropdown&#10;      &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&#10;    &lt;/button&gt;&#10;    &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot; aria-labelledby=&quot;btnGroupVerticalDrop1&quot;&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;&#10;      &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Dropdown link&lt;/a&gt;&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/div&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Button&lt;/button&gt;&#10;&lt;/div&gt;" description="Button group (Vertical orientation)" toReformat="true" toShortenFQNames="true">
@@ -1283,7 +1175,6 @@
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
             <option name="PHP" value="true"/>
-            <option name="OTHER" value="true"/>
         </context>
     </template>
 
