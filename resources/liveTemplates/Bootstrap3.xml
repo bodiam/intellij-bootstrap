@@ -1488,7 +1488,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar-with-label" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%;&quot;&gt;&#10;    60%&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Progress bar with label" toReformat="true">
+    <template name="bs3-progress-bar:label" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%;&quot;&gt;&#10;    60%&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Progress bar with label" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1538,7 +1538,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar-striped" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-info progress-bar-striped&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;20&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Striped progress bar" toReformat="true">
+    <template name="bs3-progress-bar:striped" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-info progress-bar-striped&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;20&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Striped progress bar" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1548,7 +1548,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar-striped-animated" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-striped active&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;45&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 45%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;45% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Animated striped progress bar" toReformat="true">
+    <template name="bs3-progress-bar:striped-animated" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-striped active&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;45&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 45%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;45% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Animated striped progress bar" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1558,7 +1558,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar-stacked" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-success&quot; style=&quot;width: 35%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;35% Complete (success)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-warning progress-bar-striped&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete (warning)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-danger&quot; style=&quot;width: 10%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;10% Complete (danger)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Stacked progress bar" toReformat="true">
+    <template name="bs3-progress-bar:stacked" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-success&quot; style=&quot;width: 35%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;35% Complete (success)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-warning progress-bar-striped&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete (warning)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-danger&quot; style=&quot;width: 10%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;10% Complete (danger)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Stacked progress bar" toReformat="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>

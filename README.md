@@ -30,6 +30,17 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ## What's new 
 
+Since 1.4 (13 Nov 2014):
+
+Added more templates:
+
+- dismissable-alert
+- alert-link
+- progress-bars
+- well
+
+Also: Removed the 'OTHER' context, added JSP and GSP context. Upgraded to Bootstrap 3.3.1
+
 Since 1.3 (18 Oct 2014):
 
 Added more templates:
@@ -66,6 +77,8 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 
 ## What's included - contents
 - [Alert](#alert)
+- [Alert-link](#alert-link)
+- [Alert](#alert)
 - [Badge](#badge)
 - [Breadcrumbs](#breadcrumbs)
 - [Button-group](#button-group)
@@ -76,6 +89,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 - [Clearfix](#clearfix)
 - [Col](#col)
 - [Container](#container)
+- [Dismissable-alert](#dismissable-alert)
 - [Feature](#feature)
 - [Form](#form)
 - [Form-field](#form-field)
@@ -94,6 +108,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 - [Pagination](#pagination)
 - [Panel](#panel)
 - [Pills](#pills)
+- [Progress-bar](#progress-bar)
 - [Radio](#radio)
 - [Row](#row)
 - [Select](#select)
@@ -102,12 +117,24 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 - [Tabs](#tabs)
 - [Template](#template)
 - [Thumbnail](#thumbnail)
+- [Well](#well)
 
 ### Alert
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | Alert                          | bs3-alert                      | HTML    |
+
+### Alert-link
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Alert with alert link (warning) | bs3-alert-link                 | HTML    |
+
+### Alert
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
 | Alert (Danger)                 | bs3-alert:danger               | HTML    |
 | Alert (Info)                   | bs3-alert:info                 | HTML    |
 | Alert (Success)                | bs3-alert:success              | HTML    |
@@ -186,6 +213,15 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | Container                      | bs3-container                  | HTML    |
+
+### Dismissable-alert
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Dismissable alert (danger)     | bs3-dismissable-alert:danger   | HTML    |
+| Dismissable alert (info)       | bs3-dismissable-alert:info     | HTML    |
+| Dismissable alert (success)    | bs3-dismissable-alert:success  | HTML    |
+| Dismissable alert (warning)    | bs3-dismissable-alert:warning  | HTML    |
 
 ### Feature
 
@@ -340,6 +376,20 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Pills (Justified)              | bs3-pills:justified            | HTML    |
 | Pills (Vertical)               | bs3-pills:vertical             | HTML    |
 
+### Progress-bar
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Basic progress bar             | bs3-progress-bar               | HTML    |
+| Progress bar (danger)          | bs3-progress-bar:danger        | HTML    |
+| Progress bar (info)            | bs3-progress-bar:info          | HTML    |
+| Progress bar with label        | bs3-progress-bar:label         | HTML    |
+| Stacked progress bar           | bs3-progress-bar:stacked       | HTML    |
+| Striped progress bar           | bs3-progress-bar:striped       | HTML    |
+| Animated striped progress bar  | bs3-progress-bar:striped-animated | HTML    |
+| Progress bar (success)         | bs3-progress-bar:success       | HTML    |
+| Progress bar (warning)         | bs3-progress-bar:warning       | HTML    |
+
 ### Radio
 
 | Component                      | Snippet code                   | Context |
@@ -398,6 +448,14 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 |------------------------------- | -------------------------------| ------- |
 | Thumbnail                      | bs3-thumbnail                  | HTML    |
 | Thumbnail with content         | bs3-thumbnail:content          | HTML    |
+
+### Well
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Well                           | bs3-well                       | HTML    |
+| Well (large)                   | bs3-well:large                 | HTML    |
+| Well (small)                   | bs3-well:small                 | HTML    |
 
 ### License
 
