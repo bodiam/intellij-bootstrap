@@ -30,6 +30,13 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ## What's new 
 
+Since 1.5 (5 December 2014):
+
+Added more templates:
+
+- media list
+- responsive embed
+
 Since 1.4 (13 Nov 2014):
 
 Added more templates:
@@ -110,6 +117,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 - [Pills](#pills)
 - [Progress-bar](#progress-bar)
 - [Radio](#radio)
+- [Responsive-embed](#responsive-embed)
 - [Row](#row)
 - [Select](#select)
 - [Submit](#submit)
@@ -307,7 +315,8 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
-| Media Object                   | bs3-media-object               | HTML    |
+| Media object (single entry)    | bs3-media-object               | HTML    |
+| Example media object           | bs3-media-object:example       | HTML    |
 
 ### Modal
 
@@ -395,6 +404,13 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | Radio Form Field               | bs3-radio                      | HTML    |
+
+### Responsive-embed
+
+| Component                      | Snippet code                   | Context |
+|------------------------------- | -------------------------------| ------- |
+| Responsive embed of video (16:9) | bs3-responsive-embed:16:9      | HTML    |
+| Responsive embed of video (4:3) | bs3-responsive-embed:4:3       | HTML    |
 
 ### Row
 

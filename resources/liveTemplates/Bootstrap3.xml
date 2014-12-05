@@ -348,22 +348,6 @@
 			<option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-media-object"
-              value="&lt;div class=&quot;media&quot;&gt;&#10;&#9;&lt;a class=&quot;pull-left&quot; href=&quot;$var1$&quot;&gt;&#10;&#9;&#9;&lt;img class=&quot;media-object&quot; src=&quot;$var2$&quot; alt=&quot;$var3$&quot;&gt;&#10;&#9;&lt;/a&gt;&#10;&#9;&lt;div class=&quot;media-body&quot;&gt;&#10;&#9;&#9;&lt;h4 class=&quot;media-heading&quot;&gt;$var4$&lt;/h4&gt;&#10;&#9;&#9;&lt;p&gt;$var5$&lt;/p&gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;$END$"
-              description="Media Object" toReformat="false">
-        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Image&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Media heading&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Text goes here&quot;" defaultValue="" alwaysStopAt="true"/>
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-			<option name="GSP" value="true"/>
-			<option name="JSP" value="true"/>
-        </context>
-    </template>
     <template name="bs3-modal"
               value="&lt;a class=&quot;btn btn-primary&quot; data-toggle=&quot;modal&quot; href=&quot;$var1$&quot;&gt;Trigger modal&lt;/a&gt;&#10;&lt;div class=&quot;modal fade&quot; id=&quot;$var1$&quot;&gt;&#10;&#9;&lt;div class=&quot;modal-dialog&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;modal-content&quot;&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-header&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&#9;&#9;&#9;&lt;h4 class=&quot;modal-title&quot;&gt;$var2$&lt;/h4&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-body&quot;&gt;&#10;&#9;&#9;&#9;&#9;$var3$&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-footer&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;&gt;$var4$&lt;/button&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;$var5$&lt;/button&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&lt;!-- /.modal-content --&gt;&#10;&#9;&lt;/div&gt;&lt;!-- /.modal-dialog --&gt;&#10;&lt;/div&gt;&lt;!-- /.modal --&gt;$END$"
               description="Modal Dialog Box" toReformat="false">
@@ -1566,6 +1550,48 @@
             <option name="GSP" value="true"/>
             <option name="JSP" value="true"/>
         </context>
-    </template>    
+    </template>
+    <template name="bs3-media-object:example" value="&lt;div class=&quot;media&quot;&gt;&#10;  &lt;a class=&quot;media-left&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;Media heading&lt;/h4&gt;&#10;    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;media&quot;&gt;&#10;  &lt;a class=&quot;media-left&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;Media heading&lt;/h4&gt;&#10;    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;    &lt;div class=&quot;media&quot;&gt;&#10;      &lt;a class=&quot;media-left&quot; href=&quot;#&quot;&gt;&#10;        &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;      &lt;/a&gt;&#10;      &lt;div class=&quot;media-body&quot;&gt;&#10;        &lt;h4 class=&quot;media-heading&quot;&gt;Nested media heading&lt;/h4&gt;&#10;        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;media&quot;&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;Media heading&lt;/h4&gt;&#10;    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.&#10;  &lt;/div&gt;&#10;  &lt;a class=&quot;media-right&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;media&quot;&gt;&#10;  &lt;a class=&quot;media-left&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;Media heading&lt;/h4&gt;&#10;    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.&#10;  &lt;/div&gt;&#10;  &lt;a class=&quot;media-right&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;&lt;/div&gt;&#10;" description="Example media object" toReformat="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="bs3-media-object" value="&lt;div class=&quot;media&quot;&gt;&#10;  &lt;a class=&quot;media-left&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;$var1$&lt;/h4&gt;&#10;    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$&#10;" description="Media object (single entry)" toReformat="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="bs3-responsive-embed:16:9" value="&lt;!-- 16:9 aspect ratio --&gt;&#10;&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&#10;  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;$var1$&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&#10;&lt;/div&gt;$end$" description="Responsive embed of video (16:9)" toReformat="true">
+        <variable name="var1" expression="" defaultValue="&quot;https://www.youtube.com/watch?v=TAvvEP3twyg&amp;list=UU_PqH6v4O6OhZdqjxM4OTvg&quot;" alwaysStopAt="true" />
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="bs3-responsive-embed:4:3" value="&lt;!-- 4:3 aspect ratio --&gt;&#10;&lt;div class=&quot;embed-responsive embed-responsive-4by3&quot;&gt;&#10;  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;$var1$&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&#10;&lt;/div&gt;$end$" description="Responsive embed of video (4:3)" toReformat="true">
+        <variable name="var1" expression="" defaultValue="&quot;https://www.youtube.com/watch?v=TAvvEP3twyg&amp;list=UU_PqH6v4O6OhZdqjxM4OTvg&quot;" alwaysStopAt="true" />
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
 
 </templateSet>

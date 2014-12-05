@@ -1,3 +1,6 @@
+@Grapes(
+        @Grab(group='com.google.guava', module='guava', version='18.0')
+)
 import com.google.common.base.CaseFormat
 
 def file = new File("resources/liveTemplates/Bootstrap3.xml")
