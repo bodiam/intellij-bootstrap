@@ -14,7 +14,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
-          1.5 Added fluid container.<br />
+          1.6 Added fluid container.<br />
           1.5 Updated media list and added responsive embed.<br />
           1.4 Added dismissable alert, alert link, progress bars, well. Upgraded to Bootstrap 3.3.1. Added JSP and GSP context, and removed 'other' context.<br />
           1.3 Added tabs, pills, button drops and button dropdown<br />
