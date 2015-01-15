@@ -817,6 +817,16 @@
 			<option name="JSP" value="true"/>
         </context>
     </template>
+    <template name="bs3-container:fluid" value="&lt;div class=&quot;container-fluid&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;"
+        	description="Container Fluid" toReformat="false">
+	<context>
+	    <option name="HTML_TEXT" value="true"/>
+	    <option name="HTML" value="true"/>
+	    <option name="PHP" value="true"/>
+	    <option name="GSP" value="true"/>
+	    <option name="JSP" value="true"/>
+	</context>
+     </template>
     <template name="bs3-row" value="&lt;div class=&quot;row&quot;&gt;&#10;&#9;$END$&#10;&lt;/div&gt;" description="Row"
               toReformat="false">
         <context>
