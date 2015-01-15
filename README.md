@@ -28,7 +28,13 @@ To install the plugin open your editor (IntelliJ) and hit:
 3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
 
 
-## What's new 
+## What's new
+
+Since 1.6 (15 Januari 2015)
+
+Added more templates:
+
+- added container fluid, thanks to Emin Şen
 
 Since 1.5 (5 December 2014):
 
@@ -221,6 +227,7 @@ Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 | Component                      | Snippet code                   | Context |
 |------------------------------- | -------------------------------| ------- |
 | Container                      | bs3-container                  | HTML    |
+| Container Fluid                | bs3-container:fluid            | HTML    |
 
 ### Dismissable-alert
 
