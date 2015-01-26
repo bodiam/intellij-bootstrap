@@ -27,6 +27,9 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 3) Finally hit the `Apply` button, agree to restart your IDE and you're all done!
 
+### Usage
+
+To use the plugin, open an editor, and start typing `bs3-`, followed by pressing CMD+J. A list of templates will show up. Alternatively, you can type e.g. `alert`, followed by CMD+J, to immediately show only the alert templates.
 
 ## What's new
 
