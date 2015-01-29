@@ -33,7 +33,11 @@ To use the plugin, open an editor, and start typing `bs3-`, followed by pressing
 
 ## What's new
 
-Since 1.6 (15 Januari 2015)
+Since 1.7 (29 January 2015)
+
+- upgraded to Bootstrap 3.3.1
+
+Since 1.6 (15 January 2015)
 
 Added more templates:
 
