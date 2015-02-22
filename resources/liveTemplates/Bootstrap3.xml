@@ -973,7 +973,7 @@
               value="&lt;form action=&quot;$var1$&quot; method=&quot;$var2$&quot; class=&quot;form-horizontal&quot; role=&quot;form&quot;&gt;&#10;    &lt;div class=&quot;form-group&quot;&gt;&#10;        &lt;legend&gt;$var3$&lt;/legend&gt;&#10;    &lt;/div&gt;&#10;&#10;    $END$&#10;&#10;    &lt;div class=&quot;form-group&quot;&gt;&#10;        &lt;div class=&quot;col-sm-10 col-sm-offset-2&quot;&gt;&#10;            &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/button&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/form&gt;"
               description="Form (Horizontal)" toReformat="false">
         <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;POST&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;post&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Form Title&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var4" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
@@ -988,7 +988,7 @@
               value="&lt;form action=&quot;$var1$&quot; method=&quot;$var2$&quot; class=&quot;form-inline&quot; role=&quot;form&quot;&gt;&#10;&#10;&#9;&lt;div class=&quot;form-group&quot;&gt;&#10;&#9;&#9;&lt;label class=&quot;sr-only&quot; for=&quot;&quot;&gt;label&lt;/label&gt;&#10;&#9;&#9;&lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;&quot; id=&quot;&quot; placeholder=&quot;Input ...&quot;&gt;&#10;&#9;&lt;/div&gt;&#10;&#10;&#9;$END$&#10;&#10;&#9;&lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$var3$&lt;/button&gt;&#10;&lt;/form&gt;"
               description="Form (Inline)" toReformat="false">
         <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;POST&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;post&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1002,7 +1002,7 @@
               value="&lt;form action=&quot;$var1$&quot; method=&quot;$var2$&quot; role=&quot;form&quot;&gt;&#10;&#9;&lt;legend&gt;$var3$&lt;/legend&gt;&#10;&#10;&#9;&lt;div class=&quot;form-group&quot;&gt;&#10;&#9;&#9;&lt;label for=&quot;&quot;&gt;&lt;/label&gt;&#10;&#9;&#9;&lt;input type=&quot;text&quot; class=&quot;form-control&quot; name=&quot;&quot; id=&quot;&quot; placeholder=&quot;Input...&quot;&gt;&#10;&#9;&lt;/div&gt;&#10;&#10;&#9;$END$&#10;&#10;&#9;&lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/button&gt;&#10;&lt;/form&gt;"
               description="Form" toReformat="false">
         <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;POST&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;post&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Form Title&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var4" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
         <context>
