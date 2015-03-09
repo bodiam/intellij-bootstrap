@@ -14,6 +14,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
+          1.8.1 Removed duplicated meta tag in bs3-template:html5 live template thanks to <a href="https://github.com/oscarbatlle">oscarbatlle</a>!<br />
           1.8 Added FontAwesome templates thanks to <a href="https://github.com/pixsrv">pixsrv</a>!<br />
           1.7 Updgraded to Bootstrap 3.3.2.<br />
           1.6 Added fluid container.<br />

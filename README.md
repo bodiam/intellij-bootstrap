@@ -33,6 +33,10 @@ To use the plugin, open an editor, and start typing `bs3-`, followed by pressing
 
 ## What's new
 
+Since 1.8.1 (9 March 2015)
+
+- Removed duplicated meta tag in bs3-template:html5 live template thanks to oscarbatlle!
+
 Since 1.8 (15 February 2015)
 
 - added all the icons of Font Awesome thanks to pixsrv!
