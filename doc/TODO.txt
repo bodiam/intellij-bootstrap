@@ -4,3 +4,11 @@ http://www.bootply.com/render/101053
 http://bootsnipp.com/snippets/featured/search-results
 http://bootsnipp.com/snippets/featured/blog-posts-with-picture
 http://danvswild.com/brew/
+
+http://bootsnipp.com/snippets/featured/blog-post-list-with-photo
+http://bootsnipp.com/snippets/featured/event-list
+http://bootsnipp.com/snippets/featured/ui-comments
+http://bootsnipp.com/snippets/featured/responsive-event
+http://bootsnipp.com/tags/lists?page=3
+http://ironsummitmedia.github.io/startbootstrap-simple-sidebar/
+

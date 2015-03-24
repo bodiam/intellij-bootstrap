@@ -33,6 +33,10 @@ To use the plugin, open an editor, and start typing `bs3-`, followed by pressing
 
 ## What's new
 
+Since 1.9 (24 March 2015)
+
+- upgraded to Bootstrap 3.3.4
+
 Since 1.8.1 (9 March 2015)
 
 - Removed duplicated meta tag in bs3-template:html5 live template thanks to oscarbatlle!
@@ -43,7 +47,7 @@ Since 1.8 (15 February 2015)
 
 Since 1.7 (29 January 2015)
 
-- upgraded to Bootstrap 3.3.1
+- upgraded to Bootstrap 3.3.2
 
 Since 1.6 (15 January 2015)
 

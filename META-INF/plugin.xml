@@ -1,7 +1,7 @@
 <idea-plugin version="2" url="https://github.com/bodiam/intellij-bootstrap3">
   <id>nl.jworks.intellij.bootstrap3</id>
   <name>Bootstrap 3</name>
-  <version>1.8.1</version>
+  <version>1.9</version>
   <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
   <description><![CDATA[
@@ -14,6 +14,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
+          1.9 Updgraded to Bootstrap 3.3.4.<br />
           1.8.1 Removed duplicated meta tag in bs3-template:html5 live template thanks to <a href="https://github.com/oscarbatlle">oscarbatlle</a>!<br />
           1.8 Added FontAwesome templates thanks to <a href="https://github.com/pixsrv">pixsrv</a>!<br />
           1.7 Updgraded to Bootstrap 3.3.2.<br />
