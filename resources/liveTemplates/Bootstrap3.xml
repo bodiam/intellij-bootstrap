@@ -1389,7 +1389,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-well" value="&lt;div class=&quot;well&quot;&gt;$var1$&lt;/div&gt;$end$" description="Well" toReformat="true" toShortenFQNames="false">
+    <template name="bs3-well" value="&lt;div class=&quot;well&quot;&gt;$var1$&lt;/div&gt;$END$" description="Well" toReformat="true" toShortenFQNames="false">
         <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -1400,7 +1400,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-well:large" value="&lt;div class=&quot;well well-lg&quot;&gt;$var1$&lt;/div&gt;$end$" description="Well (large)" toReformat="true" toShortenFQNames="false">
+    <template name="bs3-well:large" value="&lt;div class=&quot;well well-lg&quot;&gt;$var1$&lt;/div&gt;$END$" description="Well (large)" toReformat="true" toShortenFQNames="false">
         <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -1411,7 +1411,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-well:small" value="&lt;div class=&quot;well well-sm&quot;&gt;$var1$&lt;/div&gt;$end$" description="Well (small)" toReformat="true" toShortenFQNames="false">
+    <template name="bs3-well:small" value="&lt;div class=&quot;well well-sm&quot;&gt;$var1$&lt;/div&gt;$END$" description="Well (small)" toReformat="true" toShortenFQNames="false">
         <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -1422,7 +1422,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-dismissable-alert:warning" value="&lt;div class=&quot;alert alert-warning alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$end$" description="Dismissable alert (warning)" toReformat="true">
+    <template name="bs3-dismissable-alert:warning" value="&lt;div class=&quot;alert alert-warning alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$END$" description="Dismissable alert (warning)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1432,7 +1432,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-dismissable-alert:success" value="&lt;div class=&quot;alert alert-success alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$end$" description="Dismissable alert (success)" toReformat="true">
+    <template name="bs3-dismissable-alert:success" value="&lt;div class=&quot;alert alert-success alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$END$" description="Dismissable alert (success)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1442,7 +1442,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-dismissable-alert:danger" value="&lt;div class=&quot;alert alert-danger alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$end$" description="Dismissable alert (danger)" toReformat="true">
+    <template name="bs3-dismissable-alert:danger" value="&lt;div class=&quot;alert alert-danger alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$END$" description="Dismissable alert (danger)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1452,7 +1452,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-dismissable-alert:info" value="&lt;div class=&quot;alert alert-info alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$end$" description="Dismissable alert (info)" toReformat="true">
+    <template name="bs3-dismissable-alert:info" value="&lt;div class=&quot;alert alert-info alert-dismissible&quot; role=&quot;alert&quot;&gt;&#10;  &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&lt;/button&gt;&#10;  &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're not looking too good.&#10;&lt;/div&gt;$END$" description="Dismissable alert (info)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1462,7 +1462,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-alert-link" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10;   &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're &lt;a href=&quot;#&quot; class=&quot;alert-link&quot;&gt;not looking too good&lt;/a&gt;.&#10;&lt;/div&gt;$end$" description="Alert with alert link (warning)" toReformat="true">
+    <template name="bs3-alert-link" value="&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;&#10;   &lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you're &lt;a href=&quot;#&quot; class=&quot;alert-link&quot;&gt;not looking too good&lt;/a&gt;.&#10;&lt;/div&gt;$END$" description="Alert with alert link (warning)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1472,7 +1472,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%;&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;60% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Basic progress bar" toReformat="true">
+    <template name="bs3-progress-bar" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%;&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;60% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Basic progress bar" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1482,7 +1482,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar:label" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%;&quot;&gt;&#10;    60%&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Progress bar with label" toReformat="true">
+    <template name="bs3-progress-bar:label" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%;&quot;&gt;&#10;    60%&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Progress bar with label" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1492,7 +1492,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar:success" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-success&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;40&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 40%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;40% Complete (success)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Progress bar (success)" toReformat="true">
+    <template name="bs3-progress-bar:success" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-success&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;40&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 40%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;40% Complete (success)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Progress bar (success)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1502,7 +1502,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar:info" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-info&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;20&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Progress bar (info)" toReformat="true">
+    <template name="bs3-progress-bar:info" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-info&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;20&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Progress bar (info)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1512,7 +1512,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar:warning" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-warning&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;60% Complete (warning)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Progress bar (warning)" toReformat="true">
+    <template name="bs3-progress-bar:warning" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-warning&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;60% Complete (warning)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Progress bar (warning)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1522,7 +1522,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar:danger" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-danger&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;80&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 80%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;80% Complete (danger)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Progress bar (danger)" toReformat="true">
+    <template name="bs3-progress-bar:danger" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-danger&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;80&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 80%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;80% Complete (danger)&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Progress bar (danger)" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1532,7 +1532,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar:striped" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-info progress-bar-striped&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;20&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Striped progress bar" toReformat="true">
+    <template name="bs3-progress-bar:striped" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-info progress-bar-striped&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;20&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 20%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;20% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Striped progress bar" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1542,7 +1542,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-progress-bar:striped-animated" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-striped active&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;45&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 45%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;45% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$" description="Animated striped progress bar" toReformat="true">
+    <template name="bs3-progress-bar:striped-animated" value="&lt;div class=&quot;progress&quot;&gt;&#10;  &lt;div class=&quot;progress-bar progress-bar-striped active&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;45&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 45%&quot;&gt;&#10;    &lt;span class=&quot;sr-only&quot;&gt;45% Complete&lt;/span&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Animated striped progress bar" toReformat="true">
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -1570,7 +1570,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-media-object" value="&lt;div class=&quot;media&quot;&gt;&#10;  &lt;a class=&quot;media-left&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;$var1$&lt;/h4&gt;&#10;    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$end$&#10;" description="Media object (single entry)" toReformat="true">
+    <template name="bs3-media-object" value="&lt;div class=&quot;media&quot;&gt;&#10;  &lt;a class=&quot;media-left&quot; href=&quot;#&quot;&gt;&#10;    &lt;img src=&quot;http://placehold.it/64x64&quot; style=&quot;width: 64px; height: 64px;&quot;&gt;&#10;  &lt;/a&gt;&#10;  &lt;div class=&quot;media-body&quot;&gt;&#10;    &lt;h4 class=&quot;media-heading&quot;&gt;$var1$&lt;/h4&gt;&#10;    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;  &lt;/div&gt;&#10;&lt;/div&gt;$END$&#10;" description="Media object (single entry)" toReformat="true">
         <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -1581,7 +1581,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-responsive-embed:16:9" value="&lt;!-- 16:9 aspect ratio --&gt;&#10;&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&#10;  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;$var1$&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&#10;&lt;/div&gt;$end$" description="Responsive embed of video (16:9)" toReformat="true">
+    <template name="bs3-responsive-embed:16:9" value="&lt;!-- 16:9 aspect ratio --&gt;&#10;&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&#10;  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;$var1$&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&#10;&lt;/div&gt;$END$" description="Responsive embed of video (16:9)" toReformat="true">
         <variable name="var1" expression="" defaultValue="&quot;https://www.youtube.com/watch?v=TAvvEP3twyg&amp;list=UU_PqH6v4O6OhZdqjxM4OTvg&quot;" alwaysStopAt="true" />
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -1592,7 +1592,7 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
-    <template name="bs3-responsive-embed:4:3" value="&lt;!-- 4:3 aspect ratio --&gt;&#10;&lt;div class=&quot;embed-responsive embed-responsive-4by3&quot;&gt;&#10;  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;$var1$&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&#10;&lt;/div&gt;$end$" description="Responsive embed of video (4:3)" toReformat="true">
+    <template name="bs3-responsive-embed:4:3" value="&lt;!-- 4:3 aspect ratio --&gt;&#10;&lt;div class=&quot;embed-responsive embed-responsive-4by3&quot;&gt;&#10;  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;$var1$&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&#10;&lt;/div&gt;$END$" description="Responsive embed of video (4:3)" toReformat="true">
         <variable name="var1" expression="" defaultValue="&quot;https://www.youtube.com/watch?v=TAvvEP3twyg&amp;list=UU_PqH6v4O6OhZdqjxM4OTvg&quot;" alwaysStopAt="true" />
         <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
