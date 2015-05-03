@@ -1060,7 +1060,7 @@
         </context>
     </template>
     <template name="bs3-input:h"
-              value="&lt;div class=&quot;form-group&quot;&gt;&#10;&#9;&lt;label for=&quot;$var5$&quot; class=&quot;col-$var1$ control-label&quot;&gt;$var2$&lt;/label&gt;&#10;&#9;&lt;div class=&quot;col-$var3$&quot;&gt;&#10;&#9;&#9;&lt;input type=&quot;$var4$&quot; name=&quot;$var5$&quot; id=&quot;$var6$&quot; class=&quot;form-control&quot;$var7$$var8$$var9$ &gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;$END$"
+              value="&lt;div class=&quot;form-group&quot;&gt;&#10;&#9;&lt;label for=&quot;$var6$&quot; class=&quot;col-$var1$ control-label&quot;&gt;$var2$&lt;/label&gt;&#10;&#9;&lt;div class=&quot;col-$var3$&quot;&gt;&#10;&#9;&#9;&lt;input type=&quot;$var4$&quot; name=&quot;$var5$&quot; id=&quot;$var6$&quot; class=&quot;form-control&quot;$var7$$var8$$var9$ &gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;$END$"
               description="Horizontal Form Input Field" toReformat="false">
         <variable name="var1" expression="&quot;sm-2&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;Label:&quot;" defaultValue="" alwaysStopAt="true"/>
