@@ -434,7 +434,7 @@
     <template name="bs3-radio" value=".radio&#10;  label&#10;    input(type='radio', name='$var1$', id='$var2$', var3='', var4='')&#10;    |  $var5$&#10;$END$" description="Radio Form Field" toReformat="false">
         <variable name="var1" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;inputID&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot; value=\&quot;\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot; value=\&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var4" expression="&quot; checked=\&quot;checked\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var5" expression="&quot;Radio box&quot;" defaultValue="" alwaysStopAt="true"/>
         <context><option name="JADE" value="true"/></context>
