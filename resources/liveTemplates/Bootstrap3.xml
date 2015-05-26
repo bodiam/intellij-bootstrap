@@ -986,8 +986,7 @@
     </template>
     <template name="bs3-form:inline"
               value="&lt;form action=&quot;$var1$&quot; method=&quot;$var2$&quot; class=&quot;form-inline&quot; role=&quot;form&quot;&gt;&#10;&#10;&#9;&lt;div class=&quot;form-group&quot;&gt;&#10;&#9;&#9;&lt;label class=&quot;sr-only&quot; for=&quot;&quot;&gt;label&lt;/label&gt;&#10;&#9;&#9;&lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;&quot; id=&quot;&quot; placeholder=&quot;Input ...&quot;&gt;&#10;&#9;&lt;/div&gt;&#10;&#10;&#9;$END$&#10;&#10;&#9;&lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;$var3$&lt;/button&gt;&#10;&lt;/form&gt;"
-              description="Form (Inline)" toReform
-              at="false">
+              description="Form (Inline)" toReformat="false">
         <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;post&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
