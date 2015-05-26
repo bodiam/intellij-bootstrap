@@ -1116,7 +1116,7 @@
               description="Radio Form Field" toReformat="false">
         <variable name="var1" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;inputID&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot; value=\&quot;\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot; value=\&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var4" expression="&quot; checked=\&quot;checked\&quot;&quot;" defaultValue=""
                   alwaysStopAt="true"/>
         <variable name="var5" expression="&quot;Radio box&quot;" defaultValue="" alwaysStopAt="true"/>
