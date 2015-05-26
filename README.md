@@ -7,11 +7,8 @@ An IntelliJ plugin containing Bootstrap 3 live templates - lots of live template
 - WebStorm and PhpStorm
 - PyCharm
 - RubyMine
-
+2.0.0
 ![Plugin in action](https://raw.githubusercontent.com/bodiam/intellij-bootstrap3/master/screencasts/starter-template.gif)
-
-This plugin is based on [bootstrap-3-phpstorm-plugin](https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin) by [@JasonMortonNZ](https://twitter.com/jasonmortonnz),
-who did all of the hard work of creating most of the templates. 
 
 Feel free to let me know what else you want added via the [issues](https://github.com/bodiam/intellij-bootstrap3/issues).
 
@@ -32,6 +29,13 @@ To install the plugin open your editor (IntelliJ) and hit:
 To use the plugin, open an editor, and start typing `bs3-`, followed by pressing CMD+J. A list of templates will show up. Alternatively, you can type e.g. `alert`, followed by CMD+J, to immediately show only the alert templates.
 
 ## What's new
+
+Since 2.0 (26 May 2015)
+
+- Jade support
+- Small bugfixes 
+
+Thanks [Paweł Jedwabny](https://github.com/pjedwabny), [Lihai Ben-Haim](https://github.com/lihaibh) and [Oscar Batlle](https://github.com/oscarbatlle)! 
 
 Since 1.9.1 (24 March 2015)
 
@@ -836,3 +840,7 @@ This list has been contributed by [pixsrv](https://github.com/pixsrv)
 ### License
 
 Bootstrap 3 - IntelliJ Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
+This plugin is based on [bootstrap-3-phpstorm-plugin](https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin) by [@JasonMortonNZ](https://twitter.com/jasonmortonnz),
+who did all of the hard work of creating most of the templates. 
+
