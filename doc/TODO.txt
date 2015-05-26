@@ -18,3 +18,5 @@ http://bootstrapious.com/p/coming-soon-template
 http://bootstrap-table.wenzhixin.net.cn/
 http://www.bootstrap-switch.org/?utm_content=buffer7f135&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
   https://cdnjs.com/libraries/bootstrap-switch
+
+http://jasny.github.io/bootstrap/getting-started/

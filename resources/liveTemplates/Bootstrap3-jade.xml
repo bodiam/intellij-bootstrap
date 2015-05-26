@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Bootstrap3Jade">
+    <template name="bs3-alert:danger" value=".alert.alert-danger&#10;  button.close(type='button', data-dismiss='alert', aria-hidden='true') &amp;times;&#10;  strong $var1$&#10;  |  $var2$&#10;$END$" description="Alert (Danger)" toReformat="false">
+        <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-alert:info" value=".alert.alert-info&#10;  button.close(type='button', data-dismiss='alert', aria-hidden='true') &amp;times;&#10;  strong $var1$&#10;  |  $var2$&#10;$END$" description="Alert (Info)" toReformat="false">
+        <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-alert:success" value=".alert.alert-success&#10;  button.close(type='button', data-dismiss='alert', aria-hidden='true') &amp;times;&#10;  strong $var1$&#10;  |  $var2$&#10;$END$" description="Alert (Success)" toReformat="false">
+        <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-alert:warning" value=".alert.alert-warning&#10;  button.close(type='button', data-dismiss='alert', aria-hidden='true') &amp;times;&#10;  strong $var1$&#10;  |  $var2$&#10;$END$" description="Alert (Warning)" toReformat="false">
+        <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-alert" value=".alert&#10;  button.close(type='button', data-dismiss='alert', aria-hidden='true') &amp;times;&#10;  strong $var1$&#10;  |  $var2$&#10;$END$" description="Alert" toReformat="false">
+        <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-badge" value="span.badge $var1$&#10;$END$" description="Badge" toReformat="false">
+        <variable name="var1" expression="&quot;Badge&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-breadcrumbs" value="ol.breadcrumb&#10;  li&#10;    a(href='$var1$') $var2$&#10;  li.active $var3$&#10;$END$" description="Breadcrumbs" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-cdn:css" value="// Latest compiled and minified CSS&#10;link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')&#10;$END$" description="Bootstrap 3 CSS CDN" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-cdn:js" value="// Latest compiled and minified JS&#10;script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')&#10;$END$" description="Bootstrap 3 JavaScript CDN" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-cdn" value="// Latest compiled and minified CSS &amp; JS&#10;link(rel='stylesheet', media='screen', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')&#10;script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')&#10;$END$" description="Bootstrap 3 CSS &amp; JS CDN" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-clearfix" value=".clearfix $var1$&#10;$END$" description="Clearfix" toReformat="false">
+        <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-icon:glyphicon" value="span.glyphicon(class='glyphicon-$var1$')&#10;$END$" description="Glyphicon" toReformat="false">
+        <variable name="var1" expression="&quot;icon&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-icon" value="i.fa(class='fa-$name$$size$')&#10;$END$" description="Font Awesome Icon" toReformat="false">
+        <variable name="name" expression="&quot;icon&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="size" expression="&quot; fa-2x&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-image" value="img(src='$var1$', var2='', alt='$var3$')&#10;$END$" description="Image" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot; class=\&quot;img-responsive\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Image&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-thumbnail:content" value=".(class='col-xs-$var1$ col-sm-$var1$ col-md-$var1$ col-lg-$var1$')&#10;  .thumbnail&#10;    img(data-src='$var2$', alt='$var3$')&#10;    .caption&#10;      h3 $var4$&#10;      p $var5$&#10;      p&#10;        a.btn.btn-primary(href='$var6$') $var7$&#10;        a.btn.btn-default(href='$var8$') $var9$&#10;$END$" description="Thumbnail with content" toReformat="false">
+        <variable name="var1" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot;Content...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var6" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var7" expression="&quot;Action&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var8" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var9" expression="&quot;Action&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-thumbnail" value=".(class='col-xs-$var1$ col-sm-$var1$ col-md-$var1$ col-lg-$var1$')&#10;  a.thumbnail(href='$var2$')&#10;    img(data-src='$var3$', alt='$var4$')&#10;$END$" description="Thumbnail" toReformat="false">
+        <variable name="var1" expression="&quot;3&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-jumbotron" value=".jumbotron&#10;  .container&#10;    h1 $var$&#10;    p $var2$&#10;    p&#10;      a.btn.btn-primary.btn-lg $var3$&#10;$END$" description="Jumbotron" toReformat="false">
+        <variable name="var" expression="&quot;Hello, world!&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Contents...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Learn more&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-label:danger" value="span.label.label-danger $var1$&#10;$END$" description="Label (Danger)" toReformat="false">
+        <variable name="var1" expression="&quot;Label&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-label:default" value="span.label.label-default $var1$&#10;$END$" description="Label (Default)" toReformat="false">
+        <variable name="var1" expression="&quot;Label&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-label:info" value="span.label.label-info $var1$&#10;$END$" description="Label (Info)" toReformat="false">
+        <variable name="var1" expression="&quot;Label&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-label:success" value="span.label.label-success $var1$&#10;$END$" description="Label (Success)" toReformat="false">
+        <variable name="var1" expression="&quot;Label&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-label:warning" value="span.label.label-warning $var1$&#10;$END$" description="Label (Warning)" toReformat="false">
+        <variable name="var1" expression="&quot;Label&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-label" value="span.label $var1$&#10;$END$" description="Label" toReformat="false">
+        <variable name="var1" expression="&quot;Label&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-list-group" value="ul.list-group&#10;  li.list-group-item $var1$&#10;  li.list-group-item $var2$&#10;  li.list-group-item $var3$&#10;$END$" description="List group" toReformat="false">
+        <variable name="var1" expression="&quot;Item 1&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Item 2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Item 3&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-list-group:linked" value=".list-group&#10;  a.list-group-item.active(href='#') $var1$&#10;  a.list-group-item(href='#') $var2$&#10;  a.list-group-item(href='#') $var3$&#10;$END$" description="Linked List Group" toReformat="false">
+        <variable name="var1" expression="&quot;Item 1&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Item 2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Item 3&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-list-group:content" value=".list-group&#10;  a.list-group-item.active(href='#')&#10;    h4.list-group-item-heading $var1$&#10;    p.list-group-item-text $var2$&#10;$END$" description="List Group with Content" toReformat="false">
+        <variable name="var1" expression="&quot;Item heading&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Content goes here&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-list-group:badges" value="ul.list-group&#10;  li.list-group-item&#10;    span.badge $var1$&#10;    |  $var2$&#10;  li.list-group-item&#10;    span.badge $var3$&#10;    |  $var4$&#10;  li.list-group-item&#10;    span.badge $var5$&#10;    |  $var6$&#10;$END$" description="List group with Badges" toReformat="false">
+        <variable name="var1" expression="&quot;5&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Item 1&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;10" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Item 2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot;25&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var6" expression="&quot;Item 3&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-modal" value="a.btn.btn-primary(data-toggle='modal', href='$var1$') Trigger modal&#10;.modal.fade(id='$var1$')&#10;  .modal-dialog&#10;    .modal-content&#10;      .modal-header&#10;        button.close(type='button', data-dismiss='modal', aria-hidden='true') &amp;times;&#10;        h4.modal-title $var2$&#10;      .modal-body $var3$&#10;      .modal-footer&#10;        button.btn.btn-default(type='button', data-dismiss='modal') $var4$&#10;        button.btn.btn-primary(type='button') $var5$&#10;    // /.modal-content&#10;  // /.modal-dialog&#10;// /.modal&#10;$END$" description="Modal Dialog Box" toReformat="false">
+        <variable name="var1" expression="&quot;modal-id&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Modal title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Modal body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Close&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot;Save changes&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-page-header" value=".page-header&#10;  h1&#10;    | $var1$&#10;    small $var2$&#10;$END$" description="Page Header" toReformat="false">
+        <variable name="var1" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Subtext&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pager:aligned" value="ul.pager&#10;  li.previous&#10;    a(href='#') &amp;larr; Older&#10;  li.next&#10;    a(href='#') Newer &amp;rarr;&#10;$END$" description="Pager (Aligned)" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pager" value="ul.pager&#10;  li&#10;    a(href='#') Previous&#10;  li&#10;    a(href='#') Next&#10;$END$" description="Pager" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pagination:large" value="ul.pagination.pagination-large&#10;  li&#10;    a(href='#') &amp;laquo;&#10;  li&#10;    a(href='#') 1&#10;  li&#10;    a(href='#') 2&#10;  li&#10;    a(href='#') 3&#10;  li&#10;    a(href='#') 4&#10;  li&#10;    a(href='#') 5&#10;  li&#10;    a(href='#') &amp;raquo;&#10;$END$" description="Pagination (Large)" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pagination:small" value="ul.pagination.pagination-small&#10;  li&#10;    a(href='#') &amp;laquo;&#10;  li&#10;    a(href='#') 1&#10;  li&#10;    a(href='#') 2&#10;  li&#10;    a(href='#') 3&#10;  li&#10;    a(href='#') 4&#10;  li&#10;    a(href='#') 5&#10;  li&#10;    a(href='#') &amp;raquo;&#10;$END$" description="Pagination (Small)" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pagination" value="ul.pagination&#10;  li&#10;    a(href='#') &amp;laquo;&#10;  li&#10;    a(href='#') 1&#10;  li&#10;    a(href='#') 2&#10;  li&#10;    a(href='#') 3&#10;  li&#10;    a(href='#') 4&#10;  li&#10;    a(href='#') 5&#10;  li&#10;    a(href='#') &amp;raquo;&#10;$END$" description="Pagination" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:danger" value=".panel.panel-danger&#10;  .panel-heading&#10;    h3.panel-title $var1$&#10;  .panel-body $var2$&#10;$END$" description="Panel (Danger)" toReformat="false">
+        <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:info" value=".panel.panel-info&#10;  .panel-heading&#10;    h3.panel-title $var1$&#10;  .panel-body $var2$&#10;$END$" description="Panel (Info)" toReformat="false">
+        <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:success" value=".panel.panel-success&#10;  .panel-heading&#10;    h3.panel-title $var1$&#10;  .panel-body $var2$&#10;$END$" description="Panel (Success)" toReformat="false">
+        <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:primary" value=".panel.panel-primary&#10;  .panel-heading&#10;    h3.panel-title $var1$&#10;  .panel-body $var2$&#10;$END$" description="Panel (Primary)" toReformat="false">
+        <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:warning" value=".panel.panel-warning&#10;  .panel-heading&#10;    h3.panel-title $var1$&#10;  .panel-body $var2$&#10;$END$" description="Panel (Warning)" toReformat="false">
+        <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:footer" value=".panel(class='panel-$var0$')&#10;  .panel-body $var1$&#10;  .panel-footer $var2$&#10;$END$" description="Panel with footer" toReformat="false">
+        <variable name="var0" expression="&quot;default&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var1" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel footer&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:heading" value=".panel(class='panel-$var1$')&#10;  .panel-heading&#10;    h3.panel-title $var2$&#10;  .panel-body $var3$&#10;$END$" description="Panel with heading" toReformat="false">
+        <variable name="var1" expression="&quot;default&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Panel body&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel" value=".panel(class='panel-$var1$')&#10;  .panel-body $var2$&#10;$END$" description="Panel" toReformat="false">
+        <variable name="var1" expression="&quot;default&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-panel:table" value=".panel(class='panel-$var1$')&#10;  // Default panel contents&#10;  .panel-heading $var2$&#10;  .panel-body&#10;    p $var3$&#10;  // Table&#10;  table.table&#10;    thead&#10;      tr&#10;        th $var4$&#10;      tr&#10;        th $var5$&#10;    tbody&#10;      tr&#10;        td $var6$&#10;      tr&#10;        td $var7$&#10;$END$" description="Panel with table" toReformat="false">
+        <variable name="var1" expression="&quot;default&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel heading&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Table Heading 1&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot;Table Heading 2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var6" expression="&quot;Table Content 1&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var7" expression="&quot;Table Content 2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-template:html5" value="doctype html&#10;head&#10;  title $var2$&#10;  meta(charset='UTF-8')&#10;  meta(name='description', content='')&#10;  meta(name='viewport', content='width=device-width,initial-scale=1')&#10;  // Bootstrap CSS&#10;  link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css', rel='stylesheet', media='screen')&#10;h1.text-center $var3$&#10;// jQuery&#10;script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')&#10;// Bootstrap JavaScript&#10;script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')&#10;$END$" description="Bootstrap 3 HTML5 Template" toReformat="false">
+        <variable name="var1" expression="&quot;en&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Body&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-table:bordered" value="table.table(class='table-bordered$var1$')&#10;  thead&#10;    tr&#10;      th&#10;  tbody&#10;    tr&#10;      td&#10;$END$" description="Table (Bordered)" toReformat="false">
+        <variable name="var1" expression="&quot; table-hover&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-table:condensed" value="table.table(class='table-condensed$var1$')&#10;  thead&#10;    tr&#10;      th&#10;  tbody&#10;    tr&#10;      td&#10;$END$" description="Table (Condensed)" toReformat="false">
+        <variable name="var1" expression="&quot; table-hover&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-table:hover" value="table.table.table-hover&#10;  thead&#10;    tr&#10;      th&#10;  tbody&#10;    tr&#10;      td&#10;$END$" description="Table (Hover)" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-table:responsive" value=".table-responsive&#10;  table.(class='table$var1$')&#10;    thead&#10;      tr&#10;        th&#10;    tbody&#10;      tr&#10;        td&#10;$END$" description="Table (Responsive)" toReformat="false">
+        <variable name="var1" expression="&quot; table-hover&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-table:striped" value="table.table(class='table-striped$var1$')&#10;  thead&#10;    tr&#10;      th&#10;  tbody&#10;    tr&#10;      td&#10;$END$" description="Table (Striped)" toReformat="false">
+        <variable name="var1" expression="&quot; table-hover&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-table" value="table.(class='table$var1$')&#10;  thead&#10;    tr&#10;      th&#10;  tbody&#10;    tr&#10;      td&#10;$END$" description="Table" toReformat="false">
+        <variable name="var1" expression="&quot; table-hover&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:basic" value=".navbar&#10;  a.navbar-brand(href='#') $var1$&#10;  ul.nav.navbar-nav&#10;    li.active&#10;      a(href='#') $var2$&#10;    li&#10;      a(href='#') $var3$&#10;$END$" description="Navbar (Basic)" toReformat="false">
+        <variable name="var1" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:brand" value="a.navbar-brand(href='$var1$') $var2$&#10;$END$" description="Navbar (Brand)" toReformat="false">
+        <variable name="var1" expression="&quot;/&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:fixed-bottom" value="nav.navbar.navbar-default.navbar-fixed-bottom(role='navigation')&#10;  a.navbar-brand(href='$var1$') $var2$&#10;  ul.nav.navbar-nav&#10;    li.active&#10;      a(href='#') $var3$&#10;    li&#10;      a(href='#') $var4$&#10;$END$" description="Navbar (Fixed Bottom)" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:fixed-top" value="nav.navbar.navbar-default.navbar-fixed-top(role='navigation')&#10;  a.navbar-brand(href='$var1$') $var2$&#10;  ul.nav.navbar-nav&#10;    li.active&#10;      a(href='#') $var3$&#10;    li&#10;      a(href='#') $var4$&#10;$END$" description="Navbar (Fixed Top)" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:form" value="form.navbar-form(class='pull-$var1$')&#10;  input(type='text', style='width: 200px')&#10;  button.btn(type='submit', class='btn-$var2$') $var3$&#10;$END$" description="Navbar (Form)" toReformat="false">
+        <variable name="var1" expression="&quot;right&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;default&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:inverse" value="nav.navbar.navbar-inverse&#10;  a.navbar-brand(href='#') $var1$&#10;  ul.nav.navbar-nav&#10;    li.active&#10;      a(href='#') $var2$&#10;    li&#10;      a(href='#') $var3$&#10;$END$" description="Navbar (Inverse)" toReformat="false">
+        <variable name="var1" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:link" value="p.navbar-text(class='pull-$var1$')&#10;  a.navbar-link(href='$var2$') $var3$&#10;$END$" description="Navbar (Link)" toReformat="false">
+        <variable name="var1" expression="&quot;right&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:links" value="ul.nav.navbar-nav&#10;  li.active&#10;    a(href='$var1$') $var2$&#10;  li&#10;    a(href='$var3$') $var4$&#10;$END$" description="Navbar (Links)" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:responsive" value="nav.navbar.navbar-default(role='navigation')&#10;  // Brand and toggle get grouped for better mobile display&#10;  .navbar-header&#10;    button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')&#10;      span.sr-only Toggle navigation&#10;      span.icon-bar&#10;      span.icon-bar&#10;      span.icon-bar&#10;    a.navbar-brand(href='$var1$') $var2$&#10;  // Collect the nav links, forms, and other content for toggling&#10;  .collapse.navbar-collapse.navbar-ex1-collapse&#10;    ul.nav.navbar-nav&#10;      li.active&#10;        a(href='#') Link&#10;      li&#10;        a(href='#') Link&#10;    form.navbar-form.navbar-left(role='search')&#10;      .form-group&#10;        input.form-control(type='text', placeholder='Search')&#10;      button.btn.btn-default(type='submit') Submit&#10;    ul.nav.navbar-nav.navbar-right&#10;      li&#10;        a(href='#') Link&#10;      li.dropdown&#10;        a.dropdown-toggle(href='#', data-toggle='dropdown')&#10;          | Dropdown &#10;          b.caret&#10;        ul.dropdown-menu&#10;          li&#10;            a(href='#') Action&#10;          li&#10;            a(href='#') Another action&#10;          li&#10;            a(href='#') Something else here&#10;          li&#10;            a(href='#') Separated link&#10;  // /.navbar-collapse&#10;$END$" description="Navbar (Responsive)" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:static-top" value="nav.navbar.navbar-default.navbar-static-top(role='navigation')&#10;  a.navbar-brand(href='$var1$') $var2$&#10;  ul.nav.navbar-nav&#10;    li.active&#10;      a(href='#') $var3$&#10;    li&#10;      a(href='#') $var4$&#10;$END$" description="Navbar (Static Top)" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Link&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar:text" value="p.navbar-text $var1$&#10;$END$" description="Navbar (Text)" toReformat="false">
+        <variable name="var1" expression="&quot;Text&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-navbar" value="nav.navbar.navbar-default(role='navigation')&#10;  // Brand and toggle get grouped for better mobile display&#10;  .navbar-header&#10;    button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse')&#10;      span.sr-only Toggle navigation&#10;      span.icon-bar&#10;      span.icon-bar&#10;      span.icon-bar&#10;    a.navbar-brand(href='$var1$') $var2$&#10;  // Collect the nav links, forms, and other content for toggling&#10;  .collapse.navbar-collapse.navbar-ex1-collapse&#10;    ul.nav.navbar-nav&#10;      li.active&#10;        a(href='#') Link&#10;      li&#10;        a(href='#') Link&#10;    form.navbar-form.navbar-left(role='search')&#10;      .form-group&#10;        input.form-control(type='text', placeholder='Search')&#10;      button.btn.btn-default(type='submit') Submit&#10;    ul.nav.navbar-nav.navbar-right&#10;      li&#10;        a(href='#') Link&#10;      li.dropdown&#10;        a.dropdown-toggle(href='#', data-toggle='dropdown')&#10;          | Dropdown &#10;          b.caret&#10;        ul.dropdown-menu&#10;          li&#10;            a(href='#') Action&#10;          li&#10;            a(href='#') Another action&#10;          li&#10;            a(href='#') Something else here&#10;          li&#10;            a(href='#') Separated link&#10;  // /.navbar-collapse&#10;$END$" description="Navbar" toReformat="false">
+        <variable name="var1" expression="&quot;#&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Home&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-container" value=".container $END$&#10;" description="Container" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-container:fluid" value=".container-fluid $END$&#10;" description="Container Fluid" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-row" value=".row $END$&#10;" description="Row" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:1" value=".col-xs-1.col-sm-1.col-md-1.col-lg-1 $END$&#10;" description="Column 1" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:2" value=".col-xs-2.col-sm-2.col-md-2.col-lg-2 $END$&#10;" description="Column 2" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:3" value=".col-xs-3.col-sm-3.col-md-3.col-lg-3 $END$&#10;" description="Column 3" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:4" value=".col-xs-4.col-sm-4.col-md-4.col-lg-4 $END$&#10;" description="Column 4" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:5" value=".col-xs-5.col-sm-5.col-md-5.col-lg-5 $END$&#10;" description="Column 5" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:6" value=".col-xs-6.col-sm-6.col-md-6.col-lg-6 $END$&#10;" description="Column 6" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:7" value=".col-xs-7.col-sm-7.col-md-7.col-lg-7 $END$&#10;" description="Column 7" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:8" value=".col-xs-8.col-sm-8.col-md-8.col-lg-8 $END$&#10;" description="Column 8" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:9" value=".col-xs-9.col-sm-9.col-md-9.col-lg-9 $END$&#10;" description="Column 9" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:10" value=".col-xs-10.col-sm-10.col-md-10.col-lg-10 $END$&#10;" description="Column 10" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:11" value=".col-xs-11.col-sm-11.col-md-11.col-lg-11 $END$&#10;" description="Column 11" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-col:12" value=".col-xs-12.col-sm-12.col-md-12.col-lg-12 $END$&#10;" description="Column 12" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form:horizontal" value="form.form-horizontal(action='$var1$', method='$var2$', role='form')&#10;  .form-group&#10;    legend $var3$&#10;  | $END$&#10;  .form-group&#10;    .col-sm-10.col-sm-offset-2&#10;      button.btn.btn-primary(type='submit') $var4$&#10;" description="Form (Horizontal)" toReformat="false">
+        <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;post&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Form Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form:inline" value="form.form-inline(action='$var1$', method='$var2$', role='form')&#10;  .form-group&#10;    label.sr-only(for='') label&#10;    input.form-control(type='email', name='', id='', placeholder='Input ...')&#10;  | $END$ &#10;  button.btn.btn-primary(type='submit') $var3$&#10;" description="Form (Inline)" toReformat="false">
+        <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;post&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form" value="form(action='$var1$', method='$var2$', role='form')&#10;  legend $var3$&#10;  .form-group&#10;    label(for='')&#10;    input.form-control(type='text', name='', id='', placeholder='Input...')&#10;  | $END$ &#10;  button.btn.btn-primary(type='submit') $var4$&#10;" description="Form" toReformat="false">
+        <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;post&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Form Title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form:label" value="label(for='$var1$', var2='') $var3$&#10;$END$" description="Form (Label)" toReformat="false">
+        <variable name="var1" expression="inputID" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot; class=\&quot;col-sm-2\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-checkbox" value=".checkbox&#10;  label&#10;    input(type='checkbox', value='$var1$', id='$var2$')&#10;    |  $var3$&#10;$END$" description="Checkbox Input Field" toReformat="false">
+        <variable name="var1" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="inputID" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="Checkbox" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-input" value="input.form-control(type='$var1$', name='$var2$', id='$var3$', var4='', var5='', var6='')&#10;$END$" description="Input (Form Input)" toReformat="false">
+        <variable name="var1" expression="&quot;text&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;inputID&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot; value=\&quot;\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot; title=\&quot;\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var6" expression="&quot; required=\&quot;required\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-input:h" value=".form-group&#10;  label.control-label(for='$var5$', class='col-$var1$') $var2$&#10;  .(class='col-$var3$')&#10;    input.form-control(type='$var4$', name='$var5$', id='$var6$', var7='', var8='', var9='')&#10;$END$" description="Horizontal Form Input Field" toReformat="false">
+        <variable name="var1" expression="&quot;sm-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Label:&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;sm-10&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;text&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var6" expression="&quot;inputID&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var7" expression="&quot; value=\&quot;\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var8" expression="&quot; title=\&quot;\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var9" expression="&quot; required=\&quot;required\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-select" value="select.form-control(name='$var1$', id='$var2$')&#10;  option(value='') $var3$&#10;$END$" description="Select Box Form Field" toReformat="false">
+        <variable name="var1" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;inputID&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot; -- Select One -- &quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-select:h" value=".form-group&#10;  label.control-label(for='$var1$', class='col-$var2$') $var3$&#10;  .(class='col-$var4$')&#10;    select.form-control(name='$var5$', id='$var1$')&#10;      option(value='') $var6$&#10;$END$" description="Horizontal Form Select Box Field" toReformat="false">
+        <variable name="var1" expression="&quot;inputID&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;sm-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Label:&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot;sm-10&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var6" expression="&quot; -- Select One -- &quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-radio" value=".radio&#10;  label&#10;    input(type='radio', name='$var1$', id='$var2$', var3='', var4='')&#10;    |  $var5$&#10;$END$" description="Radio Form Field" toReformat="false">
+        <variable name="var1" expression="&quot;name&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;inputID&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot; value=\&quot;\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var4" expression="&quot; checked=\&quot;checked\&quot;&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var5" expression="&quot;Radio box&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-submit:h" value=".form-group&#10;  .(class='col-$var1$')&#10;    button.btn(type='submit', class='btn-$var2$') $var3$&#10;$END$" description="Submit Button for Horizontal Forms" toReformat="false">
+        <variable name="var1" expression="&quot;sm-10 col-sm-offset-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;primary&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-submit" value="button.btn(type='submit', class='btn-$var1$') $var2$&#10;$END$" description="Submit Button for Form" toReformat="false">
+        <variable name="var1" expression="&quot;primary&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Submit&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-template:starter" value="doctype html&#10;head&#10;  meta(charset='utf-8')&#10;  meta(http-equiv='X-UA-Compatible', content='IE=edge')&#10;  meta(name='viewport', content='width=device-width,initial-scale=1')&#10;  meta(name='description', content='')&#10;  meta(name='author', content='')&#10;  title Starter Template for Bootstrap&#10;  // Bootstrap core CSS&#10;  link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css', rel='stylesheet')&#10;  // Custom styles for this template&#10;  style.&#10;    body {&#10;    padding-top: 50px;&#10;    }&#10;    .starter-template {&#10;    padding: 40px 15px;&#10;    text-align: center;&#10;    }&#10;  // HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries&#10;  //if lt IE 9&#10;    script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')&#10;    script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')&#10;.navbar.navbar-inverse.navbar-fixed-top(role='navigation')&#10;  .container&#10;    .navbar-header&#10;      button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='.navbar-collapse')&#10;        span.sr-only Toggle navigation&#10;        span.icon-bar&#10;        span.icon-bar&#10;        span.icon-bar&#10;      a.navbar-brand(href='#') $END$Project name&#10;    .collapse.navbar-collapse&#10;      ul.nav.navbar-nav&#10;        li.active&#10;          a(href='#') Home&#10;        li&#10;          a(href='#about') About&#10;        li&#10;          a(href='#contact') Contact&#10;    // /.nav-collapse&#10;.container&#10;  .starter-template&#10;    h1 Bootstrap starter template&#10;    p.lead&#10;      | Use this document as a way to quickly start any new project.&#10;      br&#10;      | All you get is this text and a mostly barebones HTML document.&#10;// /.container&#10;//&#10;  Bootstrap core JavaScript&#10;  ==================================================&#10;// Placed at the end of the document so the pages load faster&#10;script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')&#10;script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')&#10;" description="Bootstrap 3 Starter Template" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form-field:button" value=".form-group&#10;  .col-sm-offset-2.col-sm-10&#10;    button.btn.btn-default(type='submit') $var1$&#10;$END$" toReformat="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form-field:checkbox" value=".form-group&#10;  .col-sm-offset-2.col-sm-10&#10;    .checkbox&#10;      label&#10;        input(type='checkbox')&#10;        |  $var1$&#10;$END$" toReformat="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form-field:text" value=".form-group&#10;  label.col-sm-2.control-label(for='$var1$') $var2$&#10;  .col-sm-10&#10;    input.form-control(type='text', id='$var1$', placeholder='$var2$')&#10;$END$" toReformat="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="capitalize(var1)" defaultValue="" alwaysStopAt="false"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-form-field:time" value=".form-group&#10;  label.col-sm-2.control-label(for='$var1$') $var2$&#10;  .col-sm-10&#10;    input.form-control(type='time', id='$var1$', placeholder='$var2$')&#10;$END$" toReformat="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="capitalize(var1)" defaultValue="" alwaysStopAt="false"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-feature:carousel-rows" value=".row.carousel-row&#10;  .col-xs-8.col-xs-offset-2.slide-row&#10;    .carousel.slide.slide-carousel(data-ride='carousel')&#10;      // Indicators&#10;      ol.carousel-indicators&#10;        li.active(data-target='#carousel-1', data-slide-to='0')&#10;        li(data-target='#carousel-1', data-slide-to='1')&#10;        li(data-target='#carousel-1', data-slide-to='2')&#10;      // Wrapper for slides&#10;      .carousel-inner&#10;        .item.active&#10;          img(src='http://lorempixel.com/150/150?rand=$rand1$', alt='Image')&#10;        .item&#10;          img(src='http://lorempixel.com/150/150?rand=$rand2$', alt='Image')&#10;        .item&#10;          img(src='http://lorempixel.com/150/150?rand=$rand3$', alt='Image')&#10;    .slide-content&#10;      h4 Example product&#10;      p&#10;        | Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat&#10;    .slide-footer&#10;      span.pull-right.buttons&#10;        button.btn.btn-sm.btn-default&#10;          i.fa.fa-fw.fa-eye&#10;          |  Show&#10;        button.btn.btn-sm.btn-primary&#10;          i.fa.fa-fw.fa-shopping-cart&#10;          |  Buy&#10;" description="Carousel Rows" toReformat="true">
+        <variable name="rand1" expression="groovyScript(&quot;Math.abs(new Random().nextInt() % 100 + 1)&quot;)" defaultValue="" alwaysStopAt="false"/>
+        <variable name="rand2" expression="groovyScript(&quot;Math.abs(new Random().nextInt() % 100 + 1)&quot;)" defaultValue="" alwaysStopAt="false"/>
+        <variable name="rand3" expression="groovyScript(&quot;Math.abs(new Random().nextInt() % 100 + 1)&quot;)" defaultValue="" alwaysStopAt="false"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-feature:carousel-rows-css" value="| /*REQUIRED*/ .carousel-row { margin-bottom: 10px; } .slide-row { padding: 0; background-color: #ffffff; min-height: 150px; border: 1px solid #e7e7e7; overflow: hidden; height: auto; position: relative; } .slide-carousel { width: 20%; float: left; display: inline-block; } .slide-carousel .carousel-indicators { margin-bottom: 0; bottom: 0; background: rgba(0, 0, 0, .5); } .slide-carousel .carousel-indicators li { border-radius: 0; width: 20px; height: 6px; } .slide-carousel .carousel-indicators .active { margin: 1px; } .slide-content { position: absolute; top: 0; left: 20%; display: block; float: left; width: 80%; max-height: 76%; padding: 1.5% 2% 2% 2%; overflow-y: auto; } .slide-content h4 { margin-bottom: 3px; margin-top: 0; } .slide-footer { position: absolute; bottom: 0; left: 20%; width: 78%; height: 20%; margin: 1%; } /* Scrollbars */ .slide-content::-webkit-scrollbar { width: 5px; } .slide-content::-webkit-scrollbar-thumb:vertical { margin: 5px; background-color: #999; -webkit-border-radius: 5px; } .slide-content::-webkit-scrollbar-button:start:decrement, .slide-content::-webkit-scrollbar-button:end:increment { height: 5px; display: block; }&#10;" description="Carousel Rows" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-feature:image-card-with-description" value=".row.row-margin-bottom&#10;  .col-md-5.no-padding.lib-item(data-category='view')&#10;    .lib-panel&#10;      .row.box-shadow&#10;        .col-md-6&#10;          img.lib-img-show(src='http://lorempixel.com/850/850/?random=$var1$')&#10;        .col-md-6&#10;          .lib-row.lib-header&#10;            | Example library&#10;            .lib-header-seperator&#10;          .lib-row.lib-desc&#10;            | Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor&#10;  .col-md-1&#10;  .col-md-5.no-padding.lib-item(data-category='ui')&#10;    .lib-panel&#10;      .row.box-shadow&#10;        .col-md-6&#10;          img.lib-img(src='http://lorempixel.com/850/850/?random=$var2$')&#10;        .col-md-6&#10;          .lib-row.lib-header&#10;            | Example library&#10;            .lib-header-seperator&#10;          .lib-row.lib-desc&#10;            | Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor&#10;" description="Beautiful image card with description" toReformat="true">
+        <variable name="var1" expression="groovyScript(&quot;Math.abs(new Random().nextInt() % 100 + 1)&quot;)" defaultValue="" alwaysStopAt="false"/>
+        <variable name="var2" expression="groovyScript(&quot;Math.abs(new Random().nextInt() % 100 + 1)&quot;)" defaultValue="" alwaysStopAt="false"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-feature:image-card-with-description-css" value="| .lib-panel { margin-bottom: 20Px; } .lib-panel img { width: 100%; background-color: transparent; } .lib-panel .row, .lib-panel .col-md-6 { padding: 0; background-color: #FFFFFF; } .lib-panel .lib-row { padding: 0 20px 0 20px; } .lib-panel .lib-row.lib-header { background-color: #FFFFFF; font-size: 20px; padding: 10px 20px 0 20px; } .lib-panel .lib-row.lib-header .lib-header-seperator { height: 2px; width: 26px; background-color: #d9d9d9; margin: 7px 0 7px 0; } .lib-panel .lib-row.lib-desc { position: relative; height: 100%; display: block; font-size: 13px; } .lib-panel .lib-row.lib-desc a{ position: absolute; width: 100%; bottom: 10px; left: 20px; } .row-margin-bottom { margin-bottom: 20px; } .box-shadow { -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.10); box-shadow: 0 0 10px 0 rgba(0,0,0,.10); } .no-padding { padding: 0; }&#10;" description="Beautiful image card with description" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-feature:thumbnail-gallery" value=".container&#10;  .row&#10;    .col-lg-12&#10;      h1.page-header Thumbnail Gallery&#10;    .col-lg-3.col-md-4.col-xs-6.thumb&#10;      a.thumbnail(href='#')&#10;        img.img-responsive(src='http://placehold.it/400x300', alt='')&#10;" description="Thumbnail gallery" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-feature:thumbnail" value=".col-lg-3.col-md-4.col-xs-6.thumb&#10;  a.thumbnail(href='#')&#10;    img.img-responsive(src='http://placehold.it/400x300', alt='')&#10;" description="Thumbnail in gallery" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-tabs" value="// TAB NAVIGATION&#10;ul.nav.nav-tabs(role='tablist')&#10;  li.active&#10;    a(href='#tab1', role='tab', data-toggle='tab') Tab1&#10;  li&#10;    a(href='#tab2', role='tab', data-toggle='tab') Tab2&#10;  li&#10;    a(href='#tab3', role='tab', data-toggle='tab') Tab3&#10;// TAB CONTENT&#10;.tab-content&#10;  #tab1.active.tab-pane.fade.in&#10;    h2 Tab1&#10;    p Lorem ipsum.&#10;  #tab2.tab-pane.fade&#10;    h2 Tab2&#10;    p Lorem ipsum.&#10;  #tab3.tab-pane.fade&#10;    h2 Tab3&#10;    p Lorem ipsum.&#10;" description="Tabs" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pills" value="ul.nav.nav-pills&#10;  li.active&#10;    a(href='#') Home&#10;  li&#10;    a(href='#') Profile&#10;  li&#10;    a(href='#') Messages&#10;" description="Pills" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pills:vertical" value="ul.nav.nav-pills.nav-stacked&#10;  li.active&#10;    a(href='#') Home&#10;  li&#10;    a(href='#') Profile&#10;  li&#10;    a(href='#') Messages&#10;" description="Pills (Vertical)" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-tabs:justified" value="ul.nav.nav-tabs.nav-justified(role='tablist')&#10;  li.active&#10;    a(href='#') Home&#10;  li&#10;    a(href='#') Profile&#10;  li&#10;    a(href='#') Messages&#10;" description="Tabs (Justified)" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pills:justified" value="ul.nav.nav-pills.nav-justified&#10;  li.active&#10;    a(href='#') Home&#10;  li&#10;    a(href='#') Profile&#10;  li&#10;    a(href='#') Messages&#10;" description="Pills (Justified)" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-tabs:dropdown" value="ul.nav.nav-tabs(role='tablist')&#10;  li.active&#10;    a(href='#') Home&#10;  li&#10;    a(href='#') Help&#10;  li.dropdown&#10;    a.dropdown-toggle(data-toggle='dropdown', href='#')&#10;      | Dropdown &#10;      span.caret&#10;    ul.dropdown-menu(role='menu')&#10;      li&#10;        a(href='#') Action&#10;      li&#10;        a(href='#') Another action&#10;      li&#10;        a(href='#') Something else here&#10;      li.divider&#10;      li&#10;        a(href='#') Separated link&#10;" description="Tabs (With dropdown menu)" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-pills:dropdown" value="ul.nav.nav-pills&#10;  li.active&#10;    a(href='#') Home&#10;  li&#10;    a(href='#') Help&#10;  li.dropdown&#10;    a.dropdown-toggle(data-toggle='dropdown', href='#')&#10;      | Dropdown &#10;      span.caret&#10;    ul.dropdown-menu(role='menu')&#10;      li&#10;        a(href='#') Action&#10;      li&#10;        a(href='#') Another action&#10;      li&#10;        a(href='#') Something else here&#10;      li.divider&#10;      li&#10;        a(href='#') Separated link&#10;" description="Pills (With dropdown menu)" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-button:dropdown" value=".dropdown&#10;  button#dropdownMenu1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')&#10;    | Dropdown &#10;    span.caret&#10;  ul.dropdown-menu(role='menu', aria-labelledby='dropdownMenu1')&#10;    li.dropdown-header(role='presentation') Dropdown header&#10;    li(role='presentation')&#10;      a(role='menuitem', tabindex='-1', href='#') Action&#10;    li(role='presentation')&#10;      a(role='menuitem', tabindex='-1', href='#') Another action&#10;    li.disabled(role='presentation')&#10;      a(role='menuitem', tabindex='-1', href='#') Something else here&#10;    li.divider(role='presentation')&#10;    li.dropdown-header(role='presentation') Dropdown header&#10;    li(role='presentation')&#10;      a(role='menuitem', tabindex='-1', href='#') Separated link&#10;" description="Full dropdown example" toReformat="false">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-button-group" value=".btn-group&#10;  button.btn.btn-default(type='button') Left&#10;  button.btn.btn-default(type='button') Middle&#10;  button.btn.btn-default(type='button') Right&#10;" description="Button group" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-button-toolbar" value=".btn-toolbar(role='toolbar')&#10;  .btn-group&#10;    button.btn.btn-default(type='button') 1&#10;    button.btn.btn-default(type='button') 2&#10;    button.btn.btn-default(type='button') 3&#10;    button.btn.btn-default(type='button') 4&#10;  .btn-group&#10;    button.btn.btn-default(type='button') 5&#10;    button.btn.btn-default(type='button') 6&#10;    button.btn.btn-default(type='button') 7&#10;  .btn-group&#10;    button.btn.btn-default(type='button') 8&#10;" description="Button toolbar" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-button-group:vertical" value=".btn-group-vertical&#10;  button.btn.btn-default(type='button') Button&#10;  button.btn.btn-default(type='button') Button&#10;  .btn-group&#10;    button#btnGroupVerticalDrop1.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown')&#10;      | Dropdown &#10;      span.caret&#10;    ul.dropdown-menu(role='menu', aria-labelledby='btnGroupVerticalDrop1')&#10;      li&#10;        a(href='#') Dropdown link&#10;      li&#10;        a(href='#') Dropdown link&#10;  button.btn.btn-default(type='button') Button&#10;" description="Button group (Vertical orientation)" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-well" value=".well $var1$&#10;$END$" description="Well" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-well:large" value=".well.well-lg $var1$&#10;$END$" description="Well (large)" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-well:small" value=".well.well-sm $var1$&#10;$END$" description="Well (small)" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-dismissable-alert:warning" value=".alert.alert-warning.alert-dismissible(role='alert')&#10;  button.close(type='button', data-dismiss='alert')&#10;    span(aria-hidden='true') &amp;times;&#10;    span.sr-only Close&#10;  strong Warning!&#10;  |  Better check yourself, you&amp;apos;re not looking too good.&#10;$END$" description="Dismissable alert (warning)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-dismissable-alert:success" value=".alert.alert-success.alert-dismissible(role='alert')&#10;  button.close(type='button', data-dismiss='alert')&#10;    span(aria-hidden='true') &amp;times;&#10;    span.sr-only Close&#10;  strong Warning!&#10;  |  Better check yourself, you&amp;apos;re not looking too good.&#10;$END$" description="Dismissable alert (success)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-dismissable-alert:danger" value=".alert.alert-danger.alert-dismissible(role='alert')&#10;  button.close(type='button', data-dismiss='alert')&#10;    span(aria-hidden='true') &amp;times;&#10;    span.sr-only Close&#10;  strong Warning!&#10;  |  Better check yourself, you&amp;apos;re not looking too good.&#10;$END$" description="Dismissable alert (danger)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-dismissable-alert:info" value=".alert.alert-info.alert-dismissible(role='alert')&#10;  button.close(type='button', data-dismiss='alert')&#10;    span(aria-hidden='true') &amp;times;&#10;    span.sr-only Close&#10;  strong Warning!&#10;  |  Better check yourself, you&amp;apos;re not looking too good.&#10;$END$" description="Dismissable alert (info)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-alert-link" value=".alert.alert-warning(role='alert')&#10;  strong Warning!&#10;  |  Better check yourself, you&amp;apos;re &#10;  a.alert-link(href='#') not looking too good&#10;  | .&#10;$END$" description="Alert with alert link (warning)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar" value=".progress&#10;  .progress-bar(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%')&#10;    span.sr-only 60% Complete&#10;$END$" description="Basic progress bar" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:label" value=".progress&#10;  .progress-bar(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%') 60%&#10;$END$" description="Progress bar with label" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:success" value=".progress&#10;  .progress-bar.progress-bar-success(role='progressbar', aria-valuenow='40', aria-valuemin='0', aria-valuemax='100', style='width: 40%')&#10;    span.sr-only 40% Complete (success)&#10;$END$" description="Progress bar (success)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:info" value=".progress&#10;  .progress-bar.progress-bar-info(role='progressbar', aria-valuenow='20', aria-valuemin='0', aria-valuemax='100', style='width: 20%')&#10;    span.sr-only 20% Complete&#10;$END$" description="Progress bar (info)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:warning" value=".progress&#10;  .progress-bar.progress-bar-warning(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%')&#10;    span.sr-only 60% Complete (warning)&#10;$END$" description="Progress bar (warning)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:danger" value=".progress&#10;  .progress-bar.progress-bar-danger(role='progressbar', aria-valuenow='80', aria-valuemin='0', aria-valuemax='100', style='width: 80%')&#10;    span.sr-only 80% Complete (danger)&#10;$END$" description="Progress bar (danger)" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:striped" value=".progress&#10;  .progress-bar.progress-bar-info.progress-bar-striped(role='progressbar', aria-valuenow='20', aria-valuemin='0', aria-valuemax='100', style='width: 20%')&#10;    span.sr-only 20% Complete&#10;$END$" description="Striped progress bar" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:striped-animated" value=".progress&#10;  .progress-bar.progress-bar-striped.active(role='progressbar', aria-valuenow='45', aria-valuemin='0', aria-valuemax='100', style='width: 45%')&#10;    span.sr-only 45% Complete&#10;$END$" description="Animated striped progress bar" toReformat="true">
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-progress-bar:stacked" value=".progress&#10;  .progress-bar.progress-bar-success(style='width: 35%')&#10;    span.sr-only 35% Complete (success)&#10;  .progress-bar.progress-bar-warning.progress-bar-striped(style='width: 20%')&#10;    span.sr-only 20% Complete (warning)&#10;  .progress-bar.progress-bar-danger(style='width: 10%')&#10;    span.sr-only 10% Complete (danger)&#10;" description="Stacked progress bar" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-media-object:example" value=".media&#10;  a.media-left(href='#')&#10;    img(src='http://placehold.it/64x64', style='width: 64px; height: 64px')&#10;  .media-body&#10;    h4.media-heading Media heading&#10;    | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;.media&#10;  a.media-left(href='#')&#10;    img(src='http://placehold.it/64x64', style='width: 64px; height: 64px')&#10;  .media-body&#10;    h4.media-heading Media heading&#10;    | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;    .media&#10;      a.media-left(href='#')&#10;        img(src='http://placehold.it/64x64', style='width: 64px; height: 64px')&#10;      .media-body&#10;        h4.media-heading Nested media heading&#10;        | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;.media&#10;  .media-body&#10;    h4.media-heading Media heading&#10;    | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.&#10;  a.media-right(href='#')&#10;    img(src='http://placehold.it/64x64', style='width: 64px; height: 64px')&#10;.media&#10;  a.media-left(href='#')&#10;    img(src='http://placehold.it/64x64', style='width: 64px; height: 64px')&#10;  .media-body&#10;    h4.media-heading Media heading&#10;    | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.&#10;  a.media-right(href='#')&#10;    img(src='http://placehold.it/64x64', style='width: 64px; height: 64px')&#10;" description="Example media object" toReformat="true">
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-media-object" value=".media&#10;  a.media-left(href='#')&#10;    img(src='http://placehold.it/64x64', style='width: 64px; height: 64px')&#10;  .media-body&#10;    h4.media-heading $var1$&#10;    | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.&#10;$END$" description="Media object (single entry)" toReformat="true">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-responsive-embed:16:9" value="// 16:9 aspect ratio&#10;.embed-responsive.embed-responsive-16by9&#10;  iframe.embed-responsive-item(src='$var1$', allowfullscreen='')&#10;$END$" description="Responsive embed of video (16:9)" toReformat="true">
+        <variable name="var1" expression="" defaultValue="&quot;https://www.youtube.com/watch?v=TAvvEP3twyg&amp;list=UU_PqH6v4O6OhZdqjxM4OTvg&quot;" alwaysStopAt="true"/>
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+    <template name="bs3-responsive-embed:4:3" value="// 4:3 aspect ratio&#10;.embed-responsive.embed-responsive-4by3&#10;  iframe.embed-responsive-item(src='$var1$', allowfullscreen='')&#10;$END$" description="Responsive embed of video (4:3)" toReformat="true">
+        <variable name="var1" expression="" defaultValue="&quot;https://www.youtube.com/watch?v=TAvvEP3twyg&amp;list=UU_PqH6v4O6OhZdqjxM4OTvg&quot;" alwaysStopAt="true"/>
+        <variable name="end" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
+
+</templateSet>

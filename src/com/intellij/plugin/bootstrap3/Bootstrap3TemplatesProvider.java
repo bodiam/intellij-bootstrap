@@ -12,7 +12,9 @@ public class Bootstrap3TemplatesProvider implements DefaultLiveTemplatesProvider
     public String[] getDefaultLiveTemplateFiles() {
         return new String[]{
                 "liveTemplates/Bootstrap3",
+                "liveTemplates/Bootstrap3-jade",
                 "liveTemplates/FontAwesome",
+                "liveTemplates/FontAwesome-jade",
         };
     }
 
