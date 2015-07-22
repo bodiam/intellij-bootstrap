@@ -30,6 +30,10 @@ To use the plugin, open an editor, and start typing `bs3-`, followed by pressing
 
 ## What's new
 
+Since 2.1 (22 Jul 2015)
+
+- upgraded to Bootstrap 3.3.5 thanks to [Chuck Housley](https://github.com/lihaibh). 
+
 Since 2.0 (26 May 2015)
 
 - Jade support
