@@ -7,7 +7,7 @@ An IntelliJ plugin containing Bootstrap 3 live templates - lots of live template
 - WebStorm and PhpStorm
 - PyCharm
 - RubyMine
-2.0.0
+
 ![Plugin in action](https://raw.githubusercontent.com/bodiam/intellij-bootstrap3/master/screencasts/starter-template.gif)
 
 Feel free to let me know what else you want added via the [issues](https://github.com/bodiam/intellij-bootstrap3/issues).
