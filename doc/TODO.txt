@@ -1,5 +1,10 @@
 Added this:
 
+http://www.bootstrapzero.com/bootstrap-template/basis
+http://www.bootstrapzero.com/bootstrap-template/binary
+
+http://bootsnipp.com/snippets/featured/responsive-mail-inbox-and-compose
+
 http://www.bootply.com/render/101053
 http://bootsnipp.com/snippets/featured/search-results
 http://bootsnipp.com/snippets/featured/blog-posts-with-picture
