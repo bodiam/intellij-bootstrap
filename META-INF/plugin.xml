@@ -14,7 +14,7 @@
     ]]></description>
 
   <change-notes><![CDATA[
-          2.3 Code will now be reformatted, thanks to <a href="https://github.com/azeemhassni">Azeem Hassni</a><br />
+          2.3 Upgraded to Bootstrap 3.3.7. Code will also be reformatted, thanks to <a href="https://github.com/azeemhassni">Azeem Hassni</a><br />
           2.2.1 Bugfix release, thanks to <a href="https://github.com/azeemhassni">Azi Baloch</a><br />
           2.2 Upgraded to Bootstrap 3.3.6.<br />
           2.1 Upgraded to Bootstrap 3.3.5 thanks to <a href="https://github.com/chuckhousley">chuckhousley</a>.<br />

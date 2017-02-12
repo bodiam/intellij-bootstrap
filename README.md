@@ -30,6 +30,11 @@ To use the plugin, open an editor, and start typing `bs3-`, followed by pressing
 
 ## What's new
 
+Since 2.3 (13 Feb 2017)
+
+- Bootstrap 3.3.7
+- Code will now be reformatted, thanks to [Azeem Hassni](https://github.com/azeemhassni).
+
 Since 2.2.1 (7 Jan 2016)
 
 - bugfixes, thanks to [Azi Baloch](https://github.com/azeemhassni).
