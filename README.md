@@ -37,7 +37,7 @@ Since 2.3 (13 Feb 2017)
 
 Since 2.2.1 (7 Jan 2016)
 
-- bugfixes, thanks to [Azi Baloch](https://github.com/azeemhassni).
+- bugfixes, thanks to [Azeem Hassni](https://github.com/azeemhassni).
 
 Since 2.2 (14 Dec 2015)
 
