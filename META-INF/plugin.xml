@@ -1,19 +1,19 @@
 <idea-plugin version="2" url="https://github.com/bodiam/intellij-bootstrap3">
   <id>nl.jworks.intellij.bootstrap3</id>
-  <name>Bootstrap 3</name>
-  <version>2.4</version>
+  <name>Bootstrap</name>
+  <version>4.0</version>
   <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
   <description><![CDATA[
-      <h2>Bootstrap 3 live templates / snippets</h2>
+      <h2>Bootstrap 3 and Bootstrap 4 live templates / snippets.</h2>
       <br />
       <p><a href="https://github.com/bodiam/intellij-bootstrap3">Documentation / list of snippets</a></p>
-      <p>Based on <a href="https://github.com/JasonMortonNZ/bootstrap3-phpstorm-plugin">Jason Morton's plugin</a></p>
       <br />
       <p>Follow me on Twitter: <a href="https://twitter.com/epragt"><b>@epragt</b></a></p>
     ]]></description>
 
   <change-notes><![CDATA[
+          4.0 Fixed some small issues, added Bootstrap 4 Beta support<br />
           2.4 Added bs3-form-field:select, thanks to <a href="https://github.com/JeyKeu>JQ</a><br />
           2.3 Upgraded to Bootstrap 3.3.7. Code will also be reformatted, thanks to <a href="https://github.com/azeemhassni">Azeem Hassni</a><br />
           2.2.1 Bugfix release, thanks to <a href="https://github.com/azeemhassni">Azi Baloch</a><br />
@@ -39,22 +39,27 @@
   <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
   <idea-version since-build="131"/>
 
-  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
   <depends>com.intellij.modules.lang</depends>
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-      <defaultLiveTemplatesProvider implementation="com.intellij.plugin.bootstrap3.Bootstrap3TemplatesProvider"/>
+      <defaultLiveTemplatesProvider implementation="com.intellij.plugin.bootstrap.templates.BootstrapTemplatesProvider"/>
+    <applicationService serviceImplementation="com.intellij.plugin.bootstrap.BootstrapSettings"/>
   </extensions>
 
   <application-components>
-    <!-- Add your application components here -->
+    <component>
+      <implementation-class>com.intellij.plugin.bootstrap.BootstrapPluginApplicationComponent</implementation-class>
+    </component>
   </application-components>
 
   <project-components>
-    <!-- Add your project components here -->
+    <component>
+      <implementation-class>com.intellij.plugin.bootstrap.BootstrapPluginUpdateProjectComponent</implementation-class>
+    </component>
   </project-components>
 
   <actions>

@@ -1,12 +1,21 @@
-Bootstrap 3 IntelliJ Plugin
+Bootstrap IntelliJ Plugin
 ===========================
 
-An IntelliJ plugin containing Bootstrap 3 live templates - lots of live templates! This plugin works for the following JetBrains products:
+The IntelliJ Bootstrap plugin for Bootstrap 3 and Bootstrap 4. This plugin enhances productivity by providing live templates - lots of live templates! This plugin works for the following JetBrains products:
 
 - IntelliJ IDEA
 - WebStorm and PhpStorm
+- Android Studio
 - PyCharm
 - RubyMine
+- AppCode
+- CLion
+- Gogland
+- Rider
+
+And supports **Bootstrap 3.3.7** and **Bootstrap 4.0.0-beta**.
+
+If you like the Bootstrap plugin, please consider donating: [![Donate](https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3NGRP3GC9D6UL)
 
 ![Plugin in action](https://raw.githubusercontent.com/bodiam/intellij-bootstrap3/master/screencasts/starter-template.gif)
 
@@ -18,7 +27,7 @@ Suggestions, feedback and other comments welcome via [@epragt](https://twitter.c
 
 To install the plugin open your editor (IntelliJ) and hit:
 
-1) `File > Settings > Plugins` and click on the `Browse repositories` button.
+1) <kbd>File</kbd> > <kbd>Settings</kbd> > <kbd>Plugins</kbd> and click on the <kbd>Browse repositories<kbd> button.
 
 2) Look for `Bootstrap 3` the right click and select `Download plugin`.
 
@@ -26,9 +35,18 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ### Usage
 
-To use the plugin, open an editor, and start typing `bs3-`, followed by pressing CMD+J. A list of templates will show up. Alternatively, you can type e.g. `alert`, followed by CMD+J, to immediately show only the alert templates.
+To use the plugin, open an editor, and start typing `bs3-` for Bootstrap 3, or `bs4-` for Bootstrap 4 templates followed by pressing CMD+J. 
+A list of templates will show up. 
+Alternatively, you can type e.g. `alert`, followed by CMD+J, to immediately show only the alert templates.
 
 ## What's new
+
+Since 4.0 (1 Oct 2017)
+
+- Bugfixes
+- Initial Bootstrap 4 support (expect more to come soon)
+
+*Note: version 3.0 was skipped to better align with Bootstrap versioning*
 
 Since 2.4 (12 Mar 2017)
 
@@ -58,83 +76,6 @@ Since 2.0 (26 May 2015)
 
 Thanks [Paweł Jedwabny](https://github.com/pjedwabny), [Lihai Ben-Haim](https://github.com/lihaibh) and [Oscar Batlle](https://github.com/oscarbatlle)! 
 
-Since 1.9.1 (24 March 2015)
-
-- Maintenance release: Small issues fixed by [Paweł Jedwabny](https://github.com/pjedwabny)
-
-Since 1.9 (24 March 2015)
-
-- upgraded to Bootstrap 3.3.4
-
-Since 1.8.1 (9 March 2015)
-
-- Removed duplicated meta tag in bs3-template:html5 live template thanks to oscarbatlle!
-
-Since 1.8 (15 February 2015)
-
-- added all the icons of Font Awesome thanks to pixsrv!
-
-Since 1.7 (29 January 2015)
-
-- upgraded to Bootstrap 3.3.2
-
-Since 1.6 (15 January 2015)
-
-Added more templates:
-
-- added container fluid, thanks to Emin Şen
-
-Since 1.5 (5 December 2014):
-
-Added more templates:
-
-- media list
-- responsive embed
-
-Since 1.4 (13 Nov 2014):
-
-Added more templates:
-
-- dismissable-alert
-- alert-link
-- progress-bars
-- well
-
-Also: Removed the 'OTHER' context, added JSP and GSP context. Upgraded to Bootstrap 3.3.1
-
-Since 1.3 (18 Oct 2014):
-
-Added more templates:
-
-- bs3-button-group
-- bs3-button-group:vertical
-- bs3-button-toolbar
-- bs3-button:dropdown
-- bs3-pills
-- bs3-pills:dropdown
-- bs3-pills:justified
-- bs3-pills:vertical
-- bs3-tabs
-- bs3-tabs:dropdown
-- bs3-tabs:justified
-
-Since 1.2 (4 Oct 2014):
-
-Added more templates: 
-- bs3-feature:carousel-rows, 
-- bs3-feature:image-card-with-description 
-Thanks to [Alexander Mahrt](https://twitter.com/AlexMahrt)
-
-Since 1.1 (1 Oct 2014):
-
-Form Fields. These are part form, part fields, and can be used to generate a form very easily.
-
-- bs3-form-field:button
-- bs3-form-field:checkbox
-- bs3-form-field:text
-- bs3-form-field:time
-
-Also: updated examples to version 3.2.0 of Bootstrap and 1.11.1 of JQuery
 
 ## What's included - contents
 - [Alert](#alert)

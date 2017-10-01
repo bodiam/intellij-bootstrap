@@ -1,17 +1,17 @@
-package com.intellij.plugin.bootstrap3;
-
-/**
- * @author Erik Pragt
- */
+package com.intellij.plugin.bootstrap.templates;
 
 import com.intellij.codeInsight.template.impl.DefaultLiveTemplatesProvider;
 import org.jetbrains.annotations.Nullable;
 
-public class Bootstrap3TemplatesProvider implements DefaultLiveTemplatesProvider {
+/**
+ * @author Erik Pragt
+ */
+public class BootstrapTemplatesProvider implements DefaultLiveTemplatesProvider {
     @Override
     public String[] getDefaultLiveTemplateFiles() {
         return new String[]{
                 "liveTemplates/Bootstrap3",
+                "liveTemplates/Bootstrap4",
                 "liveTemplates/Bootstrap3-jade",
                 "liveTemplates/FontAwesome",
                 "liveTemplates/FontAwesome-jade",
