@@ -49,8 +49,9 @@
         <defaultLiveTemplatesProvider
                 implementation="com.intellij.plugin.bootstrap.templates.BootstrapTemplatesProvider"/>
         <applicationService serviceImplementation="com.intellij.plugin.bootstrap.BootstrapSettings"/>
-        <toolWindow id="Sample Calendar" secondary="true" icon="/images/plus.png" anchor="right"
-                    factoryClass="myToolWindow.MyToolWindowFactory"/>
+
+
+        <!--<toolWindow id="Sample Calendar" secondary="true" icon="/images/plus.png" anchor="right" factoryClass="myToolWindow.MyToolWindowFactory"/>-->
     </extensions>
 
     <application-components>
