@@ -1,7 +1,7 @@
 <idea-plugin url="https://github.com/bodiam/intellij-bootstrap">
     <id>nl.jworks.intellij.bootstrap3</id>
     <name>Bootstrap 3</name>
-    <version>4.0.2</version>
+    <version>4.0.3</version>
     <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
     <description><![CDATA[
