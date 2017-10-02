@@ -15,7 +15,7 @@ The IntelliJ Bootstrap plugin for Bootstrap 3 and Bootstrap 4. This plugin enhan
 
 And supports **Bootstrap 3.3.7** and **Bootstrap 4.0.0-beta**.
 
-If you like the Bootstrap plugin, please consider donating: [![Donate](https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3NGRP3GC9D6UL&lc=US)
+If you like the Bootstrap plugin, please consider donating: [![Donate](https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif)](https://paypal.me/intellijbootstrap)
 
 ![Plugin in action](https://raw.githubusercontent.com/bodiam/intellij-bootstrap3/master/screencasts/starter-template.gif)
 

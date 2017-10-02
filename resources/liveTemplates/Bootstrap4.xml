@@ -180,7 +180,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-badge-default-pill" value="&lt;span class=&quot;badge badge-pill badge-default&quot;>$var1$&lt;/span>$END$" description="badge default pill" toReformat="true">
+    <template name="bs4-badge-dark-pill" value="&lt;span class=&quot;badge badge-pill badge-dark&quot;>$var1$&lt;/span>$END$" description="badge default pill" toReformat="true">
         <variable name="var1" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -191,7 +191,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-badge-default" value="&lt;span class=&quot;badge badge-default&quot;>$var1$&lt;/span>$END$" description="badge default" toReformat="true">
+    <template name="bs4-badge-dark" value="&lt;span class=&quot;badge badge-dark&quot;>$var1$&lt;/span>$END$" description="badge default" toReformat="true">
         <variable name="var1" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
@@ -542,12 +542,10 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-align" value="&lt;div class=&quot;card&quot;>&#xa;  &lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;  &lt;div class=&quot;card-block text-xs-$var3$&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var4$&lt;/h4>&#xa;    &lt;p class=&quot;card-text&quot;>$var5$&lt;/p>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card align" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var2" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;left|center|right&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Body&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var1$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var2$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var3$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var2" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var3" defaultValue="&quot;button&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -557,13 +555,8 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-background-custom" value="&lt;div class=&quot;card card-inverse&quot; style=&quot;background-color:$var1$; border-color:$var2$;&quot;>&#xa;  &lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;$var3$&quot; alt=&quot;$var4$&quot;>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var5$&lt;/h4>&#xa;    &lt;p class=&quot;card-text&quot;>$var6$&lt;/p>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card background custom" toReformat="true">
-        <variable name="var1" expression="&quot;cadetblue&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;darkblue&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var4" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-block" value="&lt;div class=&quot;card&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card block" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;text&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -573,12 +566,10 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-background" value="&lt;div class=&quot;card card-inverse $var1$&quot;>&#xa;  &lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;$var2$&quot; alt=&quot;$var3$&quot;>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var4$&lt;/h4>&#xa;    &lt;p class=&quot;card-text&quot;>$var5$&lt;/p>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card background" toReformat="true">
-        <variable name="var1" expression="&quot;card-primary|card-success|card-info|card-warning|card-danger&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var3" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-links" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var1$&lt;/h4&gt;&#10;    &lt;h6 class=&quot;card-subtitle mb-2 text-muted&quot;&gt;$var2$&lt;/h6&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Card link&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Another link&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with links" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;subtitle&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -588,10 +579,8 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-blockquote" value="&lt;div class=&quot;card&quot;>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;blockquote class=&quot;card-blockquote&quot;>&#xa;      &lt;p>$var1$&lt;/p>&#xa;      &lt;footer>$var2$&lt;cite title=&quot;$var3$&quot;>$var3$&lt;/cite>&lt;/footer>&#xa;    &lt;/blockquote>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card blockquote" toReformat="true">
-        <variable name="var1" expression="&quot;Quote&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;Footer&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Source title&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-image" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var1$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with image" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;text&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -601,15 +590,10 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-columns" value="&lt;div class=&quot;card-columns&quot;>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;$var5$&quot; alt=&quot;$var6$&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var7$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var8$&lt;/p>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="card columns" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var2" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var6" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-list-group" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;$var1$&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;$var2$&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;$var3$&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;" description="Card list group" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;item1&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;item2&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;item3&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -619,15 +603,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-decks" value="&lt;div class=&quot;card-deck-wrapper&quot;>&#xa;&#x9;&lt;div class=&quot;card-deck&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&#x9;&lt;img class=&quot;card-img-top&quot; src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&#x9;&lt;img class=&quot;card-img-top&quot; src=&quot;$var5$&quot; alt=&quot;$var6$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var7$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var8$&lt;/p>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="card decks" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var2" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var6" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-kitchen-sink" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;&#10;  &lt;/div&gt;&#10;  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Card link&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Another link&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card kitchensink" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -637,11 +613,11 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-default" value="&lt;div class=&quot;card&quot;>&#xa;&#x9;&lt;img class=&quot;card-img-top&quot; data-src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="card default" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var2" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-header" value="&lt;div class=&quot;card&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var2$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with header" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;button&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -651,15 +627,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-grid" value="&lt;div class=&quot;row&quot;>&#xa;  &lt;div class=&quot;col-$var1$-$var2$&quot;>&#xa;    &lt;div class=&quot;card card-block&quot;>&#xa;      &lt;h3 class=&quot;card-title&quot;>$var3$&lt;/h3>&#xa;      &lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;    &lt;/div>&#xa;  &lt;/div>&#xa;  &lt;div class=&quot;col-$var5$-$var6$&quot;>&#xa;    &lt;div class=&quot;card card-block&quot;>&#xa;      &lt;h3 class=&quot;card-title&quot;>$var7$&lt;/h3>&#xa;      &lt;p class=&quot;card-text&quot;>$var8$&lt;/p>&#xa;    &lt;/div>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card grid" toReformat="true">
-        <variable name="var1" expression="&quot;xs|sm|md|lg|xl&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;1-12&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;xs|sm|md|lg|xl&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;1-12&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-quote" value="&lt;div class=&quot;card&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    Quote&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with quote" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -669,15 +637,12 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-groups" value="&lt;div class=&quot;card-group&quot;>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;img class=&quot;card-img-top&quot; data-src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;img class=&quot;card-img-top&quot; data-src=&quot;$var5$&quot; alt=&quot;$var6$&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var7$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var8$&lt;/p>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>&#xa;&lt;/div>$END$" description="card groups" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;Card image cap&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Card image cap&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-header-footer" value="&lt;div class=&quot;card text-center&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var2$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-footer text-muted&quot;&gt;&#10;    $var5$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with header and footer" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;button&quot;" alwaysStopAt="true" />
+        <variable name="var5" expression="&quot;footer&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -687,11 +652,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-head-foot" value="&lt;div class=&quot;card&quot;>&#xa;&#x9;&lt;div class=&quot;card-header&quot;>&#xa;&#x9;&#x9;$var1$&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var2$&lt;/h4>&#xa;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var3$&lt;/p>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card-footer text-muted&quot;>&#xa;&#x9;&#x9;$var4$&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="card head foot" toReformat="true">
-        <variable name="var1" expression="&quot;Header&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;Header&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Header&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Header&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-row" value="&lt;div class=&quot;row&quot;&gt;&#10;  &lt;div class=&quot;col-sm-6&quot;&gt;&#10;    &lt;div class=&quot;card&quot;&gt;&#10;      &lt;div class=&quot;card-body&quot;&gt;&#10;        &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;&#10;        &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;        &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;col-sm-6&quot;&gt;&#10;    &lt;div class=&quot;card&quot;&gt;&#10;      &lt;div class=&quot;card-body&quot;&gt;&#10;        &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;&#10;        &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;        &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card row with two cards" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -701,15 +662,11 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-links" value="&lt;div class=&quot;card&quot;>&#xa;&#x9;&lt;img class=&quot;card-img-top&quot; data-src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&lt;a href=&quot;$var6$&quot; class=&quot;card-link&quot;>$var5$&lt;/a>&#xa;&#x9;&#x9;&lt;a href=&quot;$var8$&quot; class=&quot;card-link&quot;>$var7$&lt;/a>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="card links" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/?text=Image cap&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;Card image cap&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Card link&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Another link&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;#&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-width" value="&lt;div class=&quot;card w-$var1$&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var2$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card row with specified-width" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;50&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;button&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -719,13 +676,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-list" value="&lt;div class=&quot;card&quot;>&#xa;&#x9;&lt;img class=&quot;card-img-top&quot; data-src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&lt;h4 class=&quot;card-title&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;ul class=&quot;list-group list-group-flush&quot;>&#xa;&#x9;&#x9;&lt;li class=&quot;list-group-item&quot;>$var5$&lt;/li>&#xa;&#x9;&#x9;&lt;li class=&quot;list-group-item&quot;>$var6$&lt;/li>&#xa;&#x9;&lt;/ul>&#xa;&lt;/div>$END$" description="card list" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/?text=Image cap&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;Card image cap&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Item 1&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Item 2&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-navigation" value="&lt;div class=&quot;card text-center&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    &lt;ul class=&quot;nav nav-tabs card-header-tabs&quot;&gt;&#10;      &lt;li class=&quot;nav-item&quot;&gt;&#10;        &lt;a class=&quot;nav-link active&quot; href=&quot;#&quot;&gt;Active&lt;/a&gt;&#10;      &lt;/li&gt;&#10;      &lt;li class=&quot;nav-item&quot;&gt;&#10;        &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;&#10;      &lt;/li&gt;&#10;      &lt;li class=&quot;nav-item&quot;&gt;&#10;        &lt;a class=&quot;nav-link disabled&quot; href=&quot;#&quot;&gt;Disabled&lt;/a&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card row with navigation" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -735,12 +686,10 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-outline" value="&lt;div class=&quot;card card-outline-$var1$&quot;>&#xa;  &lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;$var2$&quot; alt=&quot;$var3$&quot;>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var4$&lt;/h4>&#xa;    &lt;p class=&quot;card-text&quot;>$var5$&lt;/p>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card outline" toReformat="true">
-        <variable name="var1" expression="&quot;primary|secondary|success|info|warning|danger&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var3" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-wide-image" value="&lt;div class=&quot;card mb-3&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var1$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var2$&lt;/p&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;$var3$&lt;/small&gt;&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with wide image caps" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;muted&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -750,11 +699,11 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-overlay" value="&lt;div class=&quot;card card-inverse&quot;>&#xa;  &lt;img class=&quot;card-img-top img-fluid&quot; src=&quot;$var1$&quot; alt=&quot;$var2$&quot;>&#xa;  &lt;div class=&quot;card-img-overlay&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var3$&lt;/h4>&#xa;    &lt;p class=&quot;card-text&quot;>$var4$&lt;/p>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card overlay" toReformat="true">
-        <variable name="var1" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var2" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Text&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-color" value="&lt;div class=&quot;card text-white bg-$var1$ mb-3&quot; style=&quot;max-width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;$var2$&lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var3$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var4$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with background and color" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;primary|secondary|success|danger|warning|info|dark&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;text&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -764,15 +713,11 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-pill-head" value="&lt;div class=&quot;card text-xs-center&quot;>&#xa;  &lt;div class=&quot;card-header&quot;>&#xa;    &lt;ul class=&quot;nav nav-pills card-header-pills float-xs-left&quot;>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link active&quot; href=&quot;$var2$&quot;>$var1$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link disabled&quot; href=&quot;$var6$&quot;>$var5$&lt;/a>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;  &lt;/div>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var7$&lt;/h4>&#xa;    &lt;p class=&quot;card-text&quot;>$var8$&lt;/p>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card pill head" toReformat="true">
-        <variable name="var1" expression="&quot;Active pill&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Pill&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Disabled pill&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Body&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-border-color" value="&lt;div class=&quot;card border-$var1$ mb-3&quot; style=&quot;max-width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;$var2$&lt;/div&gt;&#10;  &lt;div class=&quot;card-body text-primary&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var3$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var4$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with border color" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;primary|secondary|success|danger|warning|info|dark&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;text&quot;" alwaysStopAt="true" />
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -782,16 +727,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-subtitle" value="&lt;div class=&quot;card&quot;>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var1$&lt;/h4>&#xa;    &lt;h6 class=&quot;card-subtitle text-muted&quot;>$var2$&lt;/h6>&#xa;  &lt;/div>&#xa;  &lt;img src=&quot;$var3$&quot; alt=&quot;$var4$&quot;>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;p class=&quot;card-text&quot;>$var5$&lt;/p>&#xa;    &lt;a href=&quot;$var7$&quot; class=&quot;card-link&quot;>$var6$&lt;/a>&#xa;    &lt;a href=&quot;$var9$&quot; class=&quot;card-link&quot;>$var8$&lt;/a>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card subtitle" toReformat="true">
-        <variable name="var1" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;Subtitle&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;holder.js/100%x180/&quot;" alwaysStopAt="true"/>
-        <variable name="var4" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Text&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Link 1&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Link 2&quot;" alwaysStopAt="true"/>
-        <variable name="var9" expression="&quot;#&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-transparent" value="&lt;div class=&quot;card border-success mb-3&quot; style=&quot;max-width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-header bg-transparent border-success&quot;&gt;Header&lt;/div&gt;&#10;  &lt;div class=&quot;card-body text-success&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;Success card title&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-footer bg-transparent border-success&quot;&gt;Footer&lt;/div&gt;&#10;&lt;/div&gt;" description="Card with transparent background" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -801,15 +737,47 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-card-tab-head" value="&lt;div class=&quot;card text-xs-center&quot;>&#xa;  &lt;div class=&quot;card-header&quot;>&#xa;    &lt;ul class=&quot;nav nav-tabs card-header-tabs float-xs-left&quot;>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link active&quot; href=&quot;$var2$&quot;>$var1$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link disabled&quot; href=&quot;$var6$&quot;>$var5$&lt;/a>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;  &lt;/div>&#xa;  &lt;div class=&quot;card-block&quot;>&#xa;    &lt;h4 class=&quot;card-title&quot;>$var7$&lt;/h4>&#xa;    &lt;p class=&quot;card-text&quot;>$var8$&lt;/p>&#xa;  &lt;/div>&#xa;&lt;/div>$END$" description="card tab head" toReformat="true">
-        <variable name="var1" expression="&quot;Active tab&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Tab&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Disabled tab&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;#&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Title&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Body&quot;" alwaysStopAt="true"/>
+    <template name="bs4-card-group" value="&lt;div class=&quot;card-group&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card within group" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-group-footer" value="&lt;div class=&quot;card-group&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-footer&quot;&gt;&#10;      &lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&#10;    &lt;/div&gt;    &#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-footer&quot;&gt;&#10;      &lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&#10;    &lt;/div&gt;    &#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-footer&quot;&gt;&#10;      &lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&#10;    &lt;/div&gt;    &#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card within group with footer" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-decks" value="&lt;div class=&quot;card-deck&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card decks for unattached cards" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-columns" value="&lt;div class=&quot;card-columns&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title that wraps to a new line&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card p-3&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0 card-body&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;&#10;        &lt;small class=&quot;text-muted&quot;&gt;&#10;          Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&#10;        &lt;/small&gt;&#10;      &lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card bg-primary p-3 text-center&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;&#10;        &lt;small&gt;&#10;          Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&#10;        &lt;/small&gt;&#10;      &lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card text-center&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image&quot;&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card p-3 text-right&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;&#10;        &lt;small class=&quot;text-muted&quot;&gt;&#10;          Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&#10;        &lt;/small&gt;&#10;      &lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card columns" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-template-starter" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;  &lt;head&gt;&#10;    &lt;meta charset=&quot;utf-8&quot;&gt;&#10;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;&#10;    &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;&#10;    &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;&#10;    &lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot;&gt;&#10;&#10;    &lt;title&gt;Starter Template for Bootstrap&lt;/title&gt;&#10;&#10;    &lt;!-- Bootstrap core CSS --&gt;&#10;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css&quot; integrity=&quot;sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M&quot; crossorigin=&quot;anonymous&quot;&gt;&#10;&#10;    &lt;!-- Custom styles for this template --&gt;&#10;    &lt;style&gt;&#10;        body {&#10;            padding-top: 5rem;&#10;        }&#10;&#10;        .starter-template {&#10;            padding: 3rem 1.5rem;&#10;            text-align: center;&#10;        }&#10;    &lt;/style&gt;&#10;  &lt;/head&gt;&#10;&#10;  &lt;body&gt;&#10;&#10;    &lt;nav class=&quot;navbar navbar-expand-md navbar-dark bg-dark fixed-top&quot;&gt;&#10;      &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Navbar&lt;/a&gt;&#10;      &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarsExampleDefault&quot; aria-controls=&quot;navbarsExampleDefault&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;&#10;        &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;&#10;      &lt;/button&gt;&#10;&#10;      &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarsExampleDefault&quot;&gt;&#10;        &lt;ul class=&quot;navbar-nav mr-auto&quot;&gt;&#10;          &lt;li class=&quot;nav-item active&quot;&gt;&#10;            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Home &lt;span class=&quot;sr-only&quot;&gt;(current)&lt;/span&gt;&lt;/a&gt;&#10;          &lt;/li&gt;&#10;          &lt;li class=&quot;nav-item&quot;&gt;&#10;            &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;&#10;          &lt;/li&gt;&#10;          &lt;li class=&quot;nav-item&quot;&gt;&#10;            &lt;a class=&quot;nav-link disabled&quot; href=&quot;#&quot;&gt;Disabled&lt;/a&gt;&#10;          &lt;/li&gt;&#10;          &lt;li class=&quot;nav-item dropdown&quot;&gt;&#10;            &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;http://example.com&quot; id=&quot;dropdown01&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Dropdown&lt;/a&gt;&#10;            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdown01&quot;&gt;&#10;              &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;&#10;              &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;&#10;              &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&#10;            &lt;/div&gt;&#10;          &lt;/li&gt;&#10;        &lt;/ul&gt;&#10;        &lt;form class=&quot;form-inline my-2 my-lg-0&quot;&gt;&#10;          &lt;input class=&quot;form-control mr-sm-2&quot; type=&quot;text&quot; placeholder=&quot;Search&quot; aria-label=&quot;Search&quot;&gt;&#10;          &lt;button class=&quot;btn btn-outline-success my-2 my-sm-0&quot; type=&quot;submit&quot;&gt;Search&lt;/button&gt;&#10;        &lt;/form&gt;&#10;      &lt;/div&gt;&#10;    &lt;/nav&gt;&#10;&#10;    &lt;div class=&quot;container&quot;&gt;&#10;&#10;      &lt;div class=&quot;starter-template&quot;&gt;&#10;        &lt;h1&gt;Bootstrap starter template&lt;/h1&gt;&#10;        &lt;p class=&quot;lead&quot;&gt;Use this document as a way to quickly start any new project.&lt;br&gt; All you get is this text and a mostly barebones HTML document.&lt;/p&gt;&#10;      &lt;/div&gt;&#10;      &#10;      &#10;&#10;    &lt;/div&gt;&lt;!-- /.container --&gt;&#10;&#10;&#10;    &lt;!-- Bootstrap core JavaScript&#10;    ================================================== --&gt;&#10;    &lt;!-- Placed at the end of the document so the pages load faster --&gt;&#10;    &lt;script src=&quot;https://code.jquery.com/jquery-3.2.1.slim.min.js&quot; integrity=&quot;sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;&#10;    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js&quot; integrity=&quot;sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;&#10;    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js&quot; integrity=&quot;sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;    &#10;    &#10;    &lt;!-- IE10 viewport hack for Surface/desktop Windows 8 bug --&gt;&#10;    &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js&quot;&gt;&lt;/script&gt;&#10;    &lt;!-- Holder.js for placeholder images --&gt;&#10;    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js&quot;&gt;&lt;/script&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" description="Starter template" toReformat="false" toShortenFQNames="true">
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -859,7 +827,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-collapse-accordion" value="&lt;div id=&quot;$var1$&quot; role=&quot;tablist&quot; aria-multiselectable=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$var3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$var1$&quot; href=&quot;#$var5$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$var5$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$var2$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$var5$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$var3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$var4$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$var7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$var1$&quot; href=&quot;#$var9$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$var9$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$var6$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$var9$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$var7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-block&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$var8$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="collapse accordion" toReformat="true">
+    <template name="bs4-collapse-accordion" value="&lt;div id=&quot;$var1$&quot; role=&quot;tablist&quot; aria-multiselectable=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$var3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$var1$&quot; href=&quot;#$var5$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$var5$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$var2$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$var5$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$var3$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-body&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$var4$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&#x9;&lt;div class=&quot;card&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;card-header&quot; role=&quot;tab&quot; id=&quot;$var7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;h5 class=&quot;mb-0&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#$var1$&quot; href=&quot;#$var9$&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;$var9$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$var6$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/h5>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;div id=&quot;$var9$&quot; class=&quot;collapse in&quot; role=&quot;tabpanel&quot; aria-labelledby=&quot;$var7$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;card-body&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$var8$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="collapse accordion" toReformat="true">
         <variable name="var1" expression="&quot;accordianId&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;Section 1&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;section1HeaderId&quot;" alwaysStopAt="true"/>
@@ -2029,7 +1997,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-navbar-background-color" value="&lt;nav class=&quot;navbar navbar-light&quot; style=&quot;background-color: $var1$;&quot;>&#xa;  &lt;button class=&quot;navbar-toggler hidden-lg-up&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;          data-target=&quot;#$var2$&quot; aria-controls=&quot;$var2$&quot;&#xa;    aria-expanded=&quot;false&quot; aria-label=&quot;$var3$&quot;>&lt;/button>&#xa;  &lt;div class=&quot;collapse navbar-toggleable-md&quot; id=&quot;$var2$&quot;>&#xa;    &lt;a class=&quot;navbar-brand&quot; href=&quot;$var5$&quot;>$var4$&lt;/a>&#xa;    &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;      &lt;li class=&quot;nav-item active&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var7$&quot;>$var6$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var9$&quot;>$var8$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item dropdown&quot;>&#xa;        &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$11$&quot; id=&quot;$12$&quot;&#xa;           data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$10$&lt;/a>&#xa;        &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$12$&quot;>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$14$&quot;>$13$&lt;/a>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$16$&quot;>$15$&lt;/a>&#xa;        &lt;/div>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;    &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;      &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$17$&quot;>&#xa;      &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$17$&lt;/button>&#xa;    &lt;/form>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar background color" toReformat="true">
+    <template name="bs4-navbar-background-color" value="&lt;nav class=&quot;navbar navbar-light&quot; style=&quot;background-color: $var1$;&quot;>&#xa;  &lt;button class=&quot;navbar-toggler d-lg-none&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;          data-target=&quot;#$var2$&quot; aria-controls=&quot;$var2$&quot;&#xa;    aria-expanded=&quot;false&quot; aria-label=&quot;$var3$&quot;>&lt;/button>&#xa;  &lt;div class=&quot;collapse navbar-expand-md&quot; id=&quot;$var2$&quot;>&#xa;    &lt;a class=&quot;navbar-brand&quot; href=&quot;$var5$&quot;>$var4$&lt;/a>&#xa;    &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;      &lt;li class=&quot;nav-item active&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var7$&quot;>$var6$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var9$&quot;>$var8$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item dropdown&quot;>&#xa;        &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$11$&quot; id=&quot;$12$&quot;&#xa;           data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$10$&lt;/a>&#xa;        &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$12$&quot;>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$14$&quot;>$13$&lt;/a>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$16$&quot;>$15$&lt;/a>&#xa;        &lt;/div>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;    &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;      &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$17$&quot;>&#xa;      &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$17$&lt;/button>&#xa;    &lt;/form>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar background color" toReformat="true">
         <variable name="var1" expression="&quot;#e3f2fd&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;collapsibleNavId&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Toggle navigation&quot;" alwaysStopAt="true"/>
@@ -2056,7 +2024,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-navbar-background" value="&lt;nav class=&quot;navbar navbar-dark navbar-{1:inverse|primary}&quot;>&#xa;  &lt;button class=&quot;navbar-toggler hidden-lg-up&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;          data-target=&quot;#$var2$&quot; aria-controls=&quot;$var2$&quot;&#xa;    aria-expanded=&quot;false&quot; aria-label=&quot;$var3$&quot;>&lt;/button>&#xa;  &lt;div class=&quot;collapse navbar-toggleable-md&quot; id=&quot;$var2$&quot;>&#xa;    &lt;a class=&quot;navbar-brand&quot; href=&quot;$var5$&quot;>$var4$&lt;/a>&#xa;    &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;      &lt;li class=&quot;nav-item active&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var7$&quot;>$var6$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var9$&quot;>$var8$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item dropdown&quot;>&#xa;        &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$11$&quot; id=&quot;$12$&quot;&#xa;           data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$10$&lt;/a>&#xa;        &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$12$&quot;>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$14$&quot;>$13$&lt;/a>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$16$&quot;>$15$&lt;/a>&#xa;        &lt;/div>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;    &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;      &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$17$&quot;>&#xa;      &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$17$&lt;/button>&#xa;    &lt;/form>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar background" toReformat="true">
+    <template name="bs4-navbar-background" value="&lt;nav class=&quot;navbar navbar-dark navbar-{1:inverse|primary}&quot;>&#xa;  &lt;button class=&quot;navbar-toggler d-lg-none&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;          data-target=&quot;#$var2$&quot; aria-controls=&quot;$var2$&quot;&#xa;    aria-expanded=&quot;false&quot; aria-label=&quot;$var3$&quot;>&lt;/button>&#xa;  &lt;div class=&quot;collapse navbar-expand-md&quot; id=&quot;$var2$&quot;>&#xa;    &lt;a class=&quot;navbar-brand&quot; href=&quot;$var5$&quot;>$var4$&lt;/a>&#xa;    &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;      &lt;li class=&quot;nav-item active&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var7$&quot;>$var6$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var9$&quot;>$var8$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item dropdown&quot;>&#xa;        &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$11$&quot; id=&quot;$12$&quot;&#xa;           data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$10$&lt;/a>&#xa;        &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$12$&quot;>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$14$&quot;>$13$&lt;/a>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$16$&quot;>$15$&lt;/a>&#xa;        &lt;/div>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;    &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;      &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$17$&quot;>&#xa;      &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$17$&lt;/button>&#xa;    &lt;/form>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar background" toReformat="true">
         <variable name="var2" expression="&quot;collapsibleNavId&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Toggle navigation&quot;" alwaysStopAt="true"/>
         <variable name="var4" expression="&quot;My App/Logo with Text&quot;" alwaysStopAt="true"/>
@@ -2082,7 +2050,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-navbar-default" value="&lt;nav class=&quot;navbar navbar-light bg-faded&quot;>&#xa;&#x9;&lt;button class=&quot;navbar-toggler hidden-lg-up&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;&#x9;&#x9;&#x9;data-target=&quot;#$var1$&quot; aria-controls=&quot;$var1$&quot;&#xa;&#x9;&#x9;&#x9;aria-expanded=&quot;false&quot; aria-label=&quot;$var2$&quot;>&lt;/button>&#xa;&#x9;&lt;div class=&quot;collapse navbar-toggleable-md&quot; id=&quot;$var1$&quot;>&#xa;&#x9;&#x9;&lt;a class=&quot;navbar-brand&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;&#x9;&#x9;&lt;ul class=&quot;nav navbar-nav&quot;>&#xa;&#x9;&#x9;&#x9;&lt;li class=&quot;nav-item active&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;nav-link&quot; href=&quot;$var6$&quot;>$var5$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/li>&#xa;&#x9;&#x9;&#x9;&lt;li class=&quot;nav-item&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;nav-link&quot; href=&quot;$var8$&quot;>$var7$&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/li>&#xa;&#x9;&#x9;&#x9;&lt;li class=&quot;nav-item dropdown&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$10$&quot; id=&quot;$11$&quot;&#xa;&#x9;&#x9;&#x9;&#x9;   data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$var9$&lt;/a>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$11$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$13$&quot;>$12$&lt;/a>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$15$&quot;>$14$&lt;/a>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;/li>&#xa;&#x9;&#x9;&lt;/ul>&#xa;&#x9;&#x9;&lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;&#x9;&#x9;&#x9;&lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$16$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$16$&lt;/button>&#xa;&#x9;&#x9;&lt;/form>&#xa;&#x9;&lt;/div>&#xa;&lt;/nav>$END$" description="navbar default" toReformat="true">
+    <template name="bs4-navbar-default" value="&lt;nav class=&quot;navbar navbar-light bg-light&quot;>&#xa;&#x9;&lt;button class=&quot;navbar-toggler d-lg-none&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;&#x9;&#x9;&#x9;data-target=&quot;#$var1$&quot; aria-controls=&quot;$var1$&quot;&#xa;&#x9;&#x9;&#x9;aria-expanded=&quot;false&quot; aria-label=&quot;$var2$&quot;>&lt;/button>&#xa;&#x9;&lt;div class=&quot;collapse navbar-expand-md&quot; id=&quot;$var1$&quot;>&#xa;&#x9;&#x9;&lt;a class=&quot;navbar-brand&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;&#x9;&#x9;&lt;ul class=&quot;nav navbar-nav&quot;>&#xa;&#x9;&#x9;&#x9;&lt;li class=&quot;nav-item active&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;nav-link&quot; href=&quot;$var6$&quot;>$var5$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/li>&#xa;&#x9;&#x9;&#x9;&lt;li class=&quot;nav-item&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;nav-link&quot; href=&quot;$var8$&quot;>$var7$&lt;/a>&#xa;&#x9;&#x9;&#x9;&lt;/li>&#xa;&#x9;&#x9;&#x9;&lt;li class=&quot;nav-item dropdown&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$10$&quot; id=&quot;$11$&quot;&#xa;&#x9;&#x9;&#x9;&#x9;   data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$var9$&lt;/a>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$11$&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$13$&quot;>$12$&lt;/a>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;a class=&quot;dropdown-item&quot; href=&quot;$15$&quot;>$14$&lt;/a>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;/li>&#xa;&#x9;&#x9;&lt;/ul>&#xa;&#x9;&#x9;&lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;&#x9;&#x9;&#x9;&lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$16$&quot;>&#xa;&#x9;&#x9;&#x9;&lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$16$&lt;/button>&#xa;&#x9;&#x9;&lt;/form>&#xa;&#x9;&lt;/div>&#xa;&lt;/nav>$END$" description="navbar default" toReformat="true">
         <variable name="var1" expression="&quot;collapsibleNavId&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;Toggle navigation&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;My App/Logo with Text&quot;" alwaysStopAt="true"/>
@@ -2108,7 +2076,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-navbar-minimal-a" value="&lt;nav class=&quot;navbar navbar-light bg-faded&quot;>&#xa;  &lt;div class=&quot;nav navbar-nav&quot;>&#xa;    &lt;a class=&quot;nav-item nav-link active&quot; href=&quot;$var2$&quot;>$var1$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;    &lt;a class=&quot;nav-item nav-link&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar minimal a" toReformat="true">
+    <template name="bs4-navbar-minimal-a" value="&lt;nav class=&quot;navbar navbar-light bg-light&quot;>&#xa;  &lt;div class=&quot;nav navbar-nav&quot;>&#xa;    &lt;a class=&quot;nav-item nav-link active&quot; href=&quot;$var2$&quot;>$var1$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;    &lt;a class=&quot;nav-item nav-link&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar minimal a" toReformat="true">
         <variable name="var1" expression="&quot;Home&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;#&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Home&quot;" alwaysStopAt="true"/>
@@ -2122,7 +2090,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-navbar-minimal-ul" value="&lt;nav class=&quot;navbar navbar-light bg-faded&quot;>&#xa;  &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;    &lt;li class=&quot;nav-item active&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var2$&quot;>$var1$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;    &lt;/li>&#xa;    &lt;li class=&quot;nav-item&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;    &lt;/li>&#xa;  &lt;/ul>&#xa;&lt;/nav>$END$" description="navbar minimal ul" toReformat="true">
+    <template name="bs4-navbar-minimal-ul" value="&lt;nav class=&quot;navbar navbar-light bg-light&quot;>&#xa;  &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;    &lt;li class=&quot;nav-item active&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var2$&quot;>$var1$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;    &lt;/li>&#xa;    &lt;li class=&quot;nav-item&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var4$&quot;>$var3$&lt;/a>&#xa;    &lt;/li>&#xa;  &lt;/ul>&#xa;&lt;/nav>$END$" description="navbar minimal ul" toReformat="true">
         <variable name="var1" expression="&quot;Nav 1&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;#&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Nav 2&quot;" alwaysStopAt="true"/>
@@ -2136,7 +2104,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-navbar-non-responsive" value="&lt;nav class=&quot;navbar navbar-light bg-faded&quot;>&#xa;  &lt;a class=&quot;navbar-brand&quot; href=&quot;$var2$&quot;>$var1$&lt;/a>&#xa;  &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;    &lt;li class=&quot;nav-item active&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var4$&quot;>$var3$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;    &lt;/li>&#xa;    &lt;li class=&quot;nav-item&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var6$&quot;>$var5$&lt;/a>&#xa;    &lt;/li>&#xa;    &lt;li class=&quot;nav-item dropdown&quot;>&#xa;      &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$var8$&quot; id=&quot;$var9$&quot;&#xa;         data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$var7$&lt;/a>&#xa;      &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$var9$&quot;>&#xa;        &lt;a class=&quot;dropdown-item&quot; href=&quot;$11$&quot;>$10$&lt;/a>&#xa;        &lt;a class=&quot;dropdown-item&quot; href=&quot;$13$&quot;>$12$&lt;/a>&#xa;      &lt;/div>&#xa;    &lt;/li>&#xa;  &lt;/ul>&#xa;  &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;    &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$14$&quot;>&#xa;    &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$14$&lt;/button>&#xa;  &lt;/form>&#xa;&lt;/nav>$END$" description="navbar non responsive" toReformat="true">
+    <template name="bs4-navbar-non-responsive" value="&lt;nav class=&quot;navbar navbar-light bg-light&quot;>&#xa;  &lt;a class=&quot;navbar-brand&quot; href=&quot;$var2$&quot;>$var1$&lt;/a>&#xa;  &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;    &lt;li class=&quot;nav-item active&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var4$&quot;>$var3$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;    &lt;/li>&#xa;    &lt;li class=&quot;nav-item&quot;>&#xa;      &lt;a class=&quot;nav-link&quot; href=&quot;$var6$&quot;>$var5$&lt;/a>&#xa;    &lt;/li>&#xa;    &lt;li class=&quot;nav-item dropdown&quot;>&#xa;      &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$var8$&quot; id=&quot;$var9$&quot;&#xa;         data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$var7$&lt;/a>&#xa;      &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$var9$&quot;>&#xa;        &lt;a class=&quot;dropdown-item&quot; href=&quot;$11$&quot;>$10$&lt;/a>&#xa;        &lt;a class=&quot;dropdown-item&quot; href=&quot;$13$&quot;>$12$&lt;/a>&#xa;      &lt;/div>&#xa;    &lt;/li>&#xa;  &lt;/ul>&#xa;  &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;    &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$14$&quot;>&#xa;    &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$14$&lt;/button>&#xa;  &lt;/form>&#xa;&lt;/nav>$END$" description="navbar non responsive" toReformat="true">
         <variable name="var1" expression="&quot;My App/Logo with Text&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;#&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Nav 1&quot;" alwaysStopAt="true"/>
@@ -2160,7 +2128,7 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-navbar-placement" value="&lt;nav class=&quot;navbar navbar-light bg-faded navbar-$var1$&quot;>&#xa;  &lt;button class=&quot;navbar-toggler hidden-lg-up&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;          data-target=&quot;#$var2$&quot; aria-controls=&quot;$var2$&quot;&#xa;          aria-expanded=&quot;false&quot; aria-label=&quot;$var3$&quot;>&lt;/button>&#xa;  &lt;div class=&quot;collapse navbar-toggleable-md&quot; id=&quot;$var2$&quot;>&#xa;    &lt;a class=&quot;navbar-brand&quot; href=&quot;$var5$&quot;>$var4$&lt;/a>&#xa;    &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;      &lt;li class=&quot;nav-item active&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var7$&quot;>$var6$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var9$&quot;>$var8$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item dropdown&quot;>&#xa;        &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$11$&quot; id=&quot;$12$&quot;&#xa;           data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$10$&lt;/a>&#xa;        &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$12$&quot;>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$14$&quot;>$13$&lt;/a>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$16$&quot;>$15$&lt;/a>&#xa;        &lt;/div>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;    &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;      &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$17$&quot;>&#xa;      &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$17$&lt;/button>&#xa;    &lt;/form>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar placement" toReformat="true">
+    <template name="bs4-navbar-placement" value="&lt;nav class=&quot;navbar navbar-light bg-light navbar-$var1$&quot;>&#xa;  &lt;button class=&quot;navbar-toggler d-lg-none&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot;&#xa;          data-target=&quot;#$var2$&quot; aria-controls=&quot;$var2$&quot;&#xa;          aria-expanded=&quot;false&quot; aria-label=&quot;$var3$&quot;>&lt;/button>&#xa;  &lt;div class=&quot;collapse navbar-expand-md&quot; id=&quot;$var2$&quot;>&#xa;    &lt;a class=&quot;navbar-brand&quot; href=&quot;$var5$&quot;>$var4$&lt;/a>&#xa;    &lt;ul class=&quot;nav navbar-nav&quot;>&#xa;      &lt;li class=&quot;nav-item active&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var7$&quot;>$var6$ &lt;span class=&quot;sr-only&quot;>(current)&lt;/span>&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item&quot;>&#xa;        &lt;a class=&quot;nav-link&quot; href=&quot;$var9$&quot;>$var8$&lt;/a>&#xa;      &lt;/li>&#xa;      &lt;li class=&quot;nav-item dropdown&quot;>&#xa;        &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;$11$&quot; id=&quot;$12$&quot;&#xa;           data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;>$10$&lt;/a>&#xa;        &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;$12$&quot;>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$14$&quot;>$13$&lt;/a>&#xa;          &lt;a class=&quot;dropdown-item&quot; href=&quot;$16$&quot;>$15$&lt;/a>&#xa;        &lt;/div>&#xa;      &lt;/li>&#xa;    &lt;/ul>&#xa;    &lt;form class=&quot;form-inline float-xs-right&quot;>&#xa;      &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;$17$&quot;>&#xa;      &lt;button class=&quot;btn btn-outline-success&quot; type=&quot;submit&quot;>$17$&lt;/button>&#xa;    &lt;/form>&#xa;  &lt;/div>&#xa;&lt;/nav>$END$" description="navbar placement" toReformat="true">
         <variable name="var1" expression="&quot;full|fixed-top|fixed-bottom&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;collapsibleNavId&quot;" alwaysStopAt="true"/>
         <variable name="var3" expression="&quot;Toggle navigation&quot;" alwaysStopAt="true"/>
@@ -2720,12 +2688,11 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-responsive-print-hide-custom" value="&lt;div class=&quot;col-$var1$-$var2$ hidden-$var3$-$var4$&quot;>&#xa;&#x9;$var5$&#xa;&lt;/div>$END$" description="responsive print hide custom" toReformat="true">
+    <template name="bs4-responsive-print-hide-custom" value="&lt;div class=&quot;col-$var1$-$var2$ d-none d-$var3$-block&quot;>&#xa;&#x9;$var4$&#xa;&lt;/div>$END$" description="responsive print hide custom" toReformat="true">
         <variable name="var1" expression="&quot;xs|sm|md|lg&quot;" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;1-12&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;xs|sm|md|lg|xl&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;down|up&quot;" alwaysStopAt="true"/>
-        <variable name="var5" alwaysStopAt="true"/>
+        <variable name="var3" expression="&quot;sm|md|lg|xl&quot;" alwaysStopAt="true"/>
+        <variable name="var4" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>

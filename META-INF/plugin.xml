@@ -1,7 +1,7 @@
-<idea-plugin version="2" url="https://github.com/bodiam/intellij-bootstrap3">
+<idea-plugin url="https://github.com/bodiam/intellij-bootstrap">
     <id>nl.jworks.intellij.bootstrap3</id>
-    <name>Bootstrap</name>
-    <version>4.0.1</version>
+    <name>Bootstrap 3</name>
+    <version>4.0.2</version>
     <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
     <description><![CDATA[
@@ -13,6 +13,8 @@
     ]]></description>
 
     <change-notes><![CDATA[
+          4.0.2 Fixed cards support for Bootstrap 4 Beta.<br />
+          4.0.1 Bugfix.<br />
           4.0 Fixed some small issues, added Bootstrap 4 Beta support<br />
           2.4 Added bs3-form-field:select, thanks to <a href="https://github.com/JeyKeu>JQ</a><br />
           2.3 Upgraded to Bootstrap 3.3.7. Code will also be reformatted, thanks to <a href="https://github.com/azeemhassni">Azeem Hassni</a><br />

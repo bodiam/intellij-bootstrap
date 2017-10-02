@@ -1,0 +1,237 @@
+<templateSet group="Bootstrap 4 DEV">
+    <template name="bs4-card" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var1$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var2$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var3$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var2" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var3" defaultValue="&quot;button&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-block" value="&lt;div class=&quot;card&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card block" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-links" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var1$&lt;/h4&gt;&#10;    &lt;h6 class=&quot;card-subtitle mb-2 text-muted&quot;&gt;$var2$&lt;/h6&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Card link&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Another link&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with links" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;subtitle&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-image" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var1$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with image" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-list-group" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;$var1$&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;$var2$&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;$var3$&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;&lt;/div&gt;" description="Card list group" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;item1&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;item2&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;item3&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-kitchen-sink" value="&lt;div class=&quot;card&quot; style=&quot;width: 20rem;&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;&#10;  &lt;/div&gt;&#10;  &lt;ul class=&quot;list-group list-group-flush&quot;&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;&#10;    &lt;li class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/li&gt;&#10;  &lt;/ul&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Card link&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;card-link&quot;&gt;Another link&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card kitchensink" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-header" value="&lt;div class=&quot;card&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var2$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with header" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;button&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-quote" value="&lt;div class=&quot;card&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    Quote&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with quote" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-header-footer" value="&lt;div class=&quot;card text-center&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    $var1$&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var2$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-footer text-muted&quot;&gt;&#10;    $var5$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with header and footer" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;button&quot;" alwaysStopAt="true" />
+        <variable name="var5" expression="&quot;footer&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-row" value="&lt;div class=&quot;row&quot;&gt;&#10;  &lt;div class=&quot;col-sm-6&quot;&gt;&#10;    &lt;div class=&quot;card&quot;&gt;&#10;      &lt;div class=&quot;card-body&quot;&gt;&#10;        &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;&#10;        &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;        &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;col-sm-6&quot;&gt;&#10;    &lt;div class=&quot;card&quot;&gt;&#10;      &lt;div class=&quot;card-body&quot;&gt;&#10;        &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;&#10;        &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;        &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;&#10;      &lt;/div&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card row with two cards" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-width" value="&lt;div class=&quot;card w-$var1$&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var2$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var3$&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;$var4$&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card row with specified-width" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;50&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;button&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-navigation" value="&lt;div class=&quot;card text-center&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;&#10;    &lt;ul class=&quot;nav nav-tabs card-header-tabs&quot;&gt;&#10;      &lt;li class=&quot;nav-item&quot;&gt;&#10;        &lt;a class=&quot;nav-link active&quot; href=&quot;#&quot;&gt;Active&lt;/a&gt;&#10;      &lt;/li&gt;&#10;      &lt;li class=&quot;nav-item&quot;&gt;&#10;        &lt;a class=&quot;nav-link&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;&#10;      &lt;/li&gt;&#10;      &lt;li class=&quot;nav-item&quot;&gt;&#10;        &lt;a class=&quot;nav-link disabled&quot; href=&quot;#&quot;&gt;Disabled&lt;/a&gt;&#10;      &lt;/li&gt;&#10;    &lt;/ul&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;Special title treatment&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Go somewhere&lt;/a&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card row with navigation" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-wide-image" value="&lt;div class=&quot;card mb-3&quot;&gt;&#10;  &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var1$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var2$&lt;/p&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;$var3$&lt;/small&gt;&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with wide image caps" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;muted&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-color" value="&lt;div class=&quot;card text-white bg-$var1$ mb-3&quot; style=&quot;max-width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;$var2$&lt;/div&gt;&#10;  &lt;div class=&quot;card-body&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var3$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var4$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with background and color" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;primary|secondary|success|danger|warning|info|dark&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-border-color" value="&lt;div class=&quot;card border-$var1$ mb-3&quot; style=&quot;max-width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-header&quot;&gt;$var2$&lt;/div&gt;&#10;  &lt;div class=&quot;card-body text-primary&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;$var3$&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;$var4$&lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card with border color" toReformat="false" toShortenFQNames="true">
+        <variable name="var1" expression="&quot;primary|secondary|success|danger|warning|info|dark&quot;" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;header&quot;" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;title&quot;" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;text&quot;" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-transparent" value="&lt;div class=&quot;card border-success mb-3&quot; style=&quot;max-width: 20rem;&quot;&gt;&#10;  &lt;div class=&quot;card-header bg-transparent border-success&quot;&gt;Header&lt;/div&gt;&#10;  &lt;div class=&quot;card-body text-success&quot;&gt;&#10;    &lt;h4 class=&quot;card-title&quot;&gt;Success card title&lt;/h4&gt;&#10;    &lt;p class=&quot;card-text&quot;&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card-footer bg-transparent border-success&quot;&gt;Footer&lt;/div&gt;&#10;&lt;/div&gt;" description="Card with transparent background" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-group" value="&lt;div class=&quot;card-group&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card within group" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-group-footer" value="&lt;div class=&quot;card-group&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-footer&quot;&gt;&#10;      &lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&#10;    &lt;/div&gt;    &#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-footer&quot;&gt;&#10;      &lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&#10;    &lt;/div&gt;    &#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;card-footer&quot;&gt;&#10;      &lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&#10;    &lt;/div&gt;    &#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card within group with footer" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-decks" value="&lt;div class=&quot;card-deck&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card decks for unattached cards" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+    <template name="bs4-card-columns" value="&lt;div class=&quot;card-columns&quot;&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title that wraps to a new line&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card p-3&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0 card-body&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;&#10;        &lt;small class=&quot;text-muted&quot;&gt;&#10;          Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&#10;        &lt;/small&gt;&#10;      &lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img-top&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image cap&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card bg-primary p-3 text-center&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;&#10;        &lt;small&gt;&#10;          Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&#10;        &lt;/small&gt;&#10;      &lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card text-center&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This card has supporting text below as a natural lead-in to additional content.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;img class=&quot;card-img&quot; src=&quot;holder.js/100px80&quot; alt=&quot;Card image&quot;&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card p-3 text-right&quot;&gt;&#10;    &lt;blockquote class=&quot;blockquote mb-0&quot;&gt;&#10;      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;&#10;      &lt;footer class=&quot;blockquote-footer&quot;&gt;&#10;        &lt;small class=&quot;text-muted&quot;&gt;&#10;          Someone famous in &lt;cite title=&quot;Source Title&quot;&gt;Source Title&lt;/cite&gt;&#10;        &lt;/small&gt;&#10;      &lt;/footer&gt;&#10;    &lt;/blockquote&gt;&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;card&quot;&gt;&#10;    &lt;div class=&quot;card-body&quot;&gt;&#10;      &lt;h4 class=&quot;card-title&quot;&gt;Card title&lt;/h4&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.&lt;/p&gt;&#10;      &lt;p class=&quot;card-text&quot;&gt;&lt;small class=&quot;text-muted&quot;&gt;Last updated 3 mins ago&lt;/small&gt;&lt;/p&gt;&#10;    &lt;/div&gt;&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Card columns" toReformat="false" toShortenFQNames="true">
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+            <option name="JSX_HTML" value="true"/>
+        </context>
+    </template>
+</templateSet>
