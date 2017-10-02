@@ -13,6 +13,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
+          4.0.3 Fixed issue <a href="https://github.com/bodiam/intellij-bootstrap/issues/54">54</a><br />
           4.0.2 Fixed cards support for Bootstrap 4 Beta.<br />
           4.0.1 Bugfix.<br />
           4.0 Fixed some small issues, added Bootstrap 4 Beta support<br />
