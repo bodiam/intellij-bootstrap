@@ -1297,7 +1297,19 @@
 			<option name="JSX_HTML" value="true" />
         </context>
     </template>
-    <template name="bs3-form-field:select" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$var1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$var2$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        &lt;select class=&quot;form-control&quot; id=&quot;$var1$&quot;&gt;&#10;            &lt;option value=&quot;$var3$&quot;&gt;$var4$&lt;/option&gt;&#10;            $cursor$&#10;        &lt;/select&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;$END$&#10;" toReformat="true" toShortenFQNames="false">
+    <template name="bs3-form-field:select-horizontal" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$var1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$var2$&lt;/label&gt;&#10;    &lt;div class=&quot;col-sm-10&quot;&gt;&#10;        &lt;select class=&quot;form-control&quot; id=&quot;$var1$&quot;&gt;&#10;            &lt;option value=&quot;$var3$&quot;&gt;$var4$&lt;/option&gt;&#10;            $cursor$&#10;        &lt;/select&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;$END$&#10;" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="var2" expression="capitalize(var1)" defaultValue="" alwaysStopAt="false" />
+        <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="var4" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML" value="true" />
+            <option name="JSX_HTML" value="true" />
+            <option name="PHP" value="true" />
+        </context>
+    </template>
+    <template name="bs3-form-field:select" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$var1$&quot; class=&quot;col-sm-2 control-label&quot;&gt;$var2$&lt;/label&gt;&#10;    &#10;        &lt;select class=&quot;form-control&quot; id=&quot;$var1$&quot;&gt;&#10;            &lt;option value=&quot;$var3$&quot;&gt;$var4$&lt;/option&gt;&#10;            $cursor$&#10;        &lt;/select&gt;&#10;    &#10;&lt;/div&gt;$END$&#10;" toReformat="true" toShortenFQNames="false">
         <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
         <variable name="var2" expression="capitalize(var1)" defaultValue="" alwaysStopAt="false" />
         <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
