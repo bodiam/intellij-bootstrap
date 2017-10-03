@@ -1809,74 +1809,70 @@
             <option name="JSX_HTML" value="true"/>
         </context>
     </template>
-    <template name="bs4-modal-customize" value="&lt;!-- Button trigger modal -->&#xa;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;>&#xa;  $var1$&#xa;&lt;/button>&#xa;&#xa;&lt;!-- Modal -->&#xa;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var4$&quot; aria-hidden=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;modal-content&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-header&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;>&#xa;          &lt;span aria-hidden=&quot;true&quot;>&amp;times;&lt;/span>&#xa;        &lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;h4 class=&quot;modal-title&quot; id=&quot;$var4$&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-body&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;container-fluid&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$var7$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-footer&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;>$var5$&lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;>$var6$&lt;/button>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>&#xa;&#xa;&lt;script>&#xa;&#x9;$('#exampleModal').on('show.bs.modal', event => {&#xa;&#x9;&#x9;var button = $(event.relatedTarget);&#xa;&#x9;&#x9;var modal = $(this);&#xa;&#x9;&#x9;// Use above variables to manipulate the DOM&#xa;&#x9;&#x9;$var8$&#xa;&#x9;});&#xa;&lt;/script>$END$" description="modal customize" toReformat="true">
-        <variable name="var1" expression="&quot;Launch&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;modelId&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Modal title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;modelTitleId&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Close&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Save&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Add rows here&quot;" alwaysStopAt="true"/>
-        <variable name="var8" alwaysStopAt="true"/>
+    <template name="bs4-modal-customize" value="&lt;!-- Button trigger modal --&gt;&#10;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;&gt;&#10;  $var1$&#10;&lt;/button&gt;&#10;&#10;&lt;!-- Modal --&gt;&#10;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var4$&quot; aria-hidden=&quot;true&quot;&gt;&#10;&#9;&lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;modal-content&quot;&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-header&quot;&gt;&#10;                &lt;h4 class=&quot;modal-title&quot; id=&quot;$var4$&quot;&gt;$var3$&lt;/h4&gt;&#10;                &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&#10;                    &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&#10;                &lt;/button&gt;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-body&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;div class=&quot;container-fluid&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;$var7$&#10;&#9;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-footer&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;$var5$&lt;/button&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;$var6$&lt;/button&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;&#10;&#10;&lt;script&gt;&#10;&#9;$('#exampleModal').on('show.bs.modal', event =&gt; {&#10;&#9;&#9;var button = $(event.relatedTarget);&#10;&#9;&#9;var modal = $(this);&#10;&#9;&#9;// Use above variables to manipulate the DOM&#10;&#9;&#9;$var8$&#10;&#9;});&#10;&lt;/script&gt;$END$" description="modal customize" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="&quot;Launch&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;modelId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;modelTitleId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="var5" expression="&quot;Close&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var6" expression="&quot;Save&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var7" expression="&quot;Add rows here&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var8" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-            <option name="JSX_HTML" value="true"/>
+            <option name="GSP" value="true" />
+            <option name="HTML" value="true" />
+            <option name="JSP" value="true" />
+            <option name="JSX_HTML" value="true" />
+            <option name="PHP" value="true" />
         </context>
     </template>
-    <template name="bs4-modal-default" value="&lt;!-- Button trigger modal -->&#xa;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;>&#xa;  $var1$&#xa;&lt;/button>&#xa;&#xa;&lt;!-- Modal -->&#xa;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var4$&quot; aria-hidden=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;modal-content&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-header&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;>&#xa;          &lt;span aria-hidden=&quot;true&quot;>&amp;times;&lt;/span>&#xa;        &lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;h4 class=&quot;modal-title&quot; id=&quot;$var4$&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-body&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$var7$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-footer&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;>$var5$&lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;>$var6$&lt;/button>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="modal default" toReformat="true">
-        <variable name="var1" expression="&quot;Launch&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;modelId&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Modal title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;modelTitleId&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Close&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Save&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Body&quot;" alwaysStopAt="true"/>
+    <template name="bs4-modal-default" value="&lt;!-- Button trigger modal --&gt;&#10;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;&gt;&#10;  $var1$&#10;&lt;/button&gt;&#10;&#10;&lt;!-- Modal --&gt;&#10;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var4$&quot; aria-hidden=&quot;true&quot;&gt;&#10;&#9;&lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;modal-content&quot;&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-header&quot;&gt;&#10;    &#9;&#9;&#9;&lt;h4 class=&quot;modal-title&quot; id=&quot;$var4$&quot;&gt;$var3$&lt;/h4&gt; &#10;&#9;&#9;&#9;    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&#10;                    &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&#10;                &lt;/button&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-body&quot;&gt;&#10;&#9;&#9;&#9;&#9;$var7$&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-footer&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;$var5$&lt;/button&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;$var6$&lt;/button&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="modal default" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="&quot;Launch&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;modelId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;modelTitleId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="var5" expression="&quot;Close&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var6" expression="&quot;Save&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var7" expression="&quot;Body&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-            <option name="JSX_HTML" value="true"/>
+            <option name="GSP" value="true" />
+            <option name="HTML" value="true" />
+            <option name="JSP" value="true" />
+            <option name="JSX_HTML" value="true" />
+            <option name="PHP" value="true" />
         </context>
     </template>
-    <template name="bs4-modal-grid" value="&lt;!-- Button trigger modal -->&#xa;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;>&#xa;  $var1$&#xa;&lt;/button>&#xa;&#xa;&lt;!-- Modal -->&#xa;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var4$&quot; aria-hidden=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;modal-content&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-header&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;>&#xa;          &lt;span aria-hidden=&quot;true&quot;>&amp;times;&lt;/span>&#xa;        &lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;h4 class=&quot;modal-title&quot; id=&quot;$var4$&quot;>$var3$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-body&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;container-fluid&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;$var7$&#xa;&#x9;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-footer&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;>$var5$&lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;>$var6$&lt;/button>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="modal grid" toReformat="true">
-        <variable name="var1" expression="&quot;Launch&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;modelId&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;Modal title&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;modelTitleId&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;Close&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Save&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Add rows here&quot;" alwaysStopAt="true"/>
+    <template name="bs4-modal-grid" value="&lt;!-- Button trigger modal --&gt;&#10;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;&gt;&#10;  $var1$&#10;&lt;/button&gt;&#10;&#10;&lt;!-- Modal --&gt;&#10;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var4$&quot; aria-hidden=&quot;true&quot;&gt;&#10;&#9;&lt;div class=&quot;modal-dialog&quot; role=&quot;document&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;modal-content&quot;&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-header&quot;&gt;&#10;&#9;&#9;&#9;    &lt;h4 class=&quot;modal-title&quot; id=&quot;$var4$&quot;&gt;$var3$&lt;/h4&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&#10;                    &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&#10;                &lt;/button&gt;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-body&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;div class=&quot;container-fluid&quot;&gt;&#10;&#9;&#9;&#9;&#9;&#9;$var7$&#10;&#9;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-footer&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;$var5$&lt;/button&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;$var6$&lt;/button&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="modal grid" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="&quot;Launch&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;modelId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var4" expression="&quot;modelTitleId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="var5" expression="&quot;Close&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var6" expression="&quot;Save&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var7" expression="&quot;Add rows here&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-            <option name="JSX_HTML" value="true"/>
+            <option name="GSP" value="true" />
+            <option name="HTML" value="true" />
+            <option name="JSP" value="true" />
+            <option name="JSX_HTML" value="true" />
+            <option name="PHP" value="true" />
         </context>
     </template>
-    <template name="bs4-modal-sizes" value="&lt;!-- Button trigger modal -->&#xa;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;>&#xa;  $var1$&#xa;&lt;/button>&#xa;&#xa;&lt;!-- Modal -->&#xa;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var5$&quot; aria-hidden=&quot;true&quot;>&#xa;&#x9;&lt;div class=&quot;modal-dialog modal-$var3$&quot; role=&quot;document&quot;>&#xa;&#x9;&#x9;&lt;div class=&quot;modal-content&quot;>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-header&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;>&#xa;          &lt;span aria-hidden=&quot;true&quot;>&amp;times;&lt;/span>&#xa;        &lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;h4 class=&quot;modal-title&quot; id=&quot;$var5$&quot;>$var4$&lt;/h4>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-body&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;$var8$&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&#x9;&lt;div class=&quot;modal-footer&quot;>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;>$var6$&lt;/button>&#xa;&#x9;&#x9;&#x9;&#x9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;>$var7$&lt;/button>&#xa;&#x9;&#x9;&#x9;&lt;/div>&#xa;&#x9;&#x9;&lt;/div>&#xa;&#x9;&lt;/div>&#xa;&lt;/div>$END$" description="modal sizes" toReformat="true">
-        <variable name="var1" expression="&quot;Launch&quot;" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;modelId&quot;" alwaysStopAt="true"/>
-        <variable name="var3" expression="&quot;sm|lg&quot;" alwaysStopAt="true"/>
-        <variable name="var4" expression="&quot;Modal title&quot;" alwaysStopAt="true"/>
-        <variable name="var5" expression="&quot;modelTitleId&quot;" alwaysStopAt="true"/>
-        <variable name="var6" expression="&quot;Close&quot;" alwaysStopAt="true"/>
-        <variable name="var7" expression="&quot;Save&quot;" alwaysStopAt="true"/>
-        <variable name="var8" expression="&quot;Body&quot;" alwaysStopAt="true"/>
+    <template name="bs4-modal-sizes" value="&lt;!-- Button trigger modal --&gt;&#10;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot; data-toggle=&quot;modal&quot; data-target=&quot;#$var2$&quot;&gt;&#10;  $var1$&#10;&lt;/button&gt;&#10;&#10;&lt;!-- Modal --&gt;&#10;&lt;div class=&quot;modal fade&quot; id=&quot;$var2$&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;$var5$&quot; aria-hidden=&quot;true&quot;&gt;&#10;&#9;&lt;div class=&quot;modal-dialog modal-$var3$&quot; role=&quot;document&quot;&gt;&#10;&#9;&#9;&lt;div class=&quot;modal-content&quot;&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-header&quot;&gt;&#10;&#9;&#9;&#9;    &lt;h4 class=&quot;modal-title&quot; id=&quot;$var5$&quot;&gt;$var4$&lt;/h4&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;&#10;                    &lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&#10;                &lt;/button&gt;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-body&quot;&gt;&#10;&#9;&#9;&#9;&#9;$var8$&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&#9;&lt;div class=&quot;modal-footer&quot;&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot; data-dismiss=&quot;modal&quot;&gt;$var6$&lt;/button&gt;&#10;&#9;&#9;&#9;&#9;&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;$var7$&lt;/button&gt;&#10;&#9;&#9;&#9;&lt;/div&gt;&#10;&#9;&#9;&lt;/div&gt;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="modal sizes" toReformat="true" toShortenFQNames="false">
+        <variable name="var1" expression="&quot;Launch&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var2" expression="&quot;modelId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var3" expression="&quot;sm|lg&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var5" expression="&quot;modelTitleId&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var4" expression="" defaultValue="" alwaysStopAt="true" />
+        <variable name="var6" expression="&quot;Close&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var7" expression="&quot;Save&quot;" defaultValue="" alwaysStopAt="true" />
+        <variable name="var8" expression="&quot;Body&quot;" defaultValue="" alwaysStopAt="true" />
         <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-            <option name="JSX_HTML" value="true"/>
+            <option name="GSP" value="true" />
+            <option name="HTML" value="true" />
+            <option name="JSP" value="true" />
+            <option name="JSX_HTML" value="true" />
+            <option name="PHP" value="true" />
         </context>
     </template>
     <template name="bs4-nav-a" value="&lt;nav class=&quot;nav $var1$&quot;>&#xa;  &lt;a class=&quot;nav-link active&quot; href=&quot;$var3$&quot;>$var2$&lt;/a>&#xa;  &lt;a class=&quot;nav-link&quot; href=&quot;$var5$&quot;>$var4$&lt;/a>&#xa;  &lt;a class=&quot;nav-link disabled&quot; href=&quot;#&quot;>$var6$&lt;/a>&#xa;&lt;/nav>$END$" description="nav a" toReformat="true">
