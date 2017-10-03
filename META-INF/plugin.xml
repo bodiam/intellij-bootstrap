@@ -1,7 +1,7 @@
 <idea-plugin url="https://github.com/bodiam/intellij-bootstrap">
     <id>nl.jworks.intellij.bootstrap3</id>
     <name>Bootstrap 3</name>
-    <version>4.0.3</version>
+    <version>4.0.4</version>
     <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
     <description><![CDATA[
@@ -13,6 +13,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
+          4.0.4 Fixed issue <a href="https://github.com/bodiam/intellij-bootstrap/issues/56">56</a> and <a href="https://github.com/bodiam/intellij-bootstrap/issues/55">55</a><br />
           4.0.3 Fixed issue <a href="https://github.com/bodiam/intellij-bootstrap/issues/54">54</a><br />
           4.0.2 Fixed cards support for Bootstrap 4 Beta.<br />
           4.0.1 Bugfix.<br />
