@@ -166,6 +166,11 @@
     <template name="bs3-pagination" value="ul.pagination&#10;  li&#10;    a(href='#') &amp;laquo;&#10;  li&#10;    a(href='#') 1&#10;  li&#10;    a(href='#') 2&#10;  li&#10;    a(href='#') 3&#10;  li&#10;    a(href='#') 4&#10;  li&#10;    a(href='#') 5&#10;  li&#10;    a(href='#') &amp;raquo;&#10;$END$" description="Pagination" toReformat="true">
         <context><option name="JADE" value="true"/></context>
     </template>
+    <template name="bs3-panel:default" value=".panel.panel-default&#10;  .panel-heading&#10;    h3.panel-title $var1$&#10;  .panel-body $var2$&#10;$END$" description="Panel (Default)" toReformat="true">
+        <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context><option name="JADE" value="true"/></context>
+    </template>
     <template name="bs3-panel:danger" value=".panel.panel-danger&#10;  .panel-heading&#10;    h3.panel-title $var1$&#10;  .panel-body $var2$&#10;$END$" description="Panel (Danger)" toReformat="true">
         <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
