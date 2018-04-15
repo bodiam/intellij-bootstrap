@@ -465,6 +465,20 @@
 			<option name="JSX_HTML" value="true" />
 		</context>
     </template>
+    <template name="bs3-panel:default"
+              value="&lt;div class=&quot;panel panel-default&quot;&gt;&#10;&#9;  &lt;div class=&quot;panel-heading&quot;&gt;&#10;&#9;&#9;&#9;&lt;h3 class=&quot;panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;&#9;  &lt;/div&gt;&#10;&#9;  &lt;div class=&quot;panel-body&quot;&gt;&#10;&#9;&#9;&#9;$var2$&#10;&#9;  &lt;/div&gt;&#10;&lt;/div&gt;$END$"
+              description="Panel (Default)" toReformat="true">
+        <variable name="var1" expression="&quot;Panel title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Panel body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+			<option name="GSP" value="true"/>
+			<option name="JSP" value="true"/>
+			<option name="JSX_HTML" value="true" />
+		</context>
+    </template>
     <template name="bs3-panel:danger"
               value="&lt;div class=&quot;panel panel-danger&quot;&gt;&#10;&#9;  &lt;div class=&quot;panel-heading&quot;&gt;&#10;&#9;&#9;&#9;&lt;h3 class=&quot;panel-title&quot;&gt;$var1$&lt;/h3&gt;&#10;&#9;  &lt;/div&gt;&#10;&#9;  &lt;div class=&quot;panel-body&quot;&gt;&#10;&#9;&#9;&#9;$var2$&#10;&#9;  &lt;/div&gt;&#10;&lt;/div&gt;$END$"
               description="Panel (Danger)" toReformat="true">
