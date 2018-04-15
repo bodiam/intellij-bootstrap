@@ -5,5 +5,5 @@ public interface Version {
     /**
      * Current plugin version.
      */
-    String PLUGIN_VERSION = "4.0.4";
+    String PLUGIN_VERSION = "4.1.0";
 }
