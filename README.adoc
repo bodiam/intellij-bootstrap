@@ -26,7 +26,7 @@ Suggestions, feedback and other comments welcome via https://twitter.com/epragt[
 
 To install the plugin open your editor (IntelliJ) and hit:
 
-1) <kbd>File</kbd> &gt; <kbd>Settings</kbd> &gt; <kbd>Plugins</kbd> and click on the <kbd>Browse repositories<kbd> button.
+1) ``File`` &gt; ``Settings`` &gt; ``Plugins`` and click on the ``Browse repositories`` button.
 
 2) Look for `Bootstrap 3` the right click and select `Download plugin`.
 
